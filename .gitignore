@@ -1,0 +1,9 @@
+.DS_Store
+.claude/
+Безопасность/
+CONTENT-NEEDED.md
+REPORT-2026-09-19.md
+*.pyc
+__pycache__/
+node_modules/
+.env
