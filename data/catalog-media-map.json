@@ -1,0 +1,1711 @@
+{
+  "note": "Внутренний файл: соответствие исходных файлов, категорий, моделей, цветов, типа кадра и порядка. На сайте не выводится.",
+  "generated": "2026-09-19",
+  "items": [
+    {
+      "original": "assets/images/IMG_20260919_200017.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/brown/oversize-icon-brown-01.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Коричневый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200015.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/brown/oversize-icon-brown-02.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Коричневый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200022.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/brown/oversize-icon-brown-03.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Коричневый",
+      "view": "fit",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200023.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/brown/oversize-icon-brown-04-detail.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Коричневый",
+      "view": "detail",
+      "order": 4
+    },
+    {
+      "original": "assets/images/VID_20260919_200745.mp4",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/brown/oversize-icon-brown-video.mp4",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Коричневый",
+      "view": "video",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200026.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/grey/oversize-icon-grey-01.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Серый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200027.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/grey/oversize-icon-grey-02.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Серый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200029.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/grey/oversize-icon-grey-03.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Серый",
+      "view": "side",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200031.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/grey/oversize-icon-grey-04.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Серый",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200030.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/grey/oversize-icon-grey-05-detail.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Серый",
+      "view": "detail",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200028.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/grey/oversize-icon-grey-06-back.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Серый",
+      "view": "back",
+      "order": 6
+    },
+    {
+      "original": "assets/images/VID_20260919_200754.mp4",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/grey/oversize-icon-grey-video.mp4",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Серый",
+      "view": "video",
+      "order": 7
+    },
+    {
+      "original": "assets/images/IMG_20260919_200035.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-01.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200037.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-02.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200038.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-03.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200039.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-04.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Чёрный",
+      "view": "fit",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200041.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-05.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200040.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-06-detail.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Чёрный",
+      "view": "detail",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_200036.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-07.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 7
+    },
+    {
+      "original": "assets/images/VID_20260919_200917.mp4",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-video.mp4",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Чёрный",
+      "view": "video",
+      "order": 8
+    },
+    {
+      "original": "assets/images/IMG_20260919_200043.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-01.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Бордовый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200044.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-02.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Бордовый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200047.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-03.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Бордовый",
+      "view": "fit",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200042.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-04-detail.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Бордовый",
+      "view": "detail",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200046.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-05.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Бордовый",
+      "view": "side",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200048.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-06.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Бордовый",
+      "view": "front",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_200045.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-07-back.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Бордовый",
+      "view": "back",
+      "order": 7
+    },
+    {
+      "original": "assets/images/VID_20260919_200802.mp4",
+      "copy": "assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-video.mp4",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "oversize-icon",
+      "color": "Бордовый",
+      "view": "video",
+      "order": 8
+    },
+    {
+      "original": "assets/images/IMG_20260919_200059.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-01.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "aura-chocolate",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200055.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-02.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "aura-chocolate",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200058.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-03.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "aura-chocolate",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200101.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-04.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "aura-chocolate",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200057.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-05.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "aura-chocolate",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200056.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-06-back.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "aura-chocolate",
+      "color": "Шоколадный",
+      "view": "back",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_200100.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-07-detail.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "aura-chocolate",
+      "color": "Шоколадный",
+      "view": "detail",
+      "order": 7
+    },
+    {
+      "original": "assets/images/VID_20260919_200925.mp4",
+      "copy": "assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-video.mp4",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "aura-chocolate",
+      "color": "Шоколадный",
+      "view": "video",
+      "order": 8
+    },
+    {
+      "original": "assets/images/IMG_20260919_200114.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-01.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "stand-graphite",
+      "color": "Графитовый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200112.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-02-detail.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "stand-graphite",
+      "color": "Графитовый",
+      "view": "detail",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200118 (1).jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-03.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "stand-graphite",
+      "color": "Графитовый",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200116.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-04.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "stand-graphite",
+      "color": "Графитовый",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200117.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-05.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "stand-graphite",
+      "color": "Графитовый",
+      "view": "front",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200118.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-06.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "stand-graphite",
+      "color": "Графитовый",
+      "view": "front",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_200113.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-07-detail.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "stand-graphite",
+      "color": "Графитовый",
+      "view": "detail",
+      "order": 7
+    },
+    {
+      "original": "assets/images/IMG_20260919_200115.jpg",
+      "copy": "assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-08-back.jpg",
+      "season": "demi-season",
+      "category": "stand-collar",
+      "model": "stand-graphite",
+      "color": "Графитовый",
+      "view": "back",
+      "order": 8
+    },
+    {
+      "original": "assets/images/IMG_20260919_200119.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-01.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "tweed-blazer",
+      "color": "Молочный",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200120.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-02.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "tweed-blazer",
+      "color": "Молочный",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200121.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-03.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "tweed-blazer",
+      "color": "Молочный",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200123.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-04-detail.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "tweed-blazer",
+      "color": "Молочный",
+      "view": "detail",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200124.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-05-detail.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "tweed-blazer",
+      "color": "Молочный",
+      "view": "detail",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200122.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-06-back.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "tweed-blazer",
+      "color": "Молочный",
+      "view": "back",
+      "order": 6
+    },
+    {
+      "original": "assets/images/VID_20260919_200940.mp4",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-video.mp4",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "tweed-blazer",
+      "color": "Молочный",
+      "view": "video",
+      "order": 7
+    },
+    {
+      "original": "assets/images/IMG_20260919_200126.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-01.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "tweed-blazer",
+      "color": "Серый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200127.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-02.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "tweed-blazer",
+      "color": "Серый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200131.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-03.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "tweed-blazer",
+      "color": "Серый",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200128.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-04-detail.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "tweed-blazer",
+      "color": "Серый",
+      "view": "detail",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200129.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-05-back.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "tweed-blazer",
+      "color": "Серый",
+      "view": "back",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200133.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-01.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "burgundy-blazer",
+      "color": "Бордовый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200134.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-02.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "burgundy-blazer",
+      "color": "Бордовый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200136.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-03.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "burgundy-blazer",
+      "color": "Бордовый",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200131 (1).jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-04.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "burgundy-blazer",
+      "color": "Бордовый",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200132.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-05-back.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "burgundy-blazer",
+      "color": "Бордовый",
+      "view": "back",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200135.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-06-back.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "burgundy-blazer",
+      "color": "Бордовый",
+      "view": "back",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_200137.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/blazer-2026/black/blazer-2026-black-01.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "blazer-2026",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200139.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/blazer-2026/black/blazer-2026-black-02.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "blazer-2026",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200138.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/blazer-2026/black/blazer-2026-black-03.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "blazer-2026",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200141.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/blazer-2026/black/blazer-2026-black-04-detail.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "blazer-2026",
+      "color": "Чёрный",
+      "view": "detail",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200140.jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/blazer-2026/black/blazer-2026-black-05.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "blazer-2026",
+      "color": "Чёрный",
+      "view": "fit",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200140 (1).jpg",
+      "copy": "assets/images/catalog/demi-season/coat-jackets/blazer-2026/black/blazer-2026-black-06-back.jpg",
+      "season": "demi-season",
+      "category": "coat-jackets",
+      "model": "blazer-2026",
+      "color": "Чёрный",
+      "view": "back",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_200214 (1).jpg",
+      "copy": "assets/images/catalog/demi-season/robe-coats/wool-robe-chocolate/chocolate/wool-robe-chocolate-chocolate-01.jpg",
+      "season": "demi-season",
+      "category": "robe-coats",
+      "model": "wool-robe-chocolate",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200213.jpg",
+      "copy": "assets/images/catalog/demi-season/robe-coats/wool-robe-chocolate/chocolate/wool-robe-chocolate-chocolate-02.jpg",
+      "season": "demi-season",
+      "category": "robe-coats",
+      "model": "wool-robe-chocolate",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200214.jpg",
+      "copy": "assets/images/catalog/demi-season/robe-coats/wool-robe-chocolate/chocolate/wool-robe-chocolate-chocolate-03.jpg",
+      "season": "demi-season",
+      "category": "robe-coats",
+      "model": "wool-robe-chocolate",
+      "color": "Шоколадный",
+      "view": "side",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200215.jpg",
+      "copy": "assets/images/catalog/demi-season/robe-coats/wool-robe-chocolate/chocolate/wool-robe-chocolate-chocolate-04.jpg",
+      "season": "demi-season",
+      "category": "robe-coats",
+      "model": "wool-robe-chocolate",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200216.jpg",
+      "copy": "assets/images/catalog/demi-season/robe-coats/wool-robe-chocolate/chocolate/wool-robe-chocolate-chocolate-05-detail.jpg",
+      "season": "demi-season",
+      "category": "robe-coats",
+      "model": "wool-robe-chocolate",
+      "color": "Шоколадный",
+      "view": "detail",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200217.jpg",
+      "copy": "assets/images/catalog/demi-season/robe-coats/wool-robe-chocolate/chocolate/wool-robe-chocolate-chocolate-06.jpg",
+      "season": "demi-season",
+      "category": "robe-coats",
+      "model": "wool-robe-chocolate",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_200144 (1).jpg",
+      "copy": "assets/images/catalog/winter/robe-coats/winter-robe/chocolate/winter-robe-chocolate-01.jpg",
+      "season": "winter",
+      "category": "robe-coats",
+      "model": "winter-robe",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200146.jpg",
+      "copy": "assets/images/catalog/winter/robe-coats/winter-robe/chocolate/winter-robe-chocolate-02.jpg",
+      "season": "winter",
+      "category": "robe-coats",
+      "model": "winter-robe",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200144.jpg",
+      "copy": "assets/images/catalog/winter/robe-coats/winter-robe/chocolate/winter-robe-chocolate-03.jpg",
+      "season": "winter",
+      "category": "robe-coats",
+      "model": "winter-robe",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200145.jpg",
+      "copy": "assets/images/catalog/winter/robe-coats/winter-robe/chocolate/winter-robe-chocolate-04.jpg",
+      "season": "winter",
+      "category": "robe-coats",
+      "model": "winter-robe",
+      "color": "Шоколадный",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200142.jpg",
+      "copy": "assets/images/catalog/winter/robe-coats/winter-robe/chocolate/winter-robe-chocolate-05-detail.jpg",
+      "season": "winter",
+      "category": "robe-coats",
+      "model": "winter-robe",
+      "color": "Шоколадный",
+      "view": "detail",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200143.jpg",
+      "copy": "assets/images/catalog/winter/robe-coats/winter-robe/chocolate/winter-robe-chocolate-06-back.jpg",
+      "season": "winter",
+      "category": "robe-coats",
+      "model": "winter-robe",
+      "color": "Шоколадный",
+      "view": "back",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_200147.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-grey-25/grey/winter-grey-25-grey-01.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-grey-25",
+      "color": "Серый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200150.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-grey-25/grey/winter-grey-25-grey-02.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-grey-25",
+      "color": "Серый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200152.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-grey-25/grey/winter-grey-25-grey-03.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-grey-25",
+      "color": "Серый",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200151.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-grey-25/grey/winter-grey-25-grey-04-detail.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-grey-25",
+      "color": "Серый",
+      "view": "detail",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200148 (1).jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-grey-25/grey/winter-grey-25-grey-05-detail.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-grey-25",
+      "color": "Серый",
+      "view": "detail",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200148.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-grey-25/grey/winter-grey-25-grey-06-detail.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-grey-25",
+      "color": "Серый",
+      "view": "detail",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_200149.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-grey-25/grey/winter-grey-25-grey-07-back.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-grey-25",
+      "color": "Серый",
+      "view": "back",
+      "order": 7
+    },
+    {
+      "original": "assets/images/IMG_20260919_200153.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-01.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Коричневый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200154.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-02.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Коричневый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200155.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-03.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Коричневый",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200155 (1).jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-04-detail.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Коричневый",
+      "view": "detail",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200157.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-05-detail.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Коричневый",
+      "view": "detail",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200156.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-06.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Коричневый",
+      "view": "side",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_200152 (1).jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-07-back.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Коричневый",
+      "view": "back",
+      "order": 7
+    },
+    {
+      "original": "assets/images/IMG_20260919_200200.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-01.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200159.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-02.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200201 (1).jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-03.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200158 (1).jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-04.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200158.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-05-detail.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Чёрный",
+      "view": "detail",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200201.jpg",
+      "copy": "assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-06.jpg",
+      "season": "winter",
+      "category": "straight",
+      "model": "winter-straight-20",
+      "color": "Чёрный",
+      "view": "fit",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_200203.jpg",
+      "copy": "assets/images/catalog/winter/fitted/winter-fitted-15/black/winter-fitted-15-black-01.jpg",
+      "season": "winter",
+      "category": "fitted",
+      "model": "winter-fitted-15",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_200204 (1).jpg",
+      "copy": "assets/images/catalog/winter/fitted/winter-fitted-15/black/winter-fitted-15-black-02.jpg",
+      "season": "winter",
+      "category": "fitted",
+      "model": "winter-fitted-15",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_200206.jpg",
+      "copy": "assets/images/catalog/winter/fitted/winter-fitted-15/black/winter-fitted-15-black-03.jpg",
+      "season": "winter",
+      "category": "fitted",
+      "model": "winter-fitted-15",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_200202.jpg",
+      "copy": "assets/images/catalog/winter/fitted/winter-fitted-15/black/winter-fitted-15-black-04.jpg",
+      "season": "winter",
+      "category": "fitted",
+      "model": "winter-fitted-15",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_200204.jpg",
+      "copy": "assets/images/catalog/winter/fitted/winter-fitted-15/black/winter-fitted-15-black-05.jpg",
+      "season": "winter",
+      "category": "fitted",
+      "model": "winter-fitted-15",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_200205.jpg",
+      "copy": "assets/images/catalog/winter/fitted/winter-fitted-15/black/winter-fitted-15-black-06-detail.jpg",
+      "season": "winter",
+      "category": "fitted",
+      "model": "winter-fitted-15",
+      "color": "Чёрный",
+      "view": "detail",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_200207.jpg",
+      "copy": "assets/images/catalog/winter/fitted/winter-fitted-15/black/winter-fitted-15-black-07.jpg",
+      "season": "winter",
+      "category": "fitted",
+      "model": "winter-fitted-15",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 7
+    },
+    {
+      "original": "assets/images/IMG_20260919_200207 (1).jpg",
+      "copy": "assets/images/catalog/winter/fitted/winter-fitted-15/black/winter-fitted-15-black-08-back.jpg",
+      "season": "winter",
+      "category": "fitted",
+      "model": "winter-fitted-15",
+      "color": "Чёрный",
+      "view": "back",
+      "order": 8
+    },
+    {
+      "original": "assets/images/VID_20260919_201012.mp4",
+      "copy": "assets/images/catalog/winter/fitted/winter-fitted-15/black/winter-fitted-15-black-video.mp4",
+      "season": "winter",
+      "category": "fitted",
+      "model": "winter-fitted-15",
+      "color": "Чёрный",
+      "view": "video",
+      "order": 9
+    },
+    {
+      "original": "assets/images/IMG_20260919_200024.jpg",
+      "copy": null,
+      "note": "Точный дубликат файла IMG_20260919_200017.jpg (совпадает MD5), в каталог не добавлен"
+    },
+    {
+      "original": "assets/images/IMG_20260919_200130.jpg",
+      "copy": null,
+      "note": "Точный дубликат файла IMG_20260919_200126.jpg (совпадает MD5), в каталог не добавлен"
+    },
+    {
+      "original": "assets/images/IMG_20260919_222633.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/grey/fur-arctic-utepl-grey-01.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Серый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_222634.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/grey/fur-arctic-utepl-grey-02.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Серый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_222631.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/grey/fur-arctic-utepl-grey-03.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Серый",
+      "view": "detail",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_222635.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/grey/fur-arctic-utepl-grey-04.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Серый",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_222636.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/grey/fur-arctic-utepl-grey-05.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Серый",
+      "view": "front",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_222638.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/grey/fur-arctic-utepl-grey-06.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Серый",
+      "view": "side",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_222731.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-01.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Бежевый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_222734.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-02.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Бежевый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_222735.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-03.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Бежевый",
+      "view": "fit",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_222732.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-04.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Бежевый",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_222730.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-05.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Бежевый",
+      "view": "front",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_222736.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-06.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Бежевый",
+      "view": "front",
+      "order": 6
+    },
+    {
+      "original": "assets/images/VID_20260919_223220.mp4",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-video.mp4",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-utepl",
+      "color": "Бежевый",
+      "view": "video",
+      "order": 7
+    },
+    {
+      "original": "assets/images/IMG_20260919_222640.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-01.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-old-money",
+      "color": "Серый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_222643.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-02.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-old-money",
+      "color": "Серый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_222644.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-03.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-old-money",
+      "color": "Серый",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_222641.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-04.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-old-money",
+      "color": "Серый",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_222645.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-05.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-old-money",
+      "color": "Серый",
+      "view": "fit",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_222646.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-06.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-old-money",
+      "color": "Серый",
+      "view": "back",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_222651.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-01.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-lux-beige",
+      "color": "Бежевый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_222648.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-02.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-lux-beige",
+      "color": "Бежевый",
+      "view": "fit",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_222652.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-03.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-lux-beige",
+      "color": "Бежевый",
+      "view": "front",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_222654.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-04.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-lux-beige",
+      "color": "Бежевый",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_222649.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-05.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-lux-beige",
+      "color": "Бежевый",
+      "view": "detail",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_222655.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-06.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-lux-beige",
+      "color": "Бежевый",
+      "view": "front",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_222659.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-07.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-lux-beige",
+      "color": "Бежевый",
+      "view": "front",
+      "order": 7
+    },
+    {
+      "original": "assets/images/IMG_20260919_222704.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-ostrich/black/fur-ostrich-black-01.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-ostrich",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_222700.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-ostrich/black/fur-ostrich-black-02.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-ostrich",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_222701.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-ostrich/black/fur-ostrich-black-03.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-ostrich",
+      "color": "Чёрный",
+      "view": "detail",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_222703.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-ostrich/black/fur-ostrich-black-04.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-ostrich",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_222705.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-ostrich/black/fur-ostrich-black-05.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-ostrich",
+      "color": "Чёрный",
+      "view": "detail",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_222709.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-ostrich/white/fur-ostrich-white-01.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-ostrich",
+      "color": "Белый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_222706.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-ostrich/white/fur-ostrich-white-02.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-ostrich",
+      "color": "Белый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_222707.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-ostrich/white/fur-ostrich-white-03.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-ostrich",
+      "color": "Белый",
+      "view": "side",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_222711.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-ostrich/white/fur-ostrich-white-04.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-ostrich",
+      "color": "Белый",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_222712.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-ostrich/white/fur-ostrich-white-05.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-ostrich",
+      "color": "Белый",
+      "view": "detail",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_222713.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-ostrich/white/fur-ostrich-white-06.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-ostrich",
+      "color": "Белый",
+      "view": "front",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_222714.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-01.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Коричневый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_222717.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-02.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Коричневый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_222715.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-03.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Коричневый",
+      "view": "side",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_222716.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-04.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Коричневый",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_222721.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-05.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Коричневый",
+      "view": "front",
+      "order": 5
+    },
+    {
+      "original": "assets/images/VID_20260919_223150.mp4",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-video.mp4",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Коричневый",
+      "view": "video",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_222723.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-01.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_222725.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-02.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_222726.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-03.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Чёрный",
+      "view": "detail",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_222722.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-04.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_222727.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-05.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Чёрный",
+      "view": "back",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_222724.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-06.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_222727 (1).jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-07.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Чёрный",
+      "view": "front",
+      "order": 7
+    },
+    {
+      "original": "assets/images/VID_20260919_223157.mp4",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-video.mp4",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-short",
+      "color": "Чёрный",
+      "view": "video",
+      "order": 8
+    },
+    {
+      "original": "assets/images/IMG_20260919_222737.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-white-25/white/fur-arctic-white-25-white-01.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-white-25",
+      "color": "Белый",
+      "view": "front",
+      "order": 1
+    },
+    {
+      "original": "assets/images/IMG_20260919_222738.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-white-25/white/fur-arctic-white-25-white-02.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-white-25",
+      "color": "Белый",
+      "view": "front",
+      "order": 2
+    },
+    {
+      "original": "assets/images/IMG_20260919_222741.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-white-25/white/fur-arctic-white-25-white-03.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-white-25",
+      "color": "Белый",
+      "view": "fit",
+      "order": 3
+    },
+    {
+      "original": "assets/images/IMG_20260919_222740.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-white-25/white/fur-arctic-white-25-white-04.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-white-25",
+      "color": "Белый",
+      "view": "back",
+      "order": 4
+    },
+    {
+      "original": "assets/images/IMG_20260919_222743.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-white-25/white/fur-arctic-white-25-white-05.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-white-25",
+      "color": "Белый",
+      "view": "front",
+      "order": 5
+    },
+    {
+      "original": "assets/images/IMG_20260919_222739.jpg",
+      "copy": "assets/images/catalog/winter/fur-coats/fur-arctic-white-25/white/fur-arctic-white-25-white-06.jpg",
+      "season": "winter",
+      "category": "fur-coats",
+      "model": "fur-arctic-white-25",
+      "color": "Белый",
+      "view": "detail",
+      "order": 6
+    },
+    {
+      "original": "assets/images/IMG_20260919_222720.jpg",
+      "copy": null,
+      "note": "Точный дубликат IMG_20260919_222714.jpg (MD5), в каталог не добавлен"
+    },
+    {
+      "original": "assets/images/IMG_20260919_222745.jpg",
+      "copy": null,
+      "note": "Точный дубликат IMG_20260919_222743.jpg (MD5), в каталог не добавлен"
+    },
+    {
+      "original": "assets/images/IMG_20260919_222859.jpg",
+      "copy": null,
+      "note": "Точный дубликат IMG_20260919_222743.jpg (MD5), в каталог не добавлен"
+    },
+    {
+      "original": "assets/images/IMG_20260919_222847.jpg",
+      "copy": null,
+      "note": "Точный дубликат IMG_20260919_222739.jpg (MD5), в каталог не добавлен"
+    },
+    {
+      "original": "assets/images/IMG_20260919_222849.jpg",
+      "copy": null,
+      "note": "Точный дубликат IMG_20260919_222739.jpg (MD5), в каталог не добавлен"
+    },
+    {
+      "original": "assets/images/IMG_20260919_222855.jpg",
+      "copy": null,
+      "note": "Точный дубликат IMG_20260919_222740.jpg (MD5), в каталог не добавлен"
+    },
+    {
+      "original": "assets/images/IMG_20260919_222857.jpg",
+      "copy": null,
+      "note": "Точный дубликат IMG_20260919_222741.jpg (MD5), в каталог не добавлен"
+    }
+  ]
+}

@@ -1,0 +1,1094 @@
+[
+  {
+    "file": "349E71C8-4081-408C-8B6F-BFD8B35074FE.WEBP",
+    "model": "high-icon",
+    "color": "Бордовый",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "1C45985A-BB14-475F-A198-79F8A27021F3.WEBP",
+    "model": "high-icon",
+    "color": "Бордовый",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "15271605198805.MP4",
+    "model": "high-icon",
+    "color": "Бордовый",
+    "view": "video",
+    "order": 3
+  },
+  {
+    "file": "31E15F95-528A-45DC-B17D-A94816FFAA66.WEBP",
+    "model": "high-icon",
+    "color": "Чёрный",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "32FBF867-9566-4564-99DE-FDDAE89DE0D8.WEBP",
+    "model": "high-icon",
+    "color": "Чёрный",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "15872572874709.MP4",
+    "model": "high-icon",
+    "color": "Чёрный",
+    "view": "video",
+    "order": 3
+  },
+  {
+    "file": "02D7B323-4254-40AA-B5F2-E9042CDBE35E.WEBP",
+    "model": "high-icon",
+    "color": "Коричневый",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "09220EA5-432C-4DC8-94E3-BBAE7D88A3B3.WEBP",
+    "model": "high-icon",
+    "color": "Коричневый",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "12FC93B8-3132-4763-B0BE-24786561C222.WEBP",
+    "model": "high-icon",
+    "color": "Коричневый",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "8361BD99-520F-4A6E-8C46-ACF3ABEB19BF.WEBP",
+    "model": "high-icon",
+    "color": "Тёмно-серый",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "6DDC3905-FE5F-4DB6-85B4-7F9718992CDD.WEBP",
+    "model": "high-icon",
+    "color": "Тёмно-серый",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "15862833504213.MP4",
+    "model": "high-icon",
+    "color": "Тёмно-серый",
+    "view": "video",
+    "order": 3
+  },
+  {
+    "file": "029A33ED-1783-4015-BE8D-E2393B53E120.WEBP",
+    "model": "beige-classic",
+    "color": "Бежевый",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "238F03A0-1352-4684-A9BF-D1231EE7EED4.WEBP",
+    "model": "beige-classic",
+    "color": "Бежевый",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "23A06D0A-3AC0-4377-8F3A-3D6F871209A1.WEBP",
+    "model": "beige-classic",
+    "color": "Бежевый",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "BFD6FB52-9178-40A1-9215-3AEFF16B9BB0.WEBP",
+    "model": "beige-classic",
+    "color": "Бежевый",
+    "view": "back",
+    "order": 4
+  },
+  {
+    "file": "7E86AD33-9183-4CBB-8811-BA015609831E.WEBP",
+    "model": "double-grey",
+    "color": "Тёмно-серый",
+    "view": "fit",
+    "order": 5
+  },
+  {
+    "file": "8C94E261-979D-438A-9500-52D5DA000C60.WEBP",
+    "model": "beige-classic",
+    "color": "Бежевый",
+    "view": "gallery",
+    "order": 6
+  },
+  {
+    "file": "8DA455F9-B16B-4CA1-83D4-1855571199C0.WEBP",
+    "model": "beige-classic",
+    "color": "Бежевый",
+    "view": "gallery",
+    "order": 7
+  },
+  {
+    "file": "C09E28C1-5E1D-4033-B7B9-21B3DF385375.WEBP",
+    "model": "beige-classic",
+    "color": "Бежевый",
+    "view": "gallery",
+    "order": 8
+  },
+  {
+    "file": "15638070124501.MP4",
+    "model": "beige-classic",
+    "color": "Бежевый",
+    "view": "video",
+    "order": 9
+  },
+  {
+    "file": "8498175B-EEDB-4D00-B311-D89E10446BC0.WEBP",
+    "model": "chocolate-icon",
+    "color": "Chocolate Brown",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "BDB039D7-A1BF-4A37-AD2E-6DE71FEE40A6.WEBP",
+    "model": "chocolate-icon",
+    "color": "Chocolate Brown",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "E475C4A4-0161-4A19-84BE-73E53DBEFD41.WEBP",
+    "model": "chocolate-icon",
+    "color": "Chocolate Brown",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "E903D626-8A96-401C-B187-90E6BE9E11F2.WEBP",
+    "model": "chocolate-icon",
+    "color": "Chocolate Brown",
+    "view": "back",
+    "order": 4
+  },
+  {
+    "file": "04B5C91A-BB4D-41A2-B64B-E8BA5E37144B.WEBP",
+    "model": "chocolate-icon",
+    "color": "Chocolate Brown",
+    "view": "fit",
+    "order": 5
+  },
+  {
+    "file": "15829478367189.MP4",
+    "model": "chocolate-icon",
+    "color": "Chocolate Brown",
+    "view": "video",
+    "order": 6
+  },
+  {
+    "file": "4F318AA9-C01C-42B8-8C9D-1A870C032C42.WEBP",
+    "model": "chocolate-icon",
+    "color": "Chocolate Brown",
+    "view": "gallery",
+    "order": 7
+  },
+  {
+    "file": "AED7CE19-A99E-4000-B8C4-0AC35667F07B.WEBP",
+    "model": "chocolate-icon",
+    "color": "Chocolate Brown",
+    "view": "gallery",
+    "order": 8
+  },
+  {
+    "file": "E949A49C-FF99-4130-AA63-D0D10260EB3E.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "gallery",
+    "order": 9
+  },
+  {
+    "file": "15872371154901.MP4",
+    "model": "chocolate-icon",
+    "color": "Chocolate Brown",
+    "view": "video",
+    "order": 10
+  },
+  {
+    "file": "7264861E-CB6F-42AD-A9C8-FC9E4A1EB5F4.WEBP",
+    "model": "black-icon",
+    "color": "Чёрный",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "999D11AB-C617-4759-AEBC-254DBDA908EB.WEBP",
+    "model": "black-icon",
+    "color": "Чёрный",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "95A19C03-23BA-48BB-913A-01F6A5A8F75F.WEBP",
+    "model": "black-icon",
+    "color": "Чёрный",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "159C06CA-C608-40E1-84B9-457D98FCA1DE.WEBP",
+    "model": "black-icon",
+    "color": "Чёрный",
+    "view": "back",
+    "order": 4
+  },
+  {
+    "file": "35C69BF1-9554-4C1E-9AA8-EF23EBED625E.WEBP",
+    "model": "black-icon",
+    "color": "Чёрный",
+    "view": "fit",
+    "order": 5
+  },
+  {
+    "file": "439605C1-555A-48D1-AF8B-D33EB8A506CD.WEBP",
+    "model": "black-icon",
+    "color": "Чёрный",
+    "view": "gallery",
+    "order": 6
+  },
+  {
+    "file": "54942612-82EB-419F-8BFB-7042EDFC4894.WEBP",
+    "model": "black-icon",
+    "color": "Чёрный",
+    "view": "gallery",
+    "order": 7
+  },
+  {
+    "file": "7908267F-B085-4D99-8F2B-03EB0410648D.WEBP",
+    "model": "black-icon",
+    "color": "Чёрный",
+    "view": "gallery",
+    "order": 8
+  },
+  {
+    "file": "AD347E97-F98D-47BA-B8FB-C78F4616938B.WEBP",
+    "model": "black-icon",
+    "color": "Чёрный",
+    "view": "gallery",
+    "order": 9
+  },
+  {
+    "file": "C5F7B1A6-5CFD-4137-9E9B-DC99F067D6DC.WEBP",
+    "model": "black-icon",
+    "color": "Чёрный",
+    "view": "gallery",
+    "order": 10
+  },
+  {
+    "file": "DB4F4356-E2B7-4427-893E-94BE5120CFD0.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "gallery",
+    "order": 11
+  },
+  {
+    "file": "DDAE0672-C38E-42FE-B666-FCF88E393102.WEBP",
+    "model": "black-icon",
+    "color": "Чёрный",
+    "view": "gallery",
+    "order": 12
+  },
+  {
+    "file": "FC8FC902-B178-4A23-92AF-4F1E293C6D51.WEBP",
+    "model": "black-icon",
+    "color": "Чёрный",
+    "view": "gallery",
+    "order": 13
+  },
+  {
+    "file": "C735A2A8-DAD0-4792-B588-163A85CB5407.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "E1044174-D816-45FF-886A-5AE8F0E7B08A.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "63DCFCD7-6138-438B-AE5E-524BD855BA60.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "15872541089749.MP4",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "video",
+    "order": 4
+  },
+  {
+    "file": "5DDCDE64-54AB-4C86-B7A4-483E1F3A8464.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "fit",
+    "order": 5
+  },
+  {
+    "file": "72DFECBD-66B1-4FC1-9E4D-6FD9041CA076.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "gallery",
+    "order": 6
+  },
+  {
+    "file": "72EF1E5D-92B8-4779-9D54-3159368A14B9.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "gallery",
+    "order": 7
+  },
+  {
+    "file": "7F124940-3860-4579-ADEF-B14D45CA8576.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "gallery",
+    "order": 8
+  },
+  {
+    "file": "9753BE4C-017C-401A-B703-69C27E61314F.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "gallery",
+    "order": 9
+  },
+  {
+    "file": "AF8A5439-428E-494C-B1A6-D396EFC08E8C.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "gallery",
+    "order": 10
+  },
+  {
+    "file": "D373F14D-6E96-4DF9-9059-876EE1129306.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "gallery",
+    "order": 11
+  },
+  {
+    "file": "E47E67B8-E050-4A3A-B7C1-4CAAAAFFAFB8.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "gallery",
+    "order": 12
+  },
+  {
+    "file": "EBE15C09-75F4-4A49-A3CC-EC502DE8BE2D.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "gallery",
+    "order": 13
+  },
+  {
+    "file": "15870984347605.MP4",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "video",
+    "order": 14
+  },
+  {
+    "file": "4A2B58C1-654E-4E09-BDDD-DF250681FF6D.WEBP",
+    "model": "cream-icon",
+    "color": "Бежево-кремовый",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "038ACC55-9892-44D4-AE0A-F3DAA2350E11.WEBP",
+    "model": "cream-icon",
+    "color": "Бежево-кремовый",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "CC99AFDA-3538-4307-8456-344D95947326.WEBP",
+    "model": "cream-icon",
+    "color": "Бежево-кремовый",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "44796EDD-A679-4C30-8C03-1FAC229504AB.WEBP",
+    "model": "fitted-wool",
+    "color": "Бордовый",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "F1F8DDFE-47F7-4CA3-9C2E-99F2FDB81FD6.WEBP",
+    "model": "fitted-wool",
+    "color": "Бордовый",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "FB62BAEF-948B-4DEB-978A-B4505F909FD3.WEBP",
+    "model": "fitted-wool",
+    "color": "Бордовый",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "AC83EF92-B4AB-49E8-8ABA-EAEE5DDF594C.WEBP",
+    "model": "fitted-premium",
+    "color": "Молочный",
+    "view": "back",
+    "order": 4
+  },
+  {
+    "file": "7E352397-E39D-4F21-B008-F41221755535.WEBP",
+    "model": "fitted-wool",
+    "color": "Чёрный",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "8858A7D6-B527-4163-AAB5-B77DD0C8F2A0.WEBP",
+    "model": "fitted-wool",
+    "color": "Чёрный",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "D9401523-10A6-46FC-8670-32F7FB2E990B.WEBP",
+    "model": "fitted-wool",
+    "color": "Чёрный",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "AC3AE2C6-381D-4032-8BFA-BFC6D883CB6A.WEBP",
+    "model": "aura",
+    "color": "Soft Nude",
+    "view": "back",
+    "order": 4
+  },
+  {
+    "file": "A89CBD27-07F3-473F-B6C6-851C64AFB879.WEBP",
+    "model": "fitted-premium",
+    "color": "Молочный",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "E11BC58D-AA36-4167-B7B3-32D0161A30A6.WEBP",
+    "model": "fitted-premium",
+    "color": "Молочный",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "4A2036D7-0819-4331-BD72-169C5816D4C2.WEBP",
+    "model": "fitted-premium",
+    "color": "Молочный",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "15872591552469.MP4",
+    "model": "fitted-premium",
+    "color": "Молочный",
+    "view": "video",
+    "order": 4
+  },
+  {
+    "file": "24DDE6E5-4524-4DAE-8AD3-44722AE1CE84.WEBP",
+    "model": "fitted-premium",
+    "color": "Молочный",
+    "view": "fit",
+    "order": 5
+  },
+  {
+    "file": "5C2B84DE-6242-48D8-B7A5-3DE6E37D0F1B.WEBP",
+    "model": "fitted-premium",
+    "color": "Чёрный",
+    "view": "gallery",
+    "order": 6
+  },
+  {
+    "file": "7DD7F825-E78F-4F45-8434-25F07B56A18E.WEBP",
+    "model": "fitted-premium",
+    "color": "Молочный",
+    "view": "gallery",
+    "order": 7
+  },
+  {
+    "file": "931120DD-30AD-43FA-8D15-E0BFC147D240.WEBP",
+    "model": "beige-classic",
+    "color": "Бежевый",
+    "view": "gallery",
+    "order": 8
+  },
+  {
+    "file": "CD390022-9B20-4B1C-992F-39395CA041A1.WEBP",
+    "model": "aura",
+    "color": "Soft Nude",
+    "view": "gallery",
+    "order": 9
+  },
+  {
+    "file": "F9611E4D-800F-4120-B687-E06A5BCF1F80.WEBP",
+    "model": "fitted-premium",
+    "color": "Чёрный",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "52A3C540-FCA4-4C2C-8891-E9ABD46858E3.WEBP",
+    "model": "fitted-premium",
+    "color": "Чёрный",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "DD74F131-3492-48BA-A1EC-7EBE9982894B.WEBP",
+    "model": "fitted-premium",
+    "color": "Чёрный",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "4CCB7A3A-B0DE-4DD6-A19F-FAF5AF447AB3.WEBP",
+    "model": "fitted-premium",
+    "color": "Чёрный",
+    "view": "back",
+    "order": 4
+  },
+  {
+    "file": "15872241262549.MP4",
+    "model": "fitted-premium",
+    "color": "Чёрный",
+    "view": "video",
+    "order": 5
+  },
+  {
+    "file": "15872734552021.MP4",
+    "model": "fitted-premium",
+    "color": "Чёрный",
+    "view": "video",
+    "order": 6
+  },
+  {
+    "file": "2518253A-4077-47A0-8EF7-3B8E1084A161.WEBP",
+    "model": "fitted-premium",
+    "color": "Чёрный",
+    "view": "gallery",
+    "order": 7
+  },
+  {
+    "file": "8A7F21FF-7096-4453-BCA5-77FB31E84569.WEBP",
+    "model": "fitted-premium",
+    "color": "Чёрный",
+    "view": "gallery",
+    "order": 8
+  },
+  {
+    "file": "9BE1EC8C-82B4-4DC5-AA66-CCBFE3C9350C.WEBP",
+    "model": "fitted-premium",
+    "color": "Чёрный",
+    "view": "gallery",
+    "order": 9
+  },
+  {
+    "file": "IMG_20260918_222154.jpg",
+    "model": "aura",
+    "color": "Soft Nude",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "IMG_20260918_222157.jpg",
+    "model": "aura",
+    "color": "Soft Nude",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "IMG_20260918_222158.jpg",
+    "model": "aura",
+    "color": "Soft Nude",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "IMG_20260918_222200.jpg",
+    "model": "aura",
+    "color": "Soft Nude",
+    "view": "back",
+    "order": 4
+  },
+  {
+    "file": "IMG_20260918_222202.jpg",
+    "model": "aura",
+    "color": "Soft Nude",
+    "view": "fit",
+    "order": 5
+  },
+  {
+    "file": "IMG_20260918_222201.jpg",
+    "model": "aura",
+    "color": "Soft Nude",
+    "view": "gallery",
+    "order": 6
+  },
+  {
+    "file": "IMG_20260918_222204.jpg",
+    "model": "aura",
+    "color": "Soft Nude",
+    "view": "gallery",
+    "order": 7
+  },
+  {
+    "file": "A8B37C2E-759B-4B78-B496-13700A1494C7.WEBP",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "gallery",
+    "order": 8
+  },
+  {
+    "file": "AB3DD9DA-024F-4791-B77B-6772334BBB48.WEBP",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "gallery",
+    "order": 9
+  },
+  {
+    "file": "D67E01C5-97C4-4E26-8ABE-4F8B5DE70BF9.WEBP",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "gallery",
+    "order": 10
+  },
+  {
+    "file": "DD88F7A7-76DE-494B-8706-76506999E940.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "gallery",
+    "order": 11
+  },
+  {
+    "file": "VID_20260918_222210.mp4",
+    "model": "aura",
+    "color": "Soft Nude",
+    "view": "video",
+    "order": 12
+  },
+  {
+    "file": "IMG_20260918_221957.jpg",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "IMG_20260918_221958.jpg",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "IMG_20260918_221959.jpg",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "IMG_20260918_222000.jpg",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "back",
+    "order": 4
+  },
+  {
+    "file": "IMG_20260918_222001.jpg",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "fit",
+    "order": 5
+  },
+  {
+    "file": "1C82F7ED-A662-4070-9BED-36D14A46FA6D.WEBP",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "gallery",
+    "order": 6
+  },
+  {
+    "file": "4E526484-9CF7-4DDD-8450-EC96E7D7F12D.WEBP",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "gallery",
+    "order": 7
+  },
+  {
+    "file": "831D86D6-8528-4162-A5E7-99C00EE10C8A.WEBP",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "gallery",
+    "order": 8
+  },
+  {
+    "file": "B19378E8-D3D8-4C03-93A8-9D90872D70E3.WEBP",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "gallery",
+    "order": 9
+  },
+  {
+    "file": "B90B3E81-3C89-4CE3-A116-9A331C715B02.WEBP",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "gallery",
+    "order": 10
+  },
+  {
+    "file": "D361FF80-6FBA-48C5-9777-228C1E568FB0.WEBP",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "gallery",
+    "order": 11
+  },
+  {
+    "file": "FF125473-A2EB-49FD-BA6F-0008D55525BD.WEBP",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "gallery",
+    "order": 12
+  },
+  {
+    "file": "IMG_20260918_222218.jpg",
+    "model": "aura",
+    "color": "Minimal Grey",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "IMG_20260918_222220.jpg",
+    "model": "aura",
+    "color": "Minimal Grey",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "IMG_20260918_222221.jpg",
+    "model": "aura",
+    "color": "Minimal Grey",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "IMG_20260918_222223.jpg",
+    "model": "aura",
+    "color": "Minimal Grey",
+    "view": "back",
+    "order": 4
+  },
+  {
+    "file": "IMG_20260918_222240.jpg",
+    "model": "aura",
+    "color": "Minimal Grey",
+    "view": "fit",
+    "order": 5
+  },
+  {
+    "file": "IMG_20260918_222222.jpg",
+    "model": "aura",
+    "color": "Minimal Grey",
+    "view": "gallery",
+    "order": 6
+  },
+  {
+    "file": "IMG_20260918_222237.jpg",
+    "model": "aura",
+    "color": "Minimal Grey",
+    "view": "gallery",
+    "order": 7
+  },
+  {
+    "file": "IMG_20260918_222238.jpg",
+    "model": "aura",
+    "color": "Minimal Grey",
+    "view": "gallery",
+    "order": 8
+  },
+  {
+    "file": "IMG_20260918_222239.jpg",
+    "model": "aura",
+    "color": "Minimal Grey",
+    "view": "gallery",
+    "order": 9
+  },
+  {
+    "file": "4C94422C-8920-430E-8F12-0568000B2474.WEBP",
+    "model": "bordeaux-icon",
+    "color": "Бордовый",
+    "view": "gallery",
+    "order": 10
+  },
+  {
+    "file": "AF09F5E2-4B79-4C34-BEC5-41727C245646.WEBP",
+    "model": "double-grey",
+    "color": "Тёмно-серый",
+    "view": "gallery",
+    "order": 11
+  },
+  {
+    "file": "CC42A5F1-85BA-41CA-B045-6A524F89613F.WEBP",
+    "model": "aura",
+    "color": "Minimal Grey",
+    "view": "gallery",
+    "order": 12
+  },
+  {
+    "file": "VID_20260918_222230.mp4",
+    "model": "aura",
+    "color": "Minimal Grey",
+    "view": "video",
+    "order": 13
+  },
+  {
+    "file": "IMG_20260918_221945.jpg",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "IMG_20260918_221950.jpg",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "IMG_20260918_221951.jpg",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "IMG_20260918_221953.jpg",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "back",
+    "order": 4
+  },
+  {
+    "file": "IMG_20260918_221955.jpg",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "fit",
+    "order": 5
+  },
+  {
+    "file": "IMG_20260918_221956.jpg",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "gallery",
+    "order": 6
+  },
+  {
+    "file": "01E1C5E8-0715-472C-A915-5273A87F1B9C.WEBP",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "gallery",
+    "order": 7
+  },
+  {
+    "file": "1299B644-FD53-41F9-A024-2810746F6466.WEBP",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "gallery",
+    "order": 8
+  },
+  {
+    "file": "206D7097-DA69-479F-897F-1094E158C953.WEBP",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "gallery",
+    "order": 9
+  },
+  {
+    "file": "52F93334-65CB-4CB6-BC2A-F1DAC5F697DB.WEBP",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "gallery",
+    "order": 10
+  },
+  {
+    "file": "5BD0940A-67F6-446A-B192-8455A07A2481.WEBP",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "gallery",
+    "order": 11
+  },
+  {
+    "file": "87A2692B-F6C4-42D6-B3E0-56F84C429F0D.WEBP",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "gallery",
+    "order": 12
+  },
+  {
+    "file": "B7DC49CC-C94E-4B17-AA6D-A43A6BD86027.WEBP",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "gallery",
+    "order": 13
+  },
+  {
+    "file": "B9BD340E-AC63-45DE-B14A-E6A979898685.WEBP",
+    "model": "aura",
+    "color": "Chocolate Brown",
+    "view": "gallery",
+    "order": 14
+  },
+  {
+    "file": "IMG_20260918_222242.jpg",
+    "model": "aura",
+    "color": "Graphite",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "IMG_20260918_222243.jpg",
+    "model": "aura",
+    "color": "Graphite",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "IMG_20260918_222244.jpg",
+    "model": "aura",
+    "color": "Graphite",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "IMG_20260918_222245.jpg",
+    "model": "aura",
+    "color": "Graphite",
+    "view": "back",
+    "order": 4
+  },
+  {
+    "file": "IMG_20260918_222249.jpg",
+    "model": "aura",
+    "color": "Graphite",
+    "view": "fit",
+    "order": 5
+  },
+  {
+    "file": "IMG_20260918_222247.jpg",
+    "model": "aura",
+    "color": "Graphite",
+    "view": "gallery",
+    "order": 6
+  },
+  {
+    "file": "IMG_20260918_222248.jpg",
+    "model": "aura",
+    "color": "Graphite",
+    "view": "gallery",
+    "order": 7
+  },
+  {
+    "file": "IMG_20260918_222250.jpg",
+    "model": "aura",
+    "color": "Graphite",
+    "view": "gallery",
+    "order": 8
+  },
+  {
+    "file": "VID_20260918_222145.mp4",
+    "model": "aura",
+    "color": "Graphite",
+    "view": "video",
+    "order": 9
+  },
+  {
+    "file": "EA0390D2-542E-4833-A9C0-E64DBBE133F4.WEBP",
+    "model": "double-grey",
+    "color": "Тёмно-серый",
+    "view": "front",
+    "order": 1
+  },
+  {
+    "file": "EC315C74-450B-4EF1-BAF6-4F783F5810AF.WEBP",
+    "model": "double-grey",
+    "color": "Тёмно-серый",
+    "view": "side",
+    "order": 2
+  },
+  {
+    "file": "DCC5FEAD-7734-4FF2-9ACC-5CADCFA6EE55.WEBP",
+    "model": "double-grey",
+    "color": "Тёмно-серый",
+    "view": "detail",
+    "order": 3
+  },
+  {
+    "file": "D930C1F3-B3D1-4C65-A1A3-747E957D774D.WEBP",
+    "model": "double-grey",
+    "color": "Тёмно-серый",
+    "view": "back",
+    "order": 4
+  },
+  {
+    "file": "0F314BBD-35C8-48ED-A796-49F99AA9DAAF.WEBP",
+    "model": "double-grey",
+    "color": "Тёмно-серый",
+    "view": "fit",
+    "order": 5
+  },
+  {
+    "file": "15862745292757.MP4",
+    "model": "double-grey",
+    "color": "Тёмно-серый",
+    "view": "video",
+    "order": 6
+  },
+  {
+    "file": "5DAD1D98-6D9B-4FA5-800D-CD1167599E5B.WEBP",
+    "model": "aura",
+    "color": "Classic Black",
+    "view": "gallery",
+    "order": 7
+  },
+  {
+    "file": "7D474A2E-2CDC-485B-9C5C-FAE1F7815D85.WEBP",
+    "model": "aura",
+    "color": "Soft Nude",
+    "view": "gallery",
+    "order": 8
+  },
+  {
+    "file": "8105FD17-A0D4-4609-B675-4BE2403D50F6.WEBP",
+    "model": "aura",
+    "color": "Soft Nude",
+    "view": "gallery",
+    "order": 9
+  }
+]
