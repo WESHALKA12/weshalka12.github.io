@@ -14,7 +14,7 @@ button{cursor:pointer}
 img,video{display:block;width:100%;max-width:100%;object-fit:cover}
 em{font-style:normal;color:var(--rust)}
 h1,h2,h3,p{margin-top:0}
-h1,h2,h3{font-weight:400;letter-spacing:-.075em;line-height:.92}
+h1,h2,h3{font-weight:400;letter-spacing:-.075em;line-height:.92;padding-right:.08em}
 h1{font-size:clamp(58px,9vw,148px);margin-bottom:30px}
 h2{font-size:clamp(48px,6vw,94px)}
 h3{font-size:28px}
@@ -83,6 +83,10 @@ h3{font-size:28px}
 .tall-feature__copy .eyebrow{color:#c8aa8e}
 .tall-feature__copy h2{margin-bottom:28px}
 .tall-feature__copy p:not(.eyebrow){max-width:315px;color:#c9b9ad;margin-bottom:34px}
+.universal-feature{display:grid;gap:40px}
+.universal-feature__copy{max-width:640px}
+.universal-feature__copy h2{margin-bottom:20px}
+.universal-feature__copy p:not(.eyebrow){color:var(--muted);margin-bottom:28px;max-width:480px}
 .stand-feature{display:grid;grid-template-columns:.9fr 1.1fr;min-height:680px;background:var(--beige);color:var(--ink)}
 .stand-feature__copy{display:flex;flex-direction:column;justify-content:center;padding:8vw}
 .stand-feature__copy .eyebrow{color:#725e4b}
