@@ -261,6 +261,16 @@ function catalogPage(collectionOnly = false) {
   document.querySelectorAll('[data-filter]').forEach((select) => select.addEventListener('change', applyFilters)); applyFilters();
 }
 
+function setMeta(description, ogTitle, ogImage) {
+  const desc = document.querySelector('meta[name="description"]');
+  const ogt = document.querySelector('meta[property="og:title"]');
+  const ogi = document.querySelector('meta[property="og:image"]');
+  if (desc) desc.content = description;
+  if (ogt) ogt.content = ogTitle;
+  if (ogi && ogImage) ogi.content = ogImage;
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) canonical.href = location.href;
+}
 let activeProduct; let activeColor;
 function productPage() {
   const id = new URLSearchParams(location.search).get('id') || 'aura';
@@ -268,7 +278,11 @@ function productPage() {
   activeColor = new URLSearchParams(location.search).get('color') || firstColor(activeProduct).id;
   const color = activeProduct.colors.find((item) => item.id === activeColor) || firstColor(activeProduct); activeColor = color.id;
   const detail = `<section class="product-detail section" data-product-detail><div class="product-gallery"><div class="product-gallery__thumbs" data-gallery-thumbs>${galleryThumbs(activeProduct, color)}</div><div class="product-gallery__main" data-gallery-main>${media(color.files[0], productLabel(activeProduct), 'eager')}</div></div><div class="product-info"><a class="backlink" href="/catalog.html">← Вернуться в каталог</a><p class="eyebrow">${esc(activeProduct.collection)}${activeProduct.tall ? ' / 170+' : ''}</p><h1 data-product-name>${esc(color.name || activeProduct.name)}</h1><p class="product-subtitle" data-product-subtitle>${esc(color.title || activeProduct.title)}</p>${activeProduct.subtitle ? `<p class="product-alternative">${esc(activeProduct.subtitle)}</p>` : ''}${activeProduct.badge ? `<span class="badge badge--dark">${esc(activeProduct.badge)}</span>` : ''}<div class="product-price" data-product-price>${activeProduct.oldPrice ? `<s class="old-price old-price--dark">${esc(activeProduct.oldPrice)}</s> ` : ''}${esc(color.price || activeProduct.price || 'Цена не указана')}</div><div class="product-color"><div class="product-color__label"><span>Цвет</span><span data-color-label>${esc(color.label)}</span></div>${swatches(activeProduct, activeColor)}</div><div class="size-row"><label for="size">Размер</label><select id="size" data-size>${sizeOptions(color)}</select></div><div class="product-actions"><button class="button button--dark" type="button" data-add-to-cart>Добавить в корзину</button><a class="button button--outline" data-order-link href="${telegramLink(activeProduct, color)}" target="_blank" rel="noopener noreferrer">Уточнить наличие <span>↗</span></a></div><p class="product-note">🚚 Бесплатная доставка с примеркой по СПб &bull; 💳 Яндекс Сплит без переплаты</p><dl class="product-meta"><div><dt>Длина</dt><dd data-meta="length">${esc(color.length || activeProduct.length || 'Не указано')}</dd></div><div><dt>Состав</dt><dd data-meta="material">${esc(color.material || activeProduct.material || 'Не указан')}</dd></div><div><dt>Размеры</dt><dd data-meta="sizes">${esc(sizeText(color))}</dd></div><div><dt>Сезон</dt><dd>${esc(activeProduct.season || 'Демисезонная модель')}</dd></div></dl><div class="product-description"><p>${esc(activeProduct.description)}</p><ul data-details>${(color.details || activeProduct.details || activeProduct.tags || []).map((item) => `<li>${esc(item)}</li>`).join('')}</ul></div></div></section><section class="product-story section section--brown"><div><p class="eyebrow" data-story-name>${esc(color.name || activeProduct.name)}</p><h2>Форма,<br><em>которую видно.</em></h2></div><p>${esc(activeProduct.description)}${activeProduct.tall ? ' Модели серии созданы с учётом длины для роста 170+.' : ''}</p></section>`;
-  shell(detail, activeProduct.name); document.querySelectorAll('[data-color]').forEach((button) => button.addEventListener('click', () => setProductColor(button.dataset.color)));
+  const seoCategory = activeProduct.category === 'Экошуба' ? 'экошубу' : 'пальто';
+  const seoTitle = `${activeProduct.name} — купить ${seoCategory} в СПб`;
+  const seoDesc = `${activeProduct.name} ${activeProduct.title}. ${activeProduct.category}, ${activeProduct.collection}. ${color.price || activeProduct.price || ''}. Купить в шоуруме THE | WESHALKA в Санкт-Петербурге или с доставкой.`;
+  shell(detail, seoTitle); setMeta(seoDesc, `${activeProduct.name} — THE | WESHALKA`, color.files?.[0] ? `/assets/images/${color.files[0]}` : '');
+  document.querySelectorAll('[data-color]').forEach((button) => button.addEventListener('click', () => setProductColor(button.dataset.color)));
 }
 function colorSizes(color) { return color.sizes || activeProduct.sizes || []; }
 function sizeText(color) { return colorSizes(color).join(' | ') || 'Уточняйте в Telegram'; }
@@ -377,6 +391,10 @@ function contactsPage() {
 <div class="showroom-detail"><strong>📍 Адрес</strong><p>Санкт-Петербург, ул. Садовая, 26Б<br>м. Гостиный двор</p></div>
 <div class="showroom-detail"><strong>🕒 Режим работы</strong><p>Ежедневно с 12:00 до 20:00<br>Без перерыва и выходных</p></div>
 <div class="showroom-detail"><strong>🚶 Как нас найти</strong><p>Заходите в железную чёрную арку под вывеской «Садовая 26» «Военторг» и налево к угловой чёрной двери около клумб с цветами. В домофон набираете «ВЕШАЛКА студия пальто».</p></div>
+</div>
+<div class="showroom-video">
+<p class="eyebrow" style="margin-top:2rem">Видео-инструкция</p>
+<video src="/assets/images/showroom-directions.mp4" controls playsinline preload="metadata" style="width:100%;max-width:480px;border-radius:12px;margin-top:12px" aria-label="Как найти шоурум THE | WESHALKA"></video>
 </div>
 </div>
 </div>
