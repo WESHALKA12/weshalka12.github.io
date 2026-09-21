@@ -5,6 +5,60 @@ const isVideo = (file = '') => /\.(mp4|webm|mov)$/i.test(file);
 const colorValue = {black:'#222222', burgundy:'#6d2437', brown:'#55392c', chocolate:'#55392c', graphite:'#4c4b4b', grey:'#727474', nude:'#c6ad98', beige:'#cbbba9', cream:'#e6d8c9', milk:'#e6ddd2', white:'#f0ede6'};
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 let products = [];
+
+let cart = [];
+function loadCart() { try { cart = JSON.parse(localStorage.getItem('weshalka_cart') || '[]'); } catch { cart = []; } }
+function saveCart() { try { localStorage.setItem('weshalka_cart', JSON.stringify(cart)); } catch {} updateCartBadge(); }
+function addToCart(productId, colorId, size) {
+  loadCart();
+  const existing = cart.find((item) => item.productId === productId && item.colorId === colorId && item.size === size);
+  if (existing) existing.qty += 1; else cart.push({productId, colorId, size, qty: 1});
+  saveCart();
+}
+function removeFromCart(index) { loadCart(); cart.splice(index, 1); saveCart(); }
+function updateCartBadge() {
+  const badge = $('[data-cart-count]');
+  if (!badge) return;
+  const total = cart.reduce((sum, item) => sum + item.qty, 0);
+  badge.textContent = total || '';
+  badge.style.display = total ? 'flex' : 'none';
+}
+function cartTotal() {
+  return cart.reduce((sum, item) => {
+    const product = products.find((p) => p.id === item.productId);
+    const color = product?.colors?.find((c) => c.id === item.colorId) || product?.colors?.[0];
+    const price = parseInt((color?.price || product?.price || '').replace(/\D/g, ''), 10) || 0;
+    return sum + price * item.qty;
+  }, 0);
+}
+function formatPrice(num) { return num.toLocaleString('ru-RU') + ' ₽'; }
+function openCartDrawer() {
+  loadCart();
+  let existing = $('[data-cart-drawer]');
+  if (existing) existing.remove();
+  const overlay = document.createElement('div');
+  overlay.className = 'cart-overlay';
+  overlay.setAttribute('data-cart-drawer', '');
+  const items = cart.map((item, i) => {
+    const product = products.find((p) => p.id === item.productId);
+    if (!product) return '';
+    const color = product.colors?.find((c) => c.id === item.colorId) || product.colors?.[0];
+    const price = parseInt((color?.price || product?.price || '').replace(/\D/g, ''), 10) || 0;
+    const file = color?.files?.[0];
+    return `<div class="cart-item"><div class="cart-item__img">${file ? `<img src="${asset(file)}" alt="${esc(product.name)}" width="80" height="107">` : ''}</div><div class="cart-item__info"><strong>${esc(color?.name || product.name)}</strong><span>${esc(color?.label || '')}, ${esc(item.size)}</span><span class="cart-item__price">${price ? formatPrice(price) : 'Цена не указана'}</span></div><button class="cart-item__remove" type="button" data-remove-cart="${i}" aria-label="Удалить">&times;</button></div>`;
+  }).join('');
+  const total = cartTotal();
+  const telegramText = cart.map((item) => {
+    const product = products.find((p) => p.id === item.productId);
+    const color = product?.colors?.find((c) => c.id === item.colorId) || product?.colors?.[0];
+    return `${product?.name || '?'}, ${color?.label || '?'}, ${item.size}, ${item.qty} шт.`;
+  }).join('\n');
+  overlay.innerHTML = `<div class="cart-drawer"><div class="cart-drawer__head"><h3>Корзина</h3><button class="cart-drawer__close" type="button" data-close-cart aria-label="Закрыть">&times;</button></div><div class="cart-drawer__body">${cart.length ? items : '<p class="cart-empty">Корзина пуста</p>'}</div>${cart.length ? `<div class="cart-drawer__footer"><div class="cart-total"><span>Итого:</span><strong>${formatPrice(total)}</strong></div><a class="button button--dark cart-order-btn" href="https://t.me/sharp_fin?text=${encodeURIComponent('Здравствуйте! Хочу оформить заказ:\n' + telegramText + '\n\nИтого: ' + formatPrice(total))}" target="_blank" rel="noopener noreferrer">Оформить заказ в Telegram <span>↗</span></a><p class="cart-note">Оплата при получении или через Яндекс Сплит без переплаты.</p></div>` : ''}</div>`;
+  document.body.appendChild(overlay);
+  requestAnimationFrame(() => overlay.classList.add('is-open'));
+  overlay.addEventListener('click', (event) => { if (event.target === overlay || event.target.closest('[data-close-cart]')) { overlay.classList.remove('is-open'); setTimeout(() => overlay.remove(), 300); } });
+  overlay.querySelectorAll('[data-remove-cart]').forEach((btn) => btn.addEventListener('click', () => { removeFromCart(Number(btn.dataset.removeCart)); openCartDrawer(); }));
+}
 const GROUPS = [
   {id:'classic', label:'Классика'},
   {id:'fitted', label:'Приталенные модели'},
@@ -25,11 +79,11 @@ function collectPosters() {
 function productGroups(product) { return product.groups || []; }
 
 function header() {
-  return `<a class="skip-link" href="#main">К содержанию</a><header class="site-header" data-header><a class="brand" href="/" aria-label="THE | WESHALKA — на главную">THE <span>|</span> WESHALKA</a><nav class="desktop-nav" aria-label="Основная навигация"><a href="/collection.html">Коллекции</a><a href="/catalog.html">Каталог</a><a href="/product.html?id=aura">AURA</a><a href="/reviews.html">Отзывы</a><a href="/contacts.html">Контакты</a></nav><a class="header-link" href="https://t.me/The_weshalka" target="_blank" rel="noopener noreferrer">Telegram <span>↗</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle><span></span><span></span><span></span><b>Меню</b></button></header><div class="mobile-menu" id="mobile-menu" data-mobile-menu aria-hidden="true"><nav aria-label="Мобильная навигация"><a href="/collection.html">Коллекции <small>01</small></a><a href="/catalog.html">Каталог <small>02</small></a><a href="/product.html?id=aura">AURA <small>03</small></a><a href="/reviews.html">Отзывы <small>04</small></a><a href="/contacts.html">Контакты <small>05</small></a></nav><a href="https://t.me/The_weshalka" target="_blank" rel="noopener noreferrer" class="menu-contact">Перейти в Telegram <span>↗</span></a></div>`;
+  return `<a class="skip-link" href="#main">К содержанию</a><header class="site-header" data-header><a class="brand" href="/" aria-label="THE | WESHALKA — на главную">THE <span>|</span> WESHALKA</a><nav class="desktop-nav" aria-label="Основная навигация"><a href="/catalog.html">Каталог</a><a href="/collection.html">Коллекции</a><a href="/about.html">О нас</a><a href="/reviews.html">Отзывы</a><a href="/contacts.html">Контакты</a></nav><div class="header-actions"><button class="cart-toggle" type="button" data-cart-toggle aria-label="Корзина"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg><span class="cart-badge" data-cart-count style="display:none"></span></button><a class="header-link" href="https://t.me/The_weshalka" target="_blank" rel="noopener noreferrer">Telegram <span>↗</span></a></div><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle><span></span><span></span><span></span><b>Меню</b></button></header><div class="mobile-menu" id="mobile-menu" data-mobile-menu aria-hidden="true"><nav aria-label="Мобильная навигация"><a href="/catalog.html">Каталог <small>01</small></a><a href="/collection.html">Коллекции <small>02</small></a><a href="/about.html">О нас <small>03</small></a><a href="/reviews.html">Отзывы <small>04</small></a><a href="/contacts.html">Контакты <small>05</small></a><a href="/documents.html">Документы <small>06</small></a></nav><a href="https://t.me/The_weshalka" target="_blank" rel="noopener noreferrer" class="menu-contact">Перейти в Telegram <span>↗</span></a></div>`;
 }
 
 function footer() {
-  return `<footer class="site-footer"><div class="footer-main"><a class="brand" href="/">THE <span>|</span> WESHALKA</a><p>Верхняя одежда<br>для выразительного образа.</p><div class="footer-socials"><a href="https://t.me/The_weshalka" target="_blank" rel="noopener noreferrer" class="footer-link">Telegram ↗</a><a href="https://vk.ru/club161262776" target="_blank" rel="noopener noreferrer" class="footer-link">ВКонтакте ↗</a><a href="https://wa.me/79818510666" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp ↗</a></div></div><div class="footer-bottom"><span>© ИП Гриднева Гулафруз. THE | WESHALKA. Все права защищены.</span><div><a href="/privacy.html">Политика конфиденциальности</a><a href="/personal-data.html">Персональные данные</a></div></div></footer>`;
+  return `<footer class="site-footer"><div class="footer-main"><a class="brand" href="/">THE <span>|</span> WESHALKA</a><div class="footer-info"><p>Верхняя одежда<br>для выразительного образа.</p><p class="footer-address">📍 Санкт-Петербург, ул. Садовая, 26Б<br>🕒 Ежедневно 12:00–20:00</p></div><div class="footer-socials"><a href="https://t.me/The_weshalka" target="_blank" rel="noopener noreferrer" class="footer-link">Telegram ↗</a><a href="https://vk.ru/club161262776" target="_blank" rel="noopener noreferrer" class="footer-link">ВКонтакте ↗</a><a href="https://wa.me/79818510666" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp ↗</a></div></div><div class="footer-bottom"><span>© ИП Гриднева Гулафруз. THE | WESHALKA. Все права защищены.</span><div><a href="/privacy.html">Политика конфиденциальности</a><a href="/personal-data.html">Персональные данные</a><a href="/documents.html">Документы</a></div></div></footer>`;
 }
 
 function media(file, alt, loading = 'lazy', className = '') {
@@ -166,6 +220,20 @@ function bindCommon() {
   const observer = 'IntersectionObserver' in window ? new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); } }), {threshold:.1}) : null;
   document.querySelectorAll('.reveal').forEach((item) => observer ? observer.observe(item) : item.classList.add('is-visible'));
   document.querySelectorAll('[data-color]').forEach((button) => button.addEventListener('click', () => { if ($('[data-product-detail]')) setProductColor(button.dataset.color); else if (button.closest('[data-card]')) { const card = button.closest('[data-card]'); const product = products.find((item) => item.id === card.dataset.id); const color = product?.colors.find((item) => item.id === button.dataset.color); if (color) card.querySelector('img')?.setAttribute('src', asset(color.files[0])); card.querySelectorAll('[data-color]').forEach((item) => item.classList.toggle('is-active', item === button)); }}));
+  const cartToggle = $('[data-cart-toggle]');
+  if (cartToggle) cartToggle.addEventListener('click', openCartDrawer);
+  const addToCartBtn = $('[data-add-to-cart]');
+  if (addToCartBtn) addToCartBtn.addEventListener('click', () => {
+    const sizeSelect = $('[data-size]');
+    const size = sizeSelect?.value;
+    if (!size) { sizeSelect?.focus(); sizeSelect?.classList.add('shake'); setTimeout(() => sizeSelect?.classList.remove('shake'), 600); return; }
+    addToCart(activeProduct.id, activeColor, size);
+    addToCartBtn.textContent = '✓ Добавлено';
+    addToCartBtn.disabled = true;
+    setTimeout(() => { addToCartBtn.textContent = 'Добавить в корзину'; addToCartBtn.disabled = false; }, 1500);
+  });
+  loadCart();
+  updateCartBadge();
 }
 
 function homePage() {
@@ -195,7 +263,7 @@ function productPage() {
   activeProduct = products.find((product) => product.id === id) || products[0];
   activeColor = new URLSearchParams(location.search).get('color') || firstColor(activeProduct).id;
   const color = activeProduct.colors.find((item) => item.id === activeColor) || firstColor(activeProduct); activeColor = color.id;
-  const detail = `<section class="product-detail section" data-product-detail><div class="product-gallery"><div class="product-gallery__thumbs" data-gallery-thumbs>${galleryThumbs(activeProduct, color)}</div><div class="product-gallery__main" data-gallery-main>${media(color.files[0], productLabel(activeProduct), 'eager')}</div></div><div class="product-info"><a class="backlink" href="/catalog.html">← Вернуться в каталог</a><p class="eyebrow">${esc(activeProduct.collection)}${activeProduct.tall ? ' / 170+' : ''}</p><h1 data-product-name>${esc(color.name || activeProduct.name)}</h1><p class="product-subtitle" data-product-subtitle>${esc(color.title || activeProduct.title)}</p>${activeProduct.subtitle ? `<p class="product-alternative">${esc(activeProduct.subtitle)}</p>` : ''}${activeProduct.badge ? `<span class="badge badge--dark">${esc(activeProduct.badge)}</span>` : ''}<div class="product-price" data-product-price>${activeProduct.oldPrice ? `<s class="old-price old-price--dark">${esc(activeProduct.oldPrice)}</s> ` : ''}${esc(color.price || activeProduct.price || 'Цена не указана')}</div><div class="product-color"><div class="product-color__label"><span>Цвет</span><span data-color-label>${esc(color.label)}</span></div>${swatches(activeProduct, activeColor)}</div><div class="size-row"><label for="size">Размер</label><select id="size" data-size>${sizeOptions(color)}</select></div><div class="product-actions"><a class="button button--dark" data-order-link href="${telegramLink(activeProduct, color)}" target="_blank" rel="noopener noreferrer">Уточнить наличие <span>↗</span></a></div><p class="product-note">Онлайн-оплата на сайте не подключена. Актуальное наличие и условия заказа уточняйте в Telegram.</p><dl class="product-meta"><div><dt>Длина</dt><dd data-meta="length">${esc(color.length || activeProduct.length || 'Не указано')}</dd></div><div><dt>Состав</dt><dd data-meta="material">${esc(color.material || activeProduct.material || 'Не указан')}</dd></div><div><dt>Размеры</dt><dd data-meta="sizes">${esc(sizeText(color))}</dd></div><div><dt>Сезон</dt><dd>${esc(activeProduct.season || 'Демисезонная модель')}</dd></div></dl><div class="product-description"><p>${esc(activeProduct.description)}</p><ul data-details>${(color.details || activeProduct.details || activeProduct.tags || []).map((item) => `<li>${esc(item)}</li>`).join('')}</ul></div></div></section><section class="product-story section section--brown"><div><p class="eyebrow" data-story-name>${esc(color.name || activeProduct.name)}</p><h2>Форма,<br><em>которую видно.</em></h2></div><p>${esc(activeProduct.description)}${activeProduct.tall ? ' Модели серии созданы с учётом длины для роста 170+.' : ''}</p></section>`;
+  const detail = `<section class="product-detail section" data-product-detail><div class="product-gallery"><div class="product-gallery__thumbs" data-gallery-thumbs>${galleryThumbs(activeProduct, color)}</div><div class="product-gallery__main" data-gallery-main>${media(color.files[0], productLabel(activeProduct), 'eager')}</div></div><div class="product-info"><a class="backlink" href="/catalog.html">← Вернуться в каталог</a><p class="eyebrow">${esc(activeProduct.collection)}${activeProduct.tall ? ' / 170+' : ''}</p><h1 data-product-name>${esc(color.name || activeProduct.name)}</h1><p class="product-subtitle" data-product-subtitle>${esc(color.title || activeProduct.title)}</p>${activeProduct.subtitle ? `<p class="product-alternative">${esc(activeProduct.subtitle)}</p>` : ''}${activeProduct.badge ? `<span class="badge badge--dark">${esc(activeProduct.badge)}</span>` : ''}<div class="product-price" data-product-price>${activeProduct.oldPrice ? `<s class="old-price old-price--dark">${esc(activeProduct.oldPrice)}</s> ` : ''}${esc(color.price || activeProduct.price || 'Цена не указана')}</div><div class="product-color"><div class="product-color__label"><span>Цвет</span><span data-color-label>${esc(color.label)}</span></div>${swatches(activeProduct, activeColor)}</div><div class="size-row"><label for="size">Размер</label><select id="size" data-size>${sizeOptions(color)}</select></div><div class="product-actions"><button class="button button--dark" type="button" data-add-to-cart>Добавить в корзину</button><a class="button button--outline" data-order-link href="${telegramLink(activeProduct, color)}" target="_blank" rel="noopener noreferrer">Уточнить наличие <span>↗</span></a></div><p class="product-note">🚚 Бесплатная доставка с примеркой по СПб &bull; 💳 Яндекс Сплит без переплаты</p><dl class="product-meta"><div><dt>Длина</dt><dd data-meta="length">${esc(color.length || activeProduct.length || 'Не указано')}</dd></div><div><dt>Состав</dt><dd data-meta="material">${esc(color.material || activeProduct.material || 'Не указан')}</dd></div><div><dt>Размеры</dt><dd data-meta="sizes">${esc(sizeText(color))}</dd></div><div><dt>Сезон</dt><dd>${esc(activeProduct.season || 'Демисезонная модель')}</dd></div></dl><div class="product-description"><p>${esc(activeProduct.description)}</p><ul data-details>${(color.details || activeProduct.details || activeProduct.tags || []).map((item) => `<li>${esc(item)}</li>`).join('')}</ul></div></div></section><section class="product-story section section--brown"><div><p class="eyebrow" data-story-name>${esc(color.name || activeProduct.name)}</p><h2>Форма,<br><em>которую видно.</em></h2></div><p>${esc(activeProduct.description)}${activeProduct.tall ? ' Модели серии созданы с учётом длины для роста 170+.' : ''}</p></section>`;
   shell(detail, activeProduct.name); document.querySelectorAll('[data-color]').forEach((button) => button.addEventListener('click', () => setProductColor(button.dataset.color)));
 }
 function colorSizes(color) { return color.sizes || activeProduct.sizes || []; }
@@ -227,9 +295,120 @@ function setProductColor(id) { const color = activeProduct.colors.find((item) =>
 function setGalleryImage(button) { const main = $('[data-gallery-main]'); const file = button.dataset.file; if (!main || !file) return; main.innerHTML = media(file, `${activeProduct.name}, кадр галереи`, 'eager'); document.querySelectorAll('[data-gallery-thumb]').forEach((item) => item.classList.toggle('is-active', item === button)); }
 
 function simplePage(page) {
-  if (page === 'contacts') shell(`<section class="contact-page section section--brown"><p class="eyebrow">THE | WESHALKA / 05</p><h1>Напишите<br><em>бренду.</em></h1><p>Уточнить наличие, выбрать цвет и узнать актуальные условия заказа.</p><div class="contact-links"><a class="contact-cta" href="https://t.me/sharp_fin" target="_blank" rel="noopener noreferrer"><span>Написать в Telegram</span><b>↗</b></a><a class="contact-cta contact-cta--secondary" href="https://wa.me/79818510666" target="_blank" rel="noopener noreferrer"><span>Написать в WhatsApp *</span><b>↗</b></a></div><div class="contact-socials"><a href="https://t.me/The_weshalka" target="_blank" rel="noopener noreferrer" class="contact-social-link">Telegram-группа ↗</a><a href="https://vk.ru/club161262776" target="_blank" rel="noopener noreferrer" class="contact-social-link">ВКонтакте ↗</a></div><p class="meta-disclaimer">* WhatsApp — продукт компании Meta Platforms Inc., признанной экстремистской организацией на территории Российской Федерации.</p></section>`, 'Контакты');
-  if (page === 'reviews') shell(`<section class="page-hero"><p class="eyebrow">THE | WESHALKA / 04</p><h1>Отзывы<br><em>клиентов</em></h1><p>Реальные отзывы покупателей THE | WESHALKA.</p></section><section class="reviews-page section"><div class="reviews-grid"><article class="review-card"><div class="review-stars">★★★★★</div><p class="review-text">Заказала экошубу под страуса в белом цвете — просто влюбилась с первого взгляда! Качество на высоте, мех невероятно мягкий и тёплый. Ношу каждый день и получаю комплименты. Доставили быстро, упаковка аккуратная. Рекомендую всем!</p><div class="review-author"><strong>Мария К.</strong><span>г. Москва</span></div></article><article class="review-card"><div class="review-stars">★★★★★</div><p class="review-text">Брала шубку под песца в бежевом — размер 44, подошёл идеально. Утеплитель очень тёплый, даже в -20 было комфортно. Силуэт красивый, не утяжеляет фигуру. Очень довольна покупкой, спасибо магазину за оперативность!</p><div class="review-author"><strong>Алина В.</strong><span>г. Санкт-Петербург</span></div></article><article class="review-card"><div class="review-stars">★★★★★</div><p class="review-text">Купила шубку в стиле ОЛД МАНИ — давно мечтала о такой вещи. Качество превзошло ожидания за такую цену. Продавец была очень внимательна, помогла с выбором размера. Уже посоветовала подруге, она тоже заказала!</p><div class="review-author"><strong>Екатерина С.</strong><span>г. Екатеринбург</span></div></article></div><a class="button button--dark" href="https://t.me/sharp_fin" target="_blank" rel="noopener noreferrer" style="margin-top:2rem">Написать в Telegram <span>↗</span></a></section>`, 'Отзывы');
+  if (page === 'about') aboutPage();
+  else if (page === 'contacts') contactsPage();
+  else if (page === 'documents') documentsPage();
+  else if (page === 'reviews') shell(`<section class="page-hero"><p class="eyebrow">THE | WESHALKA / 04</p><h1>Отзывы<br><em>клиентов</em></h1><p>Реальные отзывы покупателей THE | WESHALKA.</p></section><section class="reviews-page section"><div class="reviews-grid"><article class="review-card"><div class="review-stars">★★★★★</div><p class="review-text">Заказала экошубу под страуса в белом цвете — просто влюбилась с первого взгляда! Качество на высоте, мех невероятно мягкий и тёплый. Ношу каждый день и получаю комплименты. Доставили быстро, упаковка аккуратная. Рекомендую всем!</p><div class="review-author"><strong>Мария К.</strong><span>г. Москва</span></div></article><article class="review-card"><div class="review-stars">★★★★★</div><p class="review-text">Брала шубку под песца в бежевом — размер 44, подошёл идеально. Утеплитель очень тёплый, даже в -20 было комфортно. Силуэт красивый, не утяжеляет фигуру. Очень довольна покупкой, спасибо магазину за оперативность!</p><div class="review-author"><strong>Алина В.</strong><span>г. Санкт-Петербург</span></div></article><article class="review-card"><div class="review-stars">★★★★★</div><p class="review-text">Купила шубку в стиле ОЛД МАНИ — давно мечтала о такой вещи. Качество превзошло ожидания за такую цену. Продавец была очень внимательна, помогла с выбором размера. Уже посоветовала подруге, она тоже заказала!</p><div class="review-author"><strong>Екатерина С.</strong><span>г. Екатеринбург</span></div></article></div><a class="button button--dark" href="https://t.me/sharp_fin" target="_blank" rel="noopener noreferrer" style="margin-top:2rem">Написать в Telegram <span>↗</span></a></section>`, 'Отзывы');
 }
 
-async function init() { try { const response = await fetch('/data/products.json'); products = await response.json(); collectPosters(); bindVideoFallback(); const page = document.body.dataset.page; if (page === 'home') homePage(); else if (page === 'catalog') catalogPage(false); else if (page === 'collection') catalogPage(true); else if (page === 'product') productPage(); else simplePage(page); } catch (error) { console.error('THE | WESHALKA data error', error); document.body.innerHTML = '<main class="error-page"><h1>Каталог временно недоступен</h1><a href="/">Вернуться на главную</a></main>'; } }
+function aboutPage() {
+  shell(`<section class="page-hero page-hero--warm"><p class="eyebrow">THE | WESHALKA</p><h1>О нас</h1><p>Верхняя одежда, в которую влюбляешься с первого взгляда.</p></section>
+<section class="about-content section">
+<div class="about-intro reveal">
+<p>Добро пожаловать в наш шоурум женской верхней одежды в самом центре Санкт-Петербурга.</p>
+<p>Мы создаём коллекции для тех, кто хочет выглядеть стильно без лишних усилий. Пальто и экошубы, которые легко становятся основой гардероба, сочетаются с любимыми образами и помогают создавать тот самый effortless look.</p>
+<p>Мы тщательно выбираем актуальные фасоны, качественные материалы и выразительные силуэты, чтобы верхняя одежда не просто красиво выглядела, а действительно украшала образ и была комфортной каждый день.</p>
+</div>
+
+<div class="about-features reveal">
+<h2>Почему<br><em>нас выбирают?</em></h2>
+<div class="features-grid">
+<div class="feature-card"><span class="feature-icon">✦</span><h3>Актуальные модели</h3><p>Современный дизайн, который легко вписывается в гардероб</p></div>
+<div class="feature-card"><span class="feature-icon">✦</span><h3>Большой выбор</h3><p>Пальто, экошубы и верхняя одежда на разные сезоны и образы</p></div>
+<div class="feature-card"><span class="feature-icon">✦</span><h3>Качественные материалы</h3><p>Внимание к посадке, деталям и комфорту</p></div>
+<div class="feature-card"><span class="feature-icon">✦</span><h3>Российское производство</h3><p>Делаем ставку на качество и актуальный дизайн</p></div>
+<div class="feature-card"><span class="feature-icon">✦</span><h3>Примерка в шоуруме</h3><p>Можно увидеть модель вживую и выбрать ту самую</p></div>
+</div>
+</div>
+</section>
+
+<section class="about-showroom section section--brown">
+<div class="showroom-info reveal">
+<p class="eyebrow">Примерить и купить</p>
+<h2>Шоурум<br><em>в Петербурге</em></h2>
+<div class="showroom-details">
+<div class="showroom-detail"><strong>📍 Адрес</strong><p>Санкт-Петербург, ул. Садовая, 26Б<br>м. Гостиный двор</p></div>
+<div class="showroom-detail"><strong>🕒 Режим работы</strong><p>Ежедневно с 12:00 до 20:00<br>Без перерыва и выходных</p></div>
+<div class="showroom-detail"><strong>🚶 Как нас найти</strong><p>Заходите в железную чёрную арку под вывеской «Садовая 26» «Военторг» и налево к угловой чёрной двери около клумб с цветами. В домофон набираете «ВЕШАЛКА студия пальто».</p></div>
+</div>
+<p>Приезжайте в шоурум, чтобы посмотреть коллекцию вживую, примерить разные модели и найти своё идеальное пальто или экошубу.</p>
+<p>Не знаете, какую модель выбрать? Мы поможем подобрать верхнюю одежду под ваш стиль, гардероб и образ жизни.</p>
+</div>
+</section>
+
+<section class="about-delivery section">
+<div class="delivery-grid reveal">
+<div class="delivery-card"><strong>🚚 Бесплатная доставка</strong><p>С примеркой по Санкт-Петербургу</p></div>
+<div class="delivery-card"><strong>💳 Яндекс Сплит</strong><p>Оплата без переплаты — делите на части</p></div>
+</div>
+</section>
+
+<section class="about-social section">
+<div class="reveal">
+<h2>Будьте<br><em>с нами</em></h2>
+<p>Следите за новинками, новыми поступлениями, образами и актуальными моделями в наших социальных сетях.</p>
+<div class="about-social-links">
+<a class="contact-cta" href="https://vk.ru/club161262776" target="_blank" rel="noopener noreferrer"><span>ВКонтакте</span><b>↗</b></a>
+<a class="contact-cta contact-cta--secondary" href="https://t.me/The_weshalka" target="_blank" rel="noopener noreferrer"><span>Telegram</span><b>↗</b></a>
+</div>
+<p style="margin-top:1.5rem;color:var(--muted);font-size:13px">Подписывайтесь, чтобы первыми узнавать о новых моделях пальто и экошуб, поступлениях и коллекциях.</p>
+</div>
+</section>
+
+<section class="about-legal section">
+<div class="reveal">
+<p class="eyebrow">Реквизиты</p>
+<p>ИП Гриднева Гулафруз<br>ИНН 745211657800<br>ОГРНИП 318784700342204</p>
+</div>
+</section>`, 'О нас');
+}
+
+function contactsPage() {
+  shell(`<section class="contact-page section section--brown"><p class="eyebrow">THE | WESHALKA / 05</p><h1>Контакты</h1><p>Уточнить наличие, выбрать цвет и узнать актуальные условия заказа.</p>
+
+<div class="contact-showroom">
+<div class="showroom-block">
+<h2 style="font-size:clamp(32px,5vw,48px)">Шоурум</h2>
+<div class="showroom-details showroom-details--light">
+<div class="showroom-detail"><strong>📍 Адрес</strong><p>Санкт-Петербург, ул. Садовая, 26Б<br>м. Гостиный двор</p></div>
+<div class="showroom-detail"><strong>🕒 Режим работы</strong><p>Ежедневно с 12:00 до 20:00<br>Без перерыва и выходных</p></div>
+<div class="showroom-detail"><strong>🚶 Как нас найти</strong><p>Заходите в железную чёрную арку под вывеской «Садовая 26» «Военторг» и налево к угловой чёрной двери около клумб с цветами. В домофон набираете «ВЕШАЛКА студия пальто».</p></div>
+</div>
+</div>
+</div>
+
+<div class="contact-links"><a class="contact-cta" href="https://t.me/sharp_fin" target="_blank" rel="noopener noreferrer"><span>Написать в Telegram</span><b>↗</b></a><a class="contact-cta contact-cta--secondary" href="https://wa.me/79818510666" target="_blank" rel="noopener noreferrer"><span>Написать в WhatsApp *</span><b>↗</b></a></div>
+<div class="contact-socials"><a href="https://t.me/The_weshalka" target="_blank" rel="noopener noreferrer" class="contact-social-link">Telegram-канал ↗</a><a href="https://vk.ru/club161262776" target="_blank" rel="noopener noreferrer" class="contact-social-link">ВКонтакте ↗</a></div>
+<p class="meta-disclaimer">* WhatsApp — продукт компании Meta Platforms Inc., признанной экстремистской организацией на территории Российской Федерации.</p></section>`, 'Контакты');
+}
+
+function documentsPage() {
+  shell(`<section class="page-hero"><p class="eyebrow">THE | WESHALKA</p><h1>Документы</h1><p>Правовая информация и документы ИП Гриднева Гулафруз.</p></section>
+<section class="documents-page section">
+<div class="documents-grid">
+<a class="document-card" href="/docs/politika-konfidencialnosti.pdf" target="_blank" rel="noopener noreferrer">
+<span class="doc-icon">📄</span>
+<div><strong>Политика конфиденциальности</strong><p>Порядок обработки и защиты персональных данных</p></div>
+</a>
+<a class="document-card" href="/docs/soglasie-na-obrabotku-pd.pdf" target="_blank" rel="noopener noreferrer">
+<span class="doc-icon">📄</span>
+<div><strong>Согласие на обработку персональных данных</strong><p>Форма согласия пользователя сайта</p></div>
+</a>
+<a class="document-card" href="/docs/instrukcia-otvetstvennogo-lica.pdf" target="_blank" rel="noopener noreferrer">
+<span class="doc-icon">📄</span>
+<div><strong>Инструкция ответственного лица</strong><p>Инструкция ответственного за обработку персональных данных</p></div>
+</a>
+<a class="document-card" href="/docs/prikaz-o-naznachenii-otvetstvennogo.pdf" target="_blank" rel="noopener noreferrer">
+<span class="doc-icon">📄</span>
+<div><strong>Приказ о назначении ответственного лица</strong><p>О назначении лица, ответственного за организацию обработки персональных данных</p></div>
+</a>
+</div>
+<div class="documents-note">
+<p>Все документы доступны для ознакомления и скачивания в формате PDF.</p>
+<p>По вопросам обработки персональных данных обращайтесь: <strong>gridnevagulya@gmail.com</strong></p>
+</div>
+</section>`, 'Документы');
+}
+
+async function init() { try { loadCart(); const response = await fetch('/data/products.json'); products = await response.json(); collectPosters(); bindVideoFallback(); const page = document.body.dataset.page; if (page === 'home') homePage(); else if (page === 'catalog') catalogPage(false); else if (page === 'collection') catalogPage(true); else if (page === 'product') productPage(); else simplePage(page); } catch (error) { console.error('THE | WESHALKA data error', error); document.body.innerHTML = '<main class="error-page"><h1>Каталог временно недоступен</h1><a href="/">Вернуться на главную</a></main>'; } }
 document.addEventListener('DOMContentLoaded', init);
