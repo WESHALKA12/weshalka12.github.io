@@ -158,6 +158,7 @@ h3{font-size:28px}
 .footer-link{justify-self:end;font-size:10px;text-transform:uppercase;letter-spacing:.08em}
 .footer-bottom{display:flex;justify-content:space-between;gap:28px;border-top:1px solid rgba(27,24,22,.18);padding-top:18px;color:#746b64;font-size:9px}
 .footer-bottom div{display:flex;gap:24px}
+.footer-credit{margin-left:auto;white-space:nowrap;color:#746b64;text-decoration:none;transition:color .2s}.footer-credit:hover{color:var(--dark)}
 .page-hero{padding:170px 7vw 100px;background:var(--beige)}
 .page-hero h1{max-width:1000px}
 .page-hero>p:last-child{max-width:460px;color:#725e4b}
