@@ -280,15 +280,20 @@ function catalogPage(collectionOnly = false) {
   document.querySelectorAll('[data-filter]').forEach((select) => select.addEventListener('change', applyFilters)); applyFilters();
 }
 
-function setMeta(description, ogTitle, ogImage) {
+function setMeta(description, ogTitle, ogImage, canonicalPath) {
   const desc = document.querySelector('meta[name="description"]');
   const ogt = document.querySelector('meta[property="og:title"]');
   const ogi = document.querySelector('meta[property="og:image"]');
+  const ogd = document.querySelector('meta[property="og:description"]');
+  const ogu = document.querySelector('meta[property="og:url"]');
   if (desc) desc.content = description;
   if (ogt) ogt.content = ogTitle;
-  if (ogi && ogImage) ogi.content = ogImage;
+  if (ogd) ogd.content = description;
+  const url = canonicalPath ? (location.origin + canonicalPath) : location.href.split('#')[0];
+  if (ogu) ogu.content = url;
+  if (ogi && ogImage) ogi.content = /^https?:/.test(ogImage) ? ogImage : (location.origin + ogImage);
   const canonical = document.querySelector('link[rel="canonical"]');
-  if (canonical) canonical.href = location.href;
+  if (canonical) canonical.href = url;
 }
 let activeProduct; let activeColor;
 function productPage() {
@@ -300,7 +305,7 @@ function productPage() {
   const seoCategory = activeProduct.category === 'Экошуба' ? 'экошубу' : 'пальто';
   const seoTitle = `${activeProduct.name} — купить ${seoCategory} в СПб`;
   const seoDesc = `${activeProduct.name} ${activeProduct.title}. ${activeProduct.category}, ${activeProduct.collection}. ${color.price || activeProduct.price || ''}. Купить в шоуруме THE | WESHALKA в Санкт-Петербурге или с доставкой.`;
-  shell(detail, seoTitle); bindMaxCopy(document, `Здравствуйте! Подскажите, пожалуйста, наличие модели ${activeProduct.name}, цвет ${color.label}.`); setMeta(seoDesc, `${activeProduct.name} — THE | WESHALKA`, color.files?.[0] ? asset(color.files[0]) : '');
+  shell(detail, seoTitle); bindMaxCopy(document, `Здравствуйте! Подскажите, пожалуйста, наличие модели ${activeProduct.name}, цвет ${color.label}.`); setMeta(seoDesc, `${activeProduct.name} — THE | WESHALKA`, color.files?.[0] ? asset(color.files[0]) : '/assets/logo/og-cover.png', `/product.html?id=${encodeURIComponent(activeProduct.id)}`);
   document.querySelectorAll('[data-color]').forEach((button) => button.addEventListener('click', () => setProductColor(button.dataset.color)));
 }
 function splitSizes(list) { return (list || []).flatMap((size) => String(size).split(/[,;|]+/)).map((size) => size.trim()).filter(Boolean); }

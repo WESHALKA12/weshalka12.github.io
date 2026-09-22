@@ -1,6 +1,161 @@
 {
  "products": [
   {
+   "hidden": false,
+   "id": "icon-137",
+   "name": "ICON 170+",
+   "title": "Пальто макси длина 137 см — 3 цвета",
+   "subtitle": "",
+   "badge": "",
+   "category": "Пальто",
+   "silhouette": "Прямой крой",
+   "collection": "Высокий рост 170+",
+   "groups": [
+    "tall"
+   ],
+   "winter": false,
+   "season": "Демисезонное пальто",
+   "price": "15 990 ₽",
+   "material": "70% шерсти / 30% полиамид",
+   "length": "137 см",
+   "sizes": [
+    "42",
+    "44",
+    "46",
+    "48"
+   ],
+   "description": "Серия ICON длиной 137 см для высокого роста в трёх цветах: шоколадный, чёрный, бордовый. Классический прямой крой, структурированные плечи, плотный Premium ворс — ткань не скатывается. Эффектный формат Maxi визуально вытягивает фигуру и создаёт эстетику Quiet Luxury.",
+   "details": [
+    "Классический прямой крой",
+    "Структурированные плечи",
+    "Длина Maxi — 137 см",
+    "Плотный Premium ворс, ткань не скатывается",
+    "Эстетика Quiet Luxury / Timeless Style"
+   ],
+   "tags": [
+    "Женское пальто",
+    "170+",
+    "Premium ворс",
+    "Пальто макси",
+    "Пальто 137 см",
+    "Демисезонное пальто"
+   ],
+   "colors": [
+    {
+     "id": "chocolate",
+     "label": "Коричневый",
+     "name": "CHOCOLATE ICON",
+     "files": [
+      "/assets/images/54942612-82EB-419F-8BFB-7042EDFC4894.WEBP",
+      "/assets/images/01E1C5E8-0715-472C-A915-5273A87F1B9C.WEBP",
+      "/assets/images/E903D626-8A96-401C-B187-90E6BE9E11F2.WEBP",
+      "/assets/images/BDB039D7-A1BF-4A37-AD2E-6DE71FEE40A6.WEBP",
+      "/assets/images/09220EA5-432C-4DC8-94E3-BBAE7D88A3B3.WEBP",
+      "/assets/images/AF8A5439-428E-494C-B1A6-D396EFC08E8C.WEBP"
+     ],
+     "available": true,
+     "title": "Коричневое пальто макси длина 137 см",
+     "length": "137 см",
+     "price": "15 990 ₽"
+    },
+    {
+     "id": "black",
+     "label": "Чёрный",
+     "name": "BLACK ICON",
+     "files": [
+      "/assets/images/DD74F131-3492-48BA-A1EC-7EBE9982894B.WEBP",
+      "/assets/images/FC8FC902-B178-4A23-92AF-4F1E293C6D51.WEBP",
+      "/assets/images/32FBF867-9566-4564-99DE-FDDAE89DE0D8.WEBP",
+      "/assets/images/FF125473-A2EB-49FD-BA6F-0008D55525BD.WEBP",
+      "/assets/images/F9611E4D-800F-4120-B687-E06A5BCF1F80.WEBP",
+      "/assets/images/AF09F5E2-4B79-4C34-BEC5-41727C245646.WEBP",
+      "/assets/images/2518253A-4077-47A0-8EF7-3B8E1084A161.WEBP"
+     ],
+     "available": true,
+     "title": "Чёрное пальто макси длина 137 см",
+     "length": "137 см",
+     "price": "15 990 ₽"
+    },
+    {
+     "id": "bordeaux",
+     "label": "Бордовый",
+     "name": "BORDEAUX ICON",
+     "files": [
+      "/assets/images/349E71C8-4081-408C-8B6F-BFD8B35074FE.WEBP",
+      "/assets/images/7F124940-3860-4579-ADEF-B14D45CA8576.WEBP",
+      "/assets/images/1C45985A-BB14-475F-A198-79F8A27021F3.WEBP",
+      "/assets/images/4A2B58C1-654E-4E09-BDDD-DF250681FF6D.WEBP",
+      "/assets/images/E1044174-D816-45FF-886A-5AE8F0E7B08A.WEBP",
+      "/assets/images/63DCFCD7-6138-438B-AE5E-524BD855BA60.WEBP",
+      "/assets/images/4C94422C-8920-430E-8F12-0568000B2474.WEBP"
+     ],
+     "available": true,
+     "title": "Бордовое пальто макси длина 137 см",
+     "length": "137 см",
+     "price": "15 990 ₽",
+     "sizes": [
+      "42",
+      "44",
+      "46",
+      "48",
+      "50"
+     ]
+    }
+   ],
+   "tall": true
+  },
+  {
+   "id": "beige-classic",
+   "name": "BEIGE CLASSIC",
+   "title": "Классическое пальто из шерсти 70%",
+   "category": "Пальто",
+   "silhouette": "Классический силуэт",
+   "collection": "Высокий рост 170+",
+   "tall": true,
+   "price": "14 990 ₽",
+   "season": "Демисезонное пальто",
+   "material": "70% шерсти / 30% полиамид",
+   "length": "135 см",
+   "sizes": [
+    "42",
+    "44",
+    "46",
+    "48"
+   ],
+   "description": "Прямой классический силуэт. Фактура в полоску и ёлочку. Эстетика Timeless Style / Quiet Luxury.",
+   "tags": [
+    "170+",
+    "Timeless Style",
+    "Quiet Luxury"
+   ],
+   "groups": [
+    "tall",
+    "classic"
+   ],
+   "colors": [
+    {
+     "id": "beige",
+     "label": "Бежевый",
+     "name": "BEIGE CLASSIC",
+     "files": [
+      "/assets/images/D930C1F3-B3D1-4C65-A1A3-747E957D774D.WEBP",
+      "/assets/images/9753BE4C-017C-401A-B703-69C27E61314F.WEBP",
+      "/assets/images/931120DD-30AD-43FA-8D15-E0BFC147D240.WEBP",
+      "/assets/images/8498175B-EEDB-4D00-B311-D89E10446BC0.WEBP",
+      "/assets/images/8C94E261-979D-438A-9500-52D5DA000C60.WEBP",
+      "/assets/images/BFD6FB52-9178-40A1-9215-3AEFF16B9BB0.WEBP",
+      "/assets/images/029A33ED-1783-4015-BE8D-E2393B53E120.WEBP",
+      "/assets/images/CC42A5F1-85BA-41CA-B045-6A524F89613F.WEBP"
+     ],
+     "video": "/assets/images/15872371154901.MP4",
+     "available": true
+    }
+   ],
+   "hidden": false,
+   "badge": "",
+   "winter": false
+  },
+  {
    "id": "classic",
    "name": "CLASSIC",
    "title": "Двубортное пальто из плотной шерсти 70%",
@@ -95,348 +250,6 @@
    "winter": false
   },
   {
-   "id": "high-icon",
-   "name": "ICON / SIGNATURE",
-   "title": "Классическое пальто — 4 цвета",
-   "category": "Пальто",
-   "silhouette": "Прямой силуэт",
-   "collection": "Классика",
-   "tall": false,
-   "season": "Демисезонная модель",
-   "description": "Одна модель в четырёх цветах: бордовый BURGUNDY ICON, чёрный и коричневый SIGNATURE, тёмно-серый GRAPHITE ICON. Классический силуэт, акцентные плечи и плотный Premium ворс.",
-   "tags": [
-    "Классика",
-    "Premium ворс",
-    "Демисезон"
-   ],
-   "groups": [
-    "classic"
-   ],
-   "colors": [
-    {
-     "id": "burgundy",
-     "label": "Бордовый",
-     "name": "BURGUNDY ICON",
-     "title": "Классическое прямое пальто",
-     "price": "15 990 ₽",
-     "length": "125 см",
-     "sizes": [
-      "42",
-      "44",
-      "46",
-      "48"
-     ],
-     "details": [
-      "Классический прямой силуэт",
-      "Структурированные плечи",
-      "Premium ворс",
-      "Демисезонная модель"
-     ],
-     "files": [
-      "/assets/images/C735A2A8-DAD0-4792-B588-163A85CB5407.WEBP",
-      "/assets/images/E47E67B8-E050-4A3A-B7C1-4CAAAAFFAFB8.WEBP",
-      "/assets/images/72DFECBD-66B1-4FC1-9E4D-6FD9041CA076.WEBP",
-      "/assets/images/AED7CE19-A99E-4000-B8C4-0AC35667F07B.WEBP",
-      "/assets/images/8DA455F9-B16B-4CA1-83D4-1855571199C0.WEBP",
-      "/assets/images/5DDCDE64-54AB-4C86-B7A4-483E1F3A8464.WEBP"
-     ],
-     "video": "/assets/images/15870984347605.MP4",
-     "material": "70% шерсти / 30% полиамид",
-     "available": true
-    },
-    {
-     "id": "black",
-     "label": "Чёрный",
-     "name": "SIGNATURE",
-     "title": "Чёрное двубортное пальто из премиальной шерсти",
-     "price": "15 990 ₽",
-     "length": "125 см",
-     "material": "70% шерсти / 30% полиамид",
-     "sizes": [
-      "42",
-      "44",
-      "46",
-      "48"
-     ],
-     "details": [
-      "Двубортная застёжка",
-      "Свободный oversize fit",
-      "Акцентные плечи",
-      "Пояс по желанию",
-      "Демисезонная модель"
-     ],
-     "files": [
-      "/assets/images/D67E01C5-97C4-4E26-8ABE-4F8B5DE70BF9.WEBP",
-      "/assets/images/1C82F7ED-A662-4070-9BED-36D14A46FA6D.WEBP",
-      "/assets/images/831D86D6-8528-4162-A5E7-99C00EE10C8A.WEBP",
-      "/assets/images/4E526484-9CF7-4DDD-8450-EC96E7D7F12D.WEBP",
-      "/assets/images/8A7F21FF-7096-4453-BCA5-77FB31E84569.WEBP",
-      "/assets/images/B90B3E81-3C89-4CE3-A116-9A331C715B02.WEBP"
-     ],
-     "video": "/assets/images/15872241262549.MP4",
-     "available": true
-    },
-    {
-     "id": "brown",
-     "label": "Коричневый",
-     "name": "SIGNATURE",
-     "title": "Коричневое двубортное пальто из премиальной шерсти",
-     "price": "15 990 ₽",
-     "length": "125 см",
-     "material": "70% шерсти / 30% полиамид",
-     "sizes": [
-      "42",
-      "44",
-      "46",
-      "48"
-     ],
-     "details": [
-      "Двубортная застёжка",
-      "Свободный oversize fit",
-      "Акцентные плечи",
-      "Пояс по желанию",
-      "Демисезонная модель"
-     ],
-     "files": [
-      "/assets/images/7908267F-B085-4D99-8F2B-03EB0410648D.WEBP",
-      "/assets/images/C09E28C1-5E1D-4033-B7B9-21B3DF385375.WEBP",
-      "/assets/images/E949A49C-FF99-4130-AA63-D0D10260EB3E.WEBP",
-      "/assets/images/04B5C91A-BB4D-41A2-B64B-E8BA5E37144B.WEBP",
-      "/assets/images/1299B644-FD53-41F9-A024-2810746F6466.WEBP"
-     ],
-     "available": true
-    },
-    {
-     "id": "graphite",
-     "label": "Тёмно-серый",
-     "name": "GRAPHITE ICON",
-     "title": "Темно-серое кашемировое пальто",
-     "price": "14 990 ₽",
-     "length": "120 см",
-     "material": "Кашемировая ткань",
-     "sizes": [
-      "42",
-      "44",
-      "46",
-      "48"
-     ],
-     "details": [
-      "Прямой силуэт",
-      "Акцентные плечи",
-      "Демисезонная модель"
-     ],
-     "files": [
-      "/assets/images/95A19C03-23BA-48BB-913A-01F6A5A8F75F.WEBP",
-      "/assets/images/D9401523-10A6-46FC-8670-32F7FB2E990B.WEBP",
-      "/assets/images/8858A7D6-B527-4163-AAB5-B77DD0C8F2A0.WEBP",
-      "/assets/images/7E352397-E39D-4F21-B008-F41221755535.WEBP",
-      "/assets/images/7264861E-CB6F-42AD-A9C8-FC9E4A1EB5F4.WEBP",
-      "/assets/images/999D11AB-C617-4759-AEBC-254DBDA908EB.WEBP",
-      "/assets/images/23A06D0A-3AC0-4377-8F3A-3D6F871209A1.WEBP"
-     ],
-     "available": true
-    }
-   ],
-   "hidden": false,
-   "price": "15 990 ₽",
-   "badge": "",
-   "winter": false
-  },
-  {
-   "id": "beige-classic",
-   "name": "BEIGE CLASSIC",
-   "title": "Классическое пальто из шерсти 70%",
-   "category": "Пальто",
-   "silhouette": "Классический силуэт",
-   "collection": "Высокий рост 170+",
-   "tall": true,
-   "price": "14 990 ₽",
-   "season": "Демисезонное пальто",
-   "material": "70% шерсти / 30% полиамид",
-   "length": "135 см",
-   "sizes": [
-    "42",
-    "44",
-    "46",
-    "48"
-   ],
-   "description": "Прямой классический силуэт. Фактура в полоску и ёлочку. Эстетика Timeless Style / Quiet Luxury.",
-   "tags": [
-    "170+",
-    "Timeless Style",
-    "Quiet Luxury"
-   ],
-   "groups": [
-    "tall",
-    "classic"
-   ],
-   "colors": [
-    {
-     "id": "beige",
-     "label": "Бежевый",
-     "name": "BEIGE CLASSIC",
-     "files": [
-      "/assets/images/D930C1F3-B3D1-4C65-A1A3-747E957D774D.WEBP",
-      "/assets/images/9753BE4C-017C-401A-B703-69C27E61314F.WEBP",
-      "/assets/images/931120DD-30AD-43FA-8D15-E0BFC147D240.WEBP",
-      "/assets/images/8498175B-EEDB-4D00-B311-D89E10446BC0.WEBP",
-      "/assets/images/8C94E261-979D-438A-9500-52D5DA000C60.WEBP",
-      "/assets/images/BFD6FB52-9178-40A1-9215-3AEFF16B9BB0.WEBP",
-      "/assets/images/029A33ED-1783-4015-BE8D-E2393B53E120.WEBP",
-      "/assets/images/CC42A5F1-85BA-41CA-B045-6A524F89613F.WEBP"
-     ],
-     "video": "/assets/images/15872371154901.MP4",
-     "available": true
-    }
-   ],
-   "hidden": false,
-   "badge": "",
-   "winter": false
-  },
-  {
-   "id": "chocolate-icon",
-   "name": "CHOCOLATE ICON",
-   "title": "Коричневое пальто макси длина 137 см",
-   "category": "Пальто",
-   "silhouette": "Прямой крой",
-   "collection": "Высокий рост 170+",
-   "tall": true,
-   "price": "15 990 ₽",
-   "season": "Демисезонное пальто",
-   "length": "137 см",
-   "sizes": [
-    "42",
-    "44",
-    "46",
-    "48"
-   ],
-   "description": "Прямой крой, структурированные плечи, Premium ворс, ткань не скатывается.",
-   "tags": [
-    "170+",
-    "Premium ворс",
-    "Макси"
-   ],
-   "groups": [
-    "tall"
-   ],
-   "material": "70% шерсти / 30% полиамид",
-   "colors": [
-    {
-     "id": "chocolate",
-     "label": "Chocolate Brown",
-     "name": "CHOCOLATE ICON",
-     "files": [
-      "/assets/images/54942612-82EB-419F-8BFB-7042EDFC4894.WEBP",
-      "/assets/images/01E1C5E8-0715-472C-A915-5273A87F1B9C.WEBP",
-      "/assets/images/E903D626-8A96-401C-B187-90E6BE9E11F2.WEBP",
-      "/assets/images/BDB039D7-A1BF-4A37-AD2E-6DE71FEE40A6.WEBP",
-      "/assets/images/09220EA5-432C-4DC8-94E3-BBAE7D88A3B3.WEBP",
-      "/assets/images/AF8A5439-428E-494C-B1A6-D396EFC08E8C.WEBP"
-     ],
-     "available": true
-    }
-   ],
-   "hidden": false,
-   "badge": "",
-   "winter": false
-  },
-  {
-   "id": "black-icon",
-   "name": "BLACK ICON",
-   "title": "Черное пальто макси длина 137 см",
-   "category": "Пальто",
-   "silhouette": "Прямой крой",
-   "collection": "Высокий рост 170+",
-   "tall": true,
-   "price": "15 990 ₽",
-   "season": "Демисезонное пальто",
-   "length": "137 см",
-   "sizes": [
-    "42",
-    "44",
-    "46",
-    "48"
-   ],
-   "description": "Прямой крой, структурированные плечи, Premium ворс, ткань не скатывается.",
-   "tags": [
-    "170+",
-    "Premium ворс",
-    "Макси"
-   ],
-   "groups": [
-    "tall"
-   ],
-   "material": "70% шерсти / 30% полиамид",
-   "colors": [
-    {
-     "id": "black",
-     "label": "Чёрный",
-     "name": "BLACK ICON",
-     "files": [
-      "/assets/images/DD74F131-3492-48BA-A1EC-7EBE9982894B.WEBP",
-      "/assets/images/FC8FC902-B178-4A23-92AF-4F1E293C6D51.WEBP",
-      "/assets/images/32FBF867-9566-4564-99DE-FDDAE89DE0D8.WEBP",
-      "/assets/images/FF125473-A2EB-49FD-BA6F-0008D55525BD.WEBP",
-      "/assets/images/F9611E4D-800F-4120-B687-E06A5BCF1F80.WEBP",
-      "/assets/images/AF09F5E2-4B79-4C34-BEC5-41727C245646.WEBP",
-      "/assets/images/2518253A-4077-47A0-8EF7-3B8E1084A161.WEBP"
-     ],
-     "available": true
-    }
-   ],
-   "hidden": false,
-   "badge": "",
-   "winter": false
-  },
-  {
-   "id": "bordeaux-icon",
-   "name": "BORDEAUX ICON",
-   "title": "Бордовое пальто макси длина 137 см",
-   "category": "Пальто",
-   "silhouette": "Прямой крой",
-   "collection": "Высокий рост 170+",
-   "tall": true,
-   "season": "Демисезонное пальто",
-   "length": "137 см",
-   "sizes": [
-    "42",
-    "44",
-    "46",
-    "48",
-    "50"
-   ],
-   "description": "Прямой крой, структурированные плечи, Premium ворс, ткань не скатывается.",
-   "tags": [
-    "170+",
-    "Premium ворс",
-    "Макси"
-   ],
-   "groups": [
-    "tall"
-   ],
-   "material": "70% шерсти / 30% полиамид",
-   "colors": [
-    {
-     "id": "burgundy",
-     "label": "Бордовый",
-     "name": "BORDEAUX ICON",
-     "files": [
-      "/assets/images/349E71C8-4081-408C-8B6F-BFD8B35074FE.WEBP",
-      "/assets/images/7F124940-3860-4579-ADEF-B14D45CA8576.WEBP",
-      "/assets/images/1C45985A-BB14-475F-A198-79F8A27021F3.WEBP",
-      "/assets/images/4A2B58C1-654E-4E09-BDDD-DF250681FF6D.WEBP",
-      "/assets/images/E1044174-D816-45FF-886A-5AE8F0E7B08A.WEBP",
-      "/assets/images/63DCFCD7-6138-438B-AE5E-524BD855BA60.WEBP",
-      "/assets/images/4C94422C-8920-430E-8F12-0568000B2474.WEBP"
-     ],
-     "available": true
-    }
-   ],
-   "hidden": false,
-   "badge": "",
-   "winter": false
-  },
-  {
    "id": "cream-icon",
    "name": "CREAM ICON",
    "title": "Классическое демисезонное пальто с золотыми акцентами",
@@ -484,6 +297,143 @@
    "hidden": false,
    "badge": "",
    "winter": false
+  },
+  {
+   "hidden": false,
+   "id": "bordeaux-icon",
+   "name": "BORDEAUX ICON",
+   "title": "Классическое пальто из премиальной шерсти — 3 цвета",
+   "subtitle": "",
+   "badge": "",
+   "category": "Пальто",
+   "silhouette": "Классический силуэт",
+   "collection": "Классика",
+   "groups": [
+    "classic"
+   ],
+   "winter": false,
+   "season": "Демисезонное пальто",
+   "price": "15 990 ₽",
+   "material": "70% шерсти / 30% полиамид",
+   "length": "125 см",
+   "sizes": [
+    "42",
+    "44",
+    "46",
+    "48"
+   ],
+   "description": "Женское пальто Premium ворс в трёх цветах: бордовом, чёрном и коричневом. Классический прямой силуэт с акцентной линией плеч, длина 125 см — универсальная для современного гардероба. Плотный Premium ворс выглядит дорого и помогает пальто держать красивую форму.",
+   "details": [
+    "Классический прямой крой",
+    "Структурированные плечи",
+    "Длина 125 см",
+    "Плотный Premium ворс",
+    "Пояс — по желанию",
+    "Демисезонная модель"
+   ],
+   "tags": [
+    "Женское пальто",
+    "Классическое пальто",
+    "Premium ворс",
+    "Пальто 125 см",
+    "Демисезонное пальто"
+   ],
+   "colors": [
+    {
+     "id": "burgundy",
+     "label": "Бордовый",
+     "name": "BORDEAUX ICON",
+     "title": "Бордовое пальто из премиальной шерсти",
+     "price": "15 990 ₽",
+     "length": "125 см",
+     "sizes": [
+      "42",
+      "44",
+      "46",
+      "48"
+     ],
+     "details": [
+      "Классический прямой силуэт",
+      "Структурированные плечи",
+      "Premium ворс",
+      "Демисезонная модель"
+     ],
+     "files": [
+      "/assets/images/C735A2A8-DAD0-4792-B588-163A85CB5407.WEBP",
+      "/assets/images/E47E67B8-E050-4A3A-B7C1-4CAAAAFFAFB8.WEBP",
+      "/assets/images/72DFECBD-66B1-4FC1-9E4D-6FD9041CA076.WEBP",
+      "/assets/images/AED7CE19-A99E-4000-B8C4-0AC35667F07B.WEBP",
+      "/assets/images/8DA455F9-B16B-4CA1-83D4-1855571199C0.WEBP",
+      "/assets/images/5DDCDE64-54AB-4C86-B7A4-483E1F3A8464.WEBP"
+     ],
+     "video": "/assets/images/15870984347605.MP4",
+     "material": "70% шерсти / 30% полиамид",
+     "available": true
+    },
+    {
+     "id": "black",
+     "label": "Чёрный",
+     "name": "SIGNATURE BLACK",
+     "title": "Чёрное двубортное пальто из премиальной шерсти",
+     "price": "15 990 ₽",
+     "length": "125 см",
+     "material": "70% шерсти / 30% полиамид",
+     "sizes": [
+      "42",
+      "44",
+      "46",
+      "48"
+     ],
+     "details": [
+      "Двубортная застёжка",
+      "Свободный oversize fit",
+      "Акцентные плечи",
+      "Пояс по желанию",
+      "Демисезонная модель"
+     ],
+     "files": [
+      "/assets/images/D67E01C5-97C4-4E26-8ABE-4F8B5DE70BF9.WEBP",
+      "/assets/images/1C82F7ED-A662-4070-9BED-36D14A46FA6D.WEBP",
+      "/assets/images/831D86D6-8528-4162-A5E7-99C00EE10C8A.WEBP",
+      "/assets/images/4E526484-9CF7-4DDD-8450-EC96E7D7F12D.WEBP",
+      "/assets/images/8A7F21FF-7096-4453-BCA5-77FB31E84569.WEBP",
+      "/assets/images/B90B3E81-3C89-4CE3-A116-9A331C715B02.WEBP"
+     ],
+     "video": "/assets/images/15872241262549.MP4",
+     "available": true
+    },
+    {
+     "id": "brown",
+     "label": "Коричневый",
+     "name": "SIGNATURE BROWN",
+     "title": "Коричневое двубортное пальто из премиальной шерсти",
+     "price": "15 990 ₽",
+     "length": "125 см",
+     "material": "70% шерсти / 30% полиамид",
+     "sizes": [
+      "42",
+      "44",
+      "46",
+      "48"
+     ],
+     "details": [
+      "Двубортная застёжка",
+      "Свободный oversize fit",
+      "Акцентные плечи",
+      "Пояс по желанию",
+      "Демисезонная модель"
+     ],
+     "files": [
+      "/assets/images/7908267F-B085-4D99-8F2B-03EB0410648D.WEBP",
+      "/assets/images/C09E28C1-5E1D-4033-B7B9-21B3DF385375.WEBP",
+      "/assets/images/E949A49C-FF99-4130-AA63-D0D10260EB3E.WEBP",
+      "/assets/images/04B5C91A-BB4D-41A2-B64B-E8BA5E37144B.WEBP",
+      "/assets/images/1299B644-FD53-41F9-A024-2810746F6466.WEBP"
+     ],
+     "available": true
+    }
+   ],
+   "tall": false
   },
   {
    "id": "fitted-wool",
@@ -588,7 +538,8 @@
       "/assets/images/D373F14D-6E96-4DF9-9059-876EE1129306.WEBP"
      ],
      "video": "/assets/images/15872591552469.MP4",
-     "available": true
+     "available": true,
+     "price": "15 990 ₽"
     },
     {
      "id": "black",
@@ -602,13 +553,15 @@
       "/assets/images/52A3C540-FCA4-4C2C-8891-E9ABD46858E3.WEBP"
      ],
      "video": "/assets/images/15872734552021.MP4",
-     "available": true
+     "available": true,
+     "price": "15 990 ₽"
     }
    ],
    "tall": false,
    "hidden": false,
    "badge": "",
-   "winter": false
+   "winter": false,
+   "price": "15 990 ₽"
   },
   {
    "id": "milky-aura",
@@ -661,7 +614,8 @@
    "tall": false,
    "hidden": false,
    "badge": "",
-   "winter": false
+   "winter": false,
+   "length": "130 см"
   },
   {
    "id": "aura",
@@ -970,7 +924,8 @@
       "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-07-detail.jpg"
      ],
      "video": "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-video.mp4",
-     "available": true
+     "available": true,
+     "price": "15 990 ₽"
     }
    ],
    "tall": false,
@@ -1437,7 +1392,8 @@
    ],
    "tall": false,
    "hidden": false,
-   "badge": ""
+   "badge": "",
+   "sizes": []
   },
   {
    "id": "winter-fitted-15",
