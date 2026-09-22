@@ -7,3 +7,4 @@ REPORT-2026-09-19.md
 __pycache__/
 node_modules/
 .env
+_audit/

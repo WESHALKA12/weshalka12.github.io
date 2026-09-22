@@ -1,30 +1,14 @@
-THE | WESHALKA — статический сайт-каталог бренда верхней одежды.
+THE | WESHALKA — сайт-каталог верхней одежды (theweshalka.ru).
 
-Запуск локально:
+Хостинг: GitHub Pages (репозиторий WESHALKA12/weshalka12.github.io, ветка main), домен theweshalka.ru, HTTPS.
 
-    python3 -m http.server 4173
+Контент:
+- data/catalog.json — все товары (порядок = порядок на сайте), цвета, фото, видео, цены, размеры, наличие;
+- data/site.json — тексты главной, контакты (Telegram, MAX, VK, WhatsApp), акции, отзывы;
+- assets/images/ — фото и видео (оригиналы не удаляются; упорядоченные копии — в assets/images/catalog/).
 
-Открыть http://127.0.0.1:4173/.
+Админ-панель: /admin/ (Sveltia CMS, вход токеном GitHub). Инструкция: admin/instrukciya.md.
+Сохранение в админке = коммит в main → GitHub Pages публикует за 1–2 минуты.
+Проверка данных: tools/validate_data.py (запускается GitHub Actions при каждом изменении data/).
 
-Страницы:
-
-- `index.html` — editorial-главная;
-- `collection.html` — коллекции и направления;
-- `catalog.html` — каталог с фильтрами;
-- `product.html?id=...` — карточка модели с цветами, галереей, видео и размерами;
-- `reviews.html`, `contacts.html` — разделы бренда;
-- `privacy.html`, `personal-data.html` — юридические страницы-заготовки.
-
-Данные:
-
-- `data/products.json` — 21 модель и 35 цветовых вариантов; поле `groups` задаёт разделы каталога (classic, fitted, robe, stand, blazer, tall, winter), `winter: true` — зимние модели;
-- `data/image-audit.json` — внутренняя таблица соответствия файлов первой партии;
-- `data/catalog-media-map.json` — внутренний манифест материалов от 19.09.2026: исходный файл → копия → сезон → категория → модель → цвет → тип кадра → порядок;
-- `assets/images/catalog/` — отсортированные копии новых фото и видео (оригиналы лежат в `assets/images/` без изменений);
-- `REPORT-2026-09-19.md` — отчёт по расширению каталога и вопросы к клиенту.
-
-Каталог поддерживает ссылки на разделы: `catalog.html?group=stand` (winter, blazer, tall и т. д.).
-
-Сценарий заказа ведёт в Telegram `https://t.me/The_weshalka`; онлайн-оплата не имитируется.
-
-До публикации нужно получить от владельца бренда юридические реквизиты, финальные тексты юридических страниц, подтверждённые социальные сети и домен для canonical/sitemap.
+Локальный запуск: python3 -m http.server 4173 → http://127.0.0.1:4173/

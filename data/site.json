@@ -1,0 +1,62 @@
+{
+ "contacts": {
+  "telegramOrder": "https://t.me/sharp_fin",
+  "telegramChannel": "https://t.me/The_weshalka",
+  "vk": "https://vk.ru/club161262776",
+  "whatsappPhone": "79818510666",
+  "maxLink": "",
+  "phoneDisplay": "+7 (981) 851-06-66",
+  "address": "Санкт-Петербург, ул. Садовая, 26Б",
+  "metro": "м. Гостиный двор",
+  "hours": "Ежедневно с 12:00 до 20:00",
+  "hoursNote": "Без перерыва и выходных",
+  "directions": "Заходите в железную чёрную арку под вывеской «Садовая 26» «Военторг» и налево к угловой чёрной двери около клумб с цветами. В домофон набираете «ВЕШАЛКА студия пальто».",
+  "showroomVideo": "/assets/images/showroom-directions.mp4",
+  "privacyEmail": "gridnevagulya@gmail.com",
+  "deliveryNote": "Бесплатная доставка с примеркой по СПб",
+  "paymentNote": "Оплата при получении или через Яндекс Сплит без переплаты"
+ },
+ "home": {
+  "heroEyebrow": "Верхняя одежда / новая коллекция",
+  "heroTitle": "Вещи,",
+  "heroTitleAccent": "которые остаются",
+  "heroText": "Пальто, пальто-халаты, экошубы и классические силуэты для осмысленного гардероба.",
+  "aboutText": "THE | WESHALKA — верхняя одежда с акцентом на силуэт, фактуру и долгую актуальность.",
+  "tallEyebrow": "Для высокого роста 170+",
+  "tallTitle": "Длина",
+  "tallTitleAccent": "имеет значение.",
+  "tallText": "Модели длиной 135–137 см — отдельная серия для высокого роста.",
+  "tallVideo": "/assets/images/15271605198805.MP4",
+  "universalTitle": "На любой",
+  "universalTitleAccent": "рост",
+  "universalText": "Большинство наших моделей подходят для любого роста — классическая длина, которая выглядит элегантно и пропорционально. THE | WESHALKA — не только для высоких.",
+  "standEyebrow": "Эксклюзивная серия",
+  "standTitle": "Пальто",
+  "standTitleAccent": "со стойкой",
+  "standText": "Воротник-стойка, премиальная шерсть и расслабленный силуэт — отдельная серия бренда.",
+  "standVideo": "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-video.mp4",
+  "furEyebrow": "Зимняя коллекция 2026–2027",
+  "furTitle": "Экошубы",
+  "furTitleAccent": "на зиму",
+  "furText": "Мягкий тёплый мех, утеплитель и стильные силуэты — для самых уютных зимних образов.",
+  "furImage": "/assets/images/catalog/winter/fur-coats/fur-ostrich/black/fur-ostrich-black-01.jpg",
+  "featured": ["classic", "cream-icon", "fitted-wool", "fitted-premium"],
+  "editorialProduct": "cream-icon",
+  "editorialImage": "/assets/images/7D474A2E-2CDC-485B-9C5C-FAE1F7815D85.WEBP",
+  "editorialTitle": "Тихая",
+  "editorialTitleAccent": "уверенность",
+  "editorialText": "Классические модели, приталенный силуэт и пальто-халаты — в одной системе координат.",
+  "contactTitle": "Напишите",
+  "contactTitleAccent": "бренду.",
+  "contactText": "Уточнить наличие, выбрать цвет и узнать актуальные условия заказа можно в Telegram, MAX или WhatsApp."
+ },
+ "sale": {
+  "intro": "Специальные предложения и скидки на верхнюю одежду.",
+  "emptyText": "Следите за обновлениями — скоро здесь появятся актуальные акции и специальные предложения.",
+  "items": []
+ },
+ "reviews": {
+  "intro": "Отзывы покупателей THE | WESHALKA.",
+  "items": []
+ }
+}

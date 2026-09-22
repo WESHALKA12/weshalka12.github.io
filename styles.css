@@ -404,3 +404,24 @@ h3{font-size:28px}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition-duration:.01ms!important}
 .reveal{opacity:1;transform:none}
 }
+
+/* Мобильная шапка: кнопка меню справа, полоски столбиком (замечание клиентки MAX #317, 21.09) */
+@media(max-width:980px){
+.site-header{grid-template-columns:1fr auto auto;column-gap:18px}
+.menu-toggle{flex-direction:column;justify-content:center;gap:5px;width:34px;height:34px;padding:0;cursor:pointer}
+.menu-toggle span{width:22px;transition:transform .25s,opacity .25s}
+.menu-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.menu-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.menu-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+}
+/* Наличие и MAX */
+.availability{font-size:12px;letter-spacing:.06em;text-transform:uppercase;margin:6px 0 0}
+.availability--out{color:var(--rust)}
+.catalog-card.is-out .catalog-card__visual{opacity:.72}
+.contact-cta--max{background:#3b3bd6;color:#fff}
+.review-empty{color:var(--muted);max-width:520px}
+.sale-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:24px;margin-top:32px;text-align:left}
+.sale-card img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.sale-card h2{font-size:24px;margin:14px 0 8px}
+.button[data-max-copy] b,.cart-order-btn--max b{display:none}
+.cart-order-btn--max{margin-top:10px;width:100%}

@@ -1,0 +1,215 @@
+# Админ-панель THE | WESHALKA (Sveltia CMS). Изменения сохраняются коммитом в GitHub,
+# GitHub Pages публикует сайт автоматически примерно через 1–2 минуты.
+backend:
+  name: github
+  repo: WESHALKA12/weshalka12.github.io
+  branch: main
+  commit_messages:
+    create: "Админка: создано «{{slug}}»"
+    update: "Админка: изменено «{{slug}}»"
+    delete: "Админка: удалено «{{slug}}»"
+    uploadMedia: "Админка: загружен файл {{path}}"
+    deleteMedia: "Админка: удалён файл {{path}}"
+
+site_url: https://theweshalka.ru
+display_url: https://theweshalka.ru
+logo_url: /favicon.svg
+media_folder: assets/images
+public_folder: /assets/images
+
+collections:
+  - name: catalog
+    label: Каталог
+    label_singular: Каталог
+    description: Все товары сайта. Порядок в списке = порядок на сайте. Перетаскивайте карточки, чтобы изменить порядок.
+    editor: { preview: false }
+    files:
+      - name: products
+        label: Товары
+        file: data/catalog.json
+        format: json
+        fields:
+          - name: products
+            label: Товары
+            label_singular: товар
+            widget: list
+            collapsed: true
+            add_to_top: true
+            summary: "{{fields.name}} — {{fields.title}}"
+            fields:
+              - { name: hidden, label: "Скрыть с сайта", widget: boolean, default: false, required: false, hint: "Включите, чтобы временно убрать товар с сайта, не удаляя его." }
+              - { name: id, label: "Адрес страницы (латиницей, без пробелов)", widget: string, pattern: ['^[a-z0-9-]+$', 'Только маленькие латинские буквы, цифры и дефис'], hint: "Например: classic-grey. Не меняйте у существующих товаров — сломаются ссылки." }
+              - { name: name, label: "Название (крупно)", widget: string, hint: "Например: CREAM ICON" }
+              - { name: title, label: "Подзаголовок", widget: string, required: false }
+              - { name: subtitle, label: "Дополнительная строка", widget: string, required: false }
+              - name: badge
+                label: Бейдж на карточке
+                widget: select
+                required: false
+                default: ""
+                options:
+                  - { label: "Нет", value: "" }
+                  - { label: "НОВИНКА", value: "НОВИНКА" }
+                  - { label: "ЭКСКЛЮЗИВ", value: "ЭКСКЛЮЗИВ" }
+                  - { label: "ХИТ ПРОДАЖ", value: "ХИТ ПРОДАЖ" }
+                  - { label: "СКИДКА", value: "СКИДКА" }
+              - name: groups
+                label: Разделы каталога
+                widget: select
+                multiple: true
+                hint: "«Высокий рост 170+» включает метку «170+» на карточке и показывает товар в блоке 170+ на главной."
+                options:
+                  - { label: "Классика", value: classic }
+                  - { label: "Приталенные модели", value: fitted }
+                  - { label: "Пальто-халаты", value: robe }
+                  - { label: "Пальто со стойкой (эксклюзив)", value: stand }
+                  - { label: "Пальто-пиджаки", value: blazer }
+                  - { label: "Высокий рост 170+", value: tall }
+                  - { label: "Зимние пальто", value: winter }
+                  - { label: "Экошубы", value: fur }
+                  - { label: "Тренчи", value: trench }
+              - name: category
+                label: Категория (для фильтра)
+                widget: select
+                options: ["Пальто", "Пальто-халат", "Пальто-пиджак", "Экошуба", "Тренч"]
+              - { name: collection, label: "Коллекция (подпись над названием)", widget: string, required: false, hint: "Например: Классика, Высокий рост 170+, Экошубы" }
+              - name: silhouette
+                label: Силуэт (для фильтра)
+                widget: select
+                required: false
+                options: ["", "Классический силуэт", "Прямой силуэт", "Прямой крой", "Приталенный силуэт", "Свободный силуэт", "Relaxed fit / oversize"]
+              - { name: winter, label: "Зимняя модель", widget: boolean, default: false, required: false }
+              - { name: season, label: "Сезон (текст)", widget: string, required: false, hint: "Например: Демисезонная модель; Зимнее, до −20 °C" }
+              - { name: price, label: "Цена (по умолчанию для всех цветов)", widget: string, required: false, hint: "Например: 14 990 ₽. Пусто — на сайте «Цена уточняйте»." }
+              - { name: oldPrice, label: "Старая цена (зачёркнутая)", widget: string, required: false }
+              - { name: material, label: "Состав", widget: string, required: false }
+              - { name: length, label: "Длина", widget: string, required: false, hint: "Например: 130 см" }
+              - { name: sizes, label: "Размеры (по умолчанию)", widget: list, required: false, hint: "Каждый размер отдельным пунктом (или через запятую): 42, 44, 46, 48" }
+              - { name: description, label: "Описание", widget: text, required: false }
+              - { name: details, label: "Детали (список)", widget: list, required: false, field: { name: item, label: "Пункт", widget: string } }
+              - { name: tags, label: "Теги / ключевые слова", widget: list, required: false }
+              - name: colors
+                label: Цвета
+                label_singular: цвет
+                widget: list
+                collapsed: true
+                min: 1
+                summary: "{{fields.label}}{{fields.name}}"
+                hint: "Одна модель в нескольких цветах = одна карточка с переключателем. Первый цвет показывается по умолчанию."
+                fields:
+                  - { name: id, label: "Код цвета (латиницей)", widget: string, pattern: ['^[a-z0-9-]+$', 'Только латиница, цифры и дефис'], hint: "black, burgundy, brown, chocolate, graphite, grey, nude, beige, cream, milk, white — от кода зависит цвет кружка" }
+                  - { name: label, label: "Название цвета", widget: string, hint: "Например: Бордовый" }
+                  - { name: name, label: "Название модели в этом цвете", widget: string, required: false, hint: "Если отличается от общего, например BURGUNDY ICON" }
+                  - { name: title, label: "Подзаголовок для этого цвета", widget: string, required: false }
+                  - { name: available, label: "В наличии", widget: boolean, default: true }
+                  - { name: price, label: "Цена этого цвета", widget: string, required: false, hint: "Пусто — берётся общая цена" }
+                  - { name: oldPrice, label: "Старая цена этого цвета", widget: string, required: false }
+                  - { name: sizes, label: "Размеры этого цвета", widget: list, required: false, hint: "Пусто — берутся общие размеры" }
+                  - { name: length, label: "Длина этого цвета", widget: string, required: false }
+                  - { name: material, label: "Состав этого цвета", widget: string, required: false }
+                  - { name: details, label: "Детали этого цвета", widget: list, required: false, field: { name: item, label: "Пункт", widget: string } }
+                  - { name: files, label: "Фотографии (первая — главная)", widget: image, multiple: true, min: 1, hint: "Перетаскивайте, чтобы изменить порядок. Первое фото — главное на карточке." }
+                  - { name: video, label: "Видео (MP4, по желанию)", widget: file, required: false, accept: "video/mp4,video/quicktime" }
+
+  - name: pages
+    label: Страницы и контакты
+    editor: { preview: false }
+    files:
+      - name: site
+        label: Главная, контакты, акции, отзывы
+        file: data/site.json
+        format: json
+        fields:
+          - name: contacts
+            label: Контакты
+            widget: object
+            collapsed: true
+            fields:
+              - { name: telegramOrder, label: "Telegram для заказов (ссылка)", widget: string }
+              - { name: telegramChannel, label: "Telegram-канал (ссылка)", widget: string }
+              - { name: maxLink, label: "MAX — ссылка на ваш профиль", widget: string, required: false, hint: "Скопируйте в MAX: Профиль → Поделиться. Пока пусто — на сайте кнопка MAX копирует номер телефона." }
+              - { name: vk, label: "ВКонтакте (ссылка)", widget: string }
+              - { name: whatsappPhone, label: "WhatsApp — номер цифрами", widget: string, hint: "Например: 79818510666" }
+              - { name: phoneDisplay, label: "Телефон (как показывать)", widget: string }
+              - { name: address, label: "Адрес шоурума", widget: string }
+              - { name: metro, label: "Метро", widget: string }
+              - { name: hours, label: "Режим работы", widget: string }
+              - { name: hoursNote, label: "Режим работы — примечание", widget: string, required: false }
+              - { name: directions, label: "Как нас найти", widget: text }
+              - { name: showroomVideo, label: "Видео «Как нас найти»", widget: file, required: false }
+              - { name: privacyEmail, label: "Email по персональным данным", widget: string }
+              - { name: deliveryNote, label: "Доставка (строка под кнопками товара)", widget: string }
+              - { name: paymentNote, label: "Оплата (строка в корзине)", widget: string }
+          - name: home
+            label: Главная страница
+            widget: object
+            collapsed: true
+            fields:
+              - { name: heroEyebrow, label: "Первый экран — надпись над заголовком", widget: string }
+              - { name: heroTitle, label: "Первый экран — заголовок (строка 1)", widget: string }
+              - { name: heroTitleAccent, label: "Первый экран — заголовок (строка 2, курсив)", widget: string }
+              - { name: heroText, label: "Первый экран — текст", widget: text }
+              - { name: aboutText, label: "Блок «О бренде» — текст", widget: text }
+              - { name: tallEyebrow, label: "Блок 170+ — надпись", widget: string }
+              - { name: tallTitle, label: "Блок 170+ — заголовок (строка 1)", widget: string }
+              - { name: tallTitleAccent, label: "Блок 170+ — заголовок (строка 2)", widget: string }
+              - { name: tallText, label: "Блок 170+ — текст", widget: text }
+              - { name: tallVideo, label: "Блок 170+ — видео", widget: file, required: false }
+              - { name: universalTitle, label: "Блок «На любой рост» — заголовок (строка 1)", widget: string }
+              - { name: universalTitleAccent, label: "Блок «На любой рост» — заголовок (строка 2)", widget: string }
+              - { name: universalText, label: "Блок «На любой рост» — текст", widget: text }
+              - { name: standEyebrow, label: "Блок «Стойка» — надпись", widget: string }
+              - { name: standTitle, label: "Блок «Стойка» — заголовок (строка 1)", widget: string }
+              - { name: standTitleAccent, label: "Блок «Стойка» — заголовок (строка 2)", widget: string }
+              - { name: standText, label: "Блок «Стойка» — текст", widget: text }
+              - { name: standVideo, label: "Блок «Стойка» — видео", widget: file, required: false }
+              - { name: furEyebrow, label: "Блок «Экошубы» — надпись", widget: string }
+              - { name: furTitle, label: "Блок «Экошубы» — заголовок (строка 1)", widget: string }
+              - { name: furTitleAccent, label: "Блок «Экошубы» — заголовок (строка 2)", widget: string }
+              - { name: furText, label: "Блок «Экошубы» — текст", widget: text }
+              - { name: furImage, label: "Блок «Экошубы» — фото", widget: image, required: false }
+              - { name: featured, label: "Избранные модели (адреса товаров)", widget: list, required: false, hint: "Адреса страниц товаров, например: classic, cream-icon" }
+              - { name: editorialProduct, label: "Большой блок с фото — адрес товара", widget: string, required: false }
+              - { name: editorialImage, label: "Большой блок с фото — фото", widget: image, required: false }
+              - { name: editorialTitle, label: "Большой блок — заголовок (строка 1)", widget: string }
+              - { name: editorialTitleAccent, label: "Большой блок — заголовок (строка 2)", widget: string }
+              - { name: editorialText, label: "Большой блок — текст", widget: text }
+              - { name: contactTitle, label: "Блок связи — заголовок (строка 1)", widget: string }
+              - { name: contactTitleAccent, label: "Блок связи — заголовок (строка 2)", widget: string }
+              - { name: contactText, label: "Блок связи — текст", widget: text }
+          - name: sale
+            label: Акции
+            widget: object
+            collapsed: true
+            fields:
+              - { name: intro, label: "Подзаголовок страницы", widget: string }
+              - { name: emptyText, label: "Текст, когда акций нет", widget: text }
+              - name: items
+                label: Акции
+                label_singular: акцию
+                widget: list
+                required: false
+                summary: "{{fields.title}}"
+                fields:
+                  - { name: title, label: "Заголовок", widget: string }
+                  - { name: text, label: "Описание", widget: text, required: false }
+                  - { name: image, label: "Фото", widget: image, required: false }
+                  - { name: link, label: "Ссылка (например, на товар)", widget: string, required: false }
+          - name: reviews
+            label: Отзывы
+            widget: object
+            collapsed: true
+            fields:
+              - { name: intro, label: "Подзаголовок страницы", widget: string }
+              - name: items
+                label: Отзывы
+                label_singular: отзыв
+                widget: list
+                required: false
+                summary: "{{fields.name}}"
+                hint: "Публикуйте только настоящие отзывы покупателей с их согласия."
+                fields:
+                  - { name: name, label: "Имя", widget: string }
+                  - { name: city, label: "Город", widget: string, required: false }
+                  - { name: rating, label: "Оценка (1–5)", widget: number, value_type: int, min: 1, max: 5, default: 5 }
+                  - { name: text, label: "Текст отзыва", widget: text }

@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
-
+Disallow: /admin/
+Disallow: /_audit/
 Sitemap: https://theweshalka.ru/sitemap.xml
