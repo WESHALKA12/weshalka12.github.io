@@ -10,10 +10,11 @@ const C = () => site.contacts || {};
 const H = (key, fallback = '') => (site.home && site.home[key]) || fallback;
 const waLink = () => `https://wa.me/${(C().whatsappPhone || '79818510666').replace(/\D/g, '')}`;
 const isAvailable = (color) => color?.available !== false;
+function maxPhone() {
+  return C().maxPhone || C().phoneDisplay || '';
+}
 function maxButton(className = 'contact-cta contact-cta--max', label = 'Написать в MAX') {
-  const link = C().maxLink;
-  if (link) return `<a class="${className}" href="${esc(link)}" target="_blank" rel="noopener noreferrer"><span>${esc(label)}</span><b>↗</b></a>`;
-  return `<button class="${className}" type="button" data-max-copy="${esc(C().phoneDisplay || '')}"><span>${esc(label)}</span><b>${esc(C().phoneDisplay || '')}</b></button>`;
+  return `<button class="${className}" type="button" data-max-copy="${esc(maxPhone())}"><span>${esc(label)}</span><b>${esc(maxPhone())}</b></button>`;
 }
 
 let cart = [];
@@ -95,7 +96,7 @@ function header() {
 }
 
 function footer() {
-  return `<footer class="site-footer"><div class="footer-main"><a class="brand" href="/">THE <span>|</span> WESHALKA</a><div class="footer-info"><p>Верхняя одежда<br>для выразительного образа.</p><p class="footer-address">📍 ${esc(C().address || 'Санкт-Петербург, ул. Садовая, 26Б')}<br>🕒 ${esc(C().hours || 'Ежедневно с 12:00 до 20:00')}</p></div><div class="footer-socials"><a href="${esc(C().telegramChannel || 'https://t.me/The_weshalka')}" target="_blank" rel="noopener noreferrer" class="footer-link">Telegram ↗</a>${C().maxLink ? `<a href="${esc(C().maxLink)}" target="_blank" rel="noopener noreferrer" class="footer-link">MAX ↗</a>` : `<span class="footer-link">MAX: ${esc(C().phoneDisplay || '')}</span>`}<a href="${esc(C().vk || 'https://vk.ru/club161262776')}" target="_blank" rel="noopener noreferrer" class="footer-link">ВКонтакте ↗</a><a href="${waLink()}" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp ↗</a></div></div><div class="footer-bottom"><span>© ИП Гриднева Гулафруз. THE | WESHALKA. Все права защищены.</span><div><a href="/privacy.html">Политика конфиденциальности</a><a href="/personal-data.html">Персональные данные</a><a href="/documents.html">Документы</a></div><a href="https://vertostudio.ru" target="_blank" rel="noopener noreferrer" class="footer-credit">Website by Verto Studio</a></div></footer>`;
+  return `<footer class="site-footer"><div class="footer-main"><a class="brand" href="/">THE <span>|</span> WESHALKA</a><div class="footer-info"><p>Верхняя одежда<br>для выразительного образа.</p><p class="footer-address">📍 ${esc(C().address || 'Санкт-Петербург, ул. Садовая, 26Б')}<br>🕒 ${esc(C().hours || 'Ежедневно с 12:00 до 20:00')}</p></div><div class="footer-socials"><a href="${esc(C().telegramChannel || 'https://t.me/The_weshalka')}" target="_blank" rel="noopener noreferrer" class="footer-link">Telegram ↗</a><button class="footer-link footer-link--button" type="button" data-max-copy="${esc(maxPhone())}">MAX: ${esc(maxPhone())}</button><a href="${esc(C().vk || 'https://vk.ru/club161262776')}" target="_blank" rel="noopener noreferrer" class="footer-link">ВКонтакте ↗</a><a href="${waLink()}" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp ↗</a></div></div><div class="footer-bottom"><span>© ИП Гриднева Гулафруз. THE | WESHALKA. Все права защищены.</span><div><a href="/privacy.html">Политика конфиденциальности</a><a href="/personal-data.html">Персональные данные</a><a href="/documents.html">Документы</a></div><a href="https://vertostudio.ru" target="_blank" rel="noopener noreferrer" class="footer-credit">Website by Verto Studio</a></div></footer>`;
 }
 
 function media(file, alt, loading = 'lazy', className = '') {
@@ -200,6 +201,7 @@ function shell(content, title = '') {
   app.innerHTML = `${header()}<main id="main">${content}</main>${footer()}`;
   if (title) document.title = `${title} — THE | WESHALKA`;
   bindCommon();
+  if (!$('[data-product-detail]')) bindMaxCopy(document);
   bindHeroShowcase();
   bindProductGallery();
 }
@@ -423,7 +425,7 @@ ${showroomDetails()}
 
 <div class="contact-links"><a class="contact-cta" href="${esc(C().telegramOrder || 'https://t.me/sharp_fin')}" target="_blank" rel="noopener noreferrer"><span>Написать в Telegram</span><b>↗</b></a>${maxButton()}<a class="contact-cta contact-cta--secondary" href="${waLink()}" target="_blank" rel="noopener noreferrer"><span>Написать в WhatsApp *</span><b>↗</b></a></div>
 <div class="contact-socials"><a href="${esc(C().telegramChannel || 'https://t.me/The_weshalka')}" target="_blank" rel="noopener noreferrer" class="contact-social-link">Telegram-канал ↗</a><a href="${esc(C().vk || 'https://vk.ru/club161262776')}" target="_blank" rel="noopener noreferrer" class="contact-social-link">ВКонтакте ↗</a></div>
-<p class="meta-disclaimer">* WhatsApp — продукт компании Meta Platforms Inc., признанной экстремистской организацией на территории Российской Федерации.</p></section>`, 'Контакты'); bindMaxCopy(document);
+<p class="meta-disclaimer">* WhatsApp — продукт компании Meta Platforms Inc., признанной экстремистской организацией на территории Российской Федерации.</p></section>`, 'Контакты');
 }
 
 function documentsPage() {
@@ -478,13 +480,25 @@ function showroomDetails() {
 <div class="showroom-detail"><strong>🕒 Режим работы</strong><p>${esc(c.hours || '')}<br>${esc(c.hoursNote || '')}</p></div>
 <div class="showroom-detail"><strong>🚶 Как нас найти</strong><p>${esc(c.directions || '')}</p></div>`;
 }
+function copyText(text) {
+  const area = document.createElement('textarea');
+  area.value = text;
+  area.setAttribute('readonly', '');
+  area.style.position = 'fixed';
+  area.style.opacity = '0';
+  document.body.appendChild(area);
+  area.select();
+  try { document.execCommand('copy'); } catch {}
+  area.remove();
+  if (navigator.clipboard?.writeText) navigator.clipboard.writeText(text).catch(() => {});
+}
 function bindMaxCopy(root = document, message = '') {
   root.querySelectorAll('[data-max-copy]').forEach((button) => button.addEventListener('click', async () => {
     const phone = button.dataset.maxCopy;
-    try { await navigator.clipboard.writeText(message ? `${phone}
-${message}` : phone); } catch {}
+    copyText(message ? `${phone}
+${message}` : phone);
     const label = button.querySelector('span');
-    if (label) label.textContent = 'Номер скопирован — найдите нас в MAX по номеру';
+    if (label) label.textContent = message ? 'Номер и заказ скопированы — вставьте в MAX' : 'Номер скопирован — найдите нас в MAX по номеру';
   }));
 }
 
