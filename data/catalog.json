@@ -1055,8 +1055,12 @@
           "available": true,
           "price": "16 990 ₽",
           "oldPrice": "",
-          "sizes": [],
-          "length": "",
+          "sizes": [
+            "S",
+            "M",
+            "L"
+          ],
+          "length": "130 см",
           "material": "",
           "details": [],
           "files": [
