@@ -1881,10 +1881,10 @@
     {
       "hidden": false,
       "id": "fur-ostrich",
-      "name": "ЭКОШУБА ПОД СТРАУСА",
+      "name": "BLACK STRAUS",
       "title": "Зимняя Экошуба под страуса утепленная",
-      "subtitle": "",
-      "badge": "",
+      "subtitle": "Экошуба «Страус» — тот самый must-have сезона 🖤 Короткая чёрная модель с эффектной фактурой, которая притягивает взгляды. Яркий акцент, который мгновенно делает образ дорогим и стильным.",
+      "badge": "СКИДКА",
       "groups": [
         "fur"
       ],
@@ -1894,16 +1894,15 @@
       "winter": true,
       "season": "Зимняя, до −20 °C",
       "price": "12 990 ₽",
-      "oldPrice": "",
-      "material": "",
+      "oldPrice": "17990",
+      "material": "шерсть 70% и 30% полиамид. Утеплитель Termoffin",
       "length": "60 см",
       "sizes": [
-        "40-42",
         "42-44",
         "44-46",
         "46-48"
       ],
-      "description": "Та самая нашумевшая шуба, которую выбирают звёзды. Стильная, невероятно мягкая и пушистая — в укороченной длине 60 см. Внутри — финский утеплитель Termoffin: тепло и комфорт до −20°C под тёплую одежду.",
+      "description": "Экошуба «Страус» — эффектная модель для ярких образов 🖤\n\nЧёрная короткая экошуба с выразительной фактурой — настоящий fashion-акцент сезона. Стильный силуэт, роскошный внешний вид и та самая фактура, которая сразу притягивает внимание.\n\nХарактеристики:\n• Цвет: чёрный\n• Размеры: 42–44 / 44–46 / 46–48\n• Утеплитель: финский Termoffin\n• Температурный режим: до −20°C с тёплым слоем одежды\n\nСтильная, тёплая и заметная — экошуба «Страус» создана для тех, кто хочет выглядеть эффектно в любую зимнюю погоду.",
       "details": [
         "Укороченная длина 60 см",
         "Финский утеплитель Termoffin",
@@ -1912,9 +1911,17 @@
         "Актуальная модель 2026–2027"
       ],
       "tags": [
-        "Зима",
-        "Termoffin",
-        "до −20 °C"
+        "Зимняя Экошуба",
+        "Экошуба под страуса",
+        "экошуба женская",
+        "экошуба лама",
+        "экошуба купить",
+        "эко шуба женская",
+        "купить эко шубу",
+        "экошуба -20 С",
+        "Экошуба СПб",
+        "короткая экошуба",
+        "Черная короткая экошуба"
       ],
       "colors": [
         {
@@ -1930,35 +1937,13 @@
           "material": "",
           "details": [],
           "files": [
-            "/assets/images/catalog/winter/fur-coats/fur-ostrich/black/fur-ostrich-black-01.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-ostrich/black/fur-ostrich-black-02.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-ostrich/black/fur-ostrich-black-03.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-ostrich/black/fur-ostrich-black-04.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-ostrich/black/fur-ostrich-black-05.jpg"
+            "/assets/images/IMG_20260925_181636 (1).jpg",
+            "/assets/images/IMG_20260925_181636.jpg",
+            "/assets/images/IMG_20260925_181634.jpg",
+            "/assets/images/IMG_20260925_181635.jpg",
+            "/assets/images/IMG_20260925_181633.jpg"
           ],
-          "video": ""
-        },
-        {
-          "id": "white",
-          "label": "Белый",
-          "name": "СТРАУС БЕЛЫЙ",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/winter/fur-coats/fur-ostrich/white/fur-ostrich-white-01.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-ostrich/white/fur-ostrich-white-02.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-ostrich/white/fur-ostrich-white-03.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-ostrich/white/fur-ostrich-white-04.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-ostrich/white/fur-ostrich-white-05.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-ostrich/white/fur-ostrich-white-06.jpg"
-          ],
-          "video": ""
+          "video": "/assets/images/VID_20260928_193854.mp4"
         }
       ],
       "tall": false
