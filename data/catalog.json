@@ -48,7 +48,7 @@
           "id": "brown",
           "label": "Коричневый",
           "name": "ÉLAN MINK",
-          "title": "Шуба из экомеха в коричневом цвете",
+          "title": "Шуба из экомеха под норку",
           "available": true,
           "price": "16 990",
           "oldPrice": "",
@@ -74,7 +74,7 @@
           "id": "coal",
           "label": "уголь",
           "name": "ÉLAN MINK",
-          "title": "Шуба из экомеха в цвете уголь",
+          "title": "Шуба из экомеха под норку",
           "available": true,
           "price": "16.990",
           "oldPrice": "",
@@ -89,10 +89,10 @@
           "details": [],
           "files": [
             "/assets/images/IMG_20260925_180641.jpg",
-            "/assets/images/IMG_20260925_180643.jpg",
-            "/assets/images/IMG_20260925_180644.jpg",
             "/assets/images/IMG_20260925_180642 (1).jpg",
-            "/assets/images/IMG_20260925_180642.jpg"
+            "/assets/images/IMG_20260925_180642.jpg",
+            "/assets/images/IMG_20260925_180644.jpg",
+            "/assets/images/IMG_20260925_180643.jpg"
           ],
           "video": "/assets/images/VID_20260929_180756.mp4"
         }
