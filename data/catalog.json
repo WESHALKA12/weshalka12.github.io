@@ -48,13 +48,18 @@
           "id": "brown",
           "label": "Коричневый",
           "name": "ÉLAN MINK",
-          "title": "",
+          "title": "Шуба из экомеха в коричневом цвете",
           "available": true,
-          "price": "",
+          "price": "16 990",
           "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "length": "130 см",
+          "material": "100% полиэфирное волокно",
           "details": [],
           "files": [
             "/assets/images/IMG_20260925_180636 (1).jpg",
@@ -64,6 +69,32 @@
             "/assets/images/IMG_20260925_180639.jpg"
           ],
           "video": "/assets/images/VID_20260929_180803.mp4"
+        },
+        {
+          "id": "coal",
+          "label": "уголь",
+          "name": "ÉLAN MINK",
+          "title": "Шуба из экомеха в цвете уголь",
+          "available": true,
+          "price": "16.990",
+          "oldPrice": "",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "length": "130 см",
+          "material": "100% полиэфирное волокно",
+          "details": [],
+          "files": [
+            "/assets/images/IMG_20260925_180641.jpg",
+            "/assets/images/IMG_20260925_180643.jpg",
+            "/assets/images/IMG_20260925_180644.jpg",
+            "/assets/images/IMG_20260925_180642 (1).jpg",
+            "/assets/images/IMG_20260925_180642.jpg"
+          ],
+          "video": "/assets/images/VID_20260929_180756.mp4"
         }
       ]
     },
