@@ -429,28 +429,36 @@ ${showroomDetails()}
 }
 
 function documentsPage() {
-  shell(`<section class="page-hero"><p class="eyebrow">THE | WESHALKA</p><h1>Документы</h1><p>Правовая информация и документы ИП Гриднева Гулафруз.</p></section>
+  shell(`<section class="page-hero"><p class="eyebrow">THE | WESHALKA</p><h1>Документы</h1><p>Актуальные условия заказа, доставки, оплаты, возврата и обработки персональных данных.</p></section>
 <section class="documents-page section">
 <div class="documents-grid">
-<a class="document-card" href="/docs/politika-konfidencialnosti.pdf" target="_blank" rel="noopener noreferrer">
+<a class="document-card" href="/privacy.html">
 <span class="doc-icon">📄</span>
 <div><strong>Политика конфиденциальности</strong><p>Порядок обработки и защиты персональных данных</p></div>
 </a>
-<a class="document-card" href="/docs/soglasie-na-obrabotku-pd.pdf" target="_blank" rel="noopener noreferrer">
+<a class="document-card" href="/offer.html">
+<span class="doc-icon">📄</span>
+<div><strong>Оферта</strong><p>Условия заключения договора купли-продажи товаров</p></div>
+</a>
+<a class="document-card" href="/delivery.html">
+<span class="doc-icon">📄</span>
+<div><strong>Доставка заказа</strong><p>Способы и условия доставки по России</p></div>
+</a>
+<a class="document-card" href="/payment.html">
+<span class="doc-icon">📄</span>
+<div><strong>Способы оплаты</strong><p>Оплата банковской картой, через СБП и по счёту</p></div>
+</a>
+<a class="document-card" href="/returns.html">
+<span class="doc-icon">📄</span>
+<div><strong>Обмен и возврат</strong><p>Условия возврата товара и денежных средств</p></div>
+</a>
+<a class="document-card" href="/personal-data.html">
 <span class="doc-icon">📄</span>
 <div><strong>Согласие на обработку персональных данных</strong><p>Форма согласия пользователя сайта</p></div>
 </a>
-<a class="document-card" href="/docs/instrukcia-otvetstvennogo-lica.pdf" target="_blank" rel="noopener noreferrer">
-<span class="doc-icon">📄</span>
-<div><strong>Инструкция ответственного лица</strong><p>Инструкция ответственного за обработку персональных данных</p></div>
-</a>
-<a class="document-card" href="/docs/prikaz-o-naznachenii-otvetstvennogo.pdf" target="_blank" rel="noopener noreferrer">
-<span class="doc-icon">📄</span>
-<div><strong>Приказ о назначении ответственного лица</strong><p>О назначении лица, ответственного за организацию обработки персональных данных</p></div>
-</a>
 </div>
 <div class="documents-note">
-<p>Все документы доступны для ознакомления и скачивания в формате PDF.</p>
+<p>Все документы доступны для ознакомления на сайте.</p>
 <p>По вопросам обработки персональных данных обращайтесь: <strong>${esc(C().privacyEmail || 'gridnevagulya@gmail.com')}</strong></p>
 </div>
 </section>`, 'Документы');
