@@ -3136,29 +3136,6 @@
             "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-05.jpg"
           ],
           "video": "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-video.mp4"
-        },
-        {
-          "id": "black",
-          "label": "Чёрный",
-          "name": "ЧЁРНЫЙ ПОД ПЕСЦА",
-          "title": "",
-          "available": true,
-          "price": "5 990 ₽",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-01.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-02.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-03.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-04.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-05.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-06.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-07.jpg"
-          ],
-          "video": "/assets/images/catalog/winter/fur-coats/fur-arctic-short/black/fur-arctic-short-black-video.mp4"
         }
       ],
       "tall": false
