@@ -657,7 +657,7 @@
             "/assets/images/IMG_20261017_173905.jpg",
             "/assets/images/IMG_20261017_173904.jpg"
           ],
-          "video": ""
+          "video": "/assets/images/VID_20261018_221151.mp4"
         },
         {
           "id": "chokolate",
@@ -679,12 +679,12 @@
             "/assets/images/IMG_20261017_173916.jpg",
             "/assets/images/IMG_20261017_173915.jpg"
           ],
-          "video": ""
+          "video": "/assets/images/VID_20261018_221136.mp4"
         },
         {
           "id": "mokko",
           "label": "Мокко",
-          "name": "Мокко Элеганс",
+          "name": "Мокко Селект",
           "title": "Благородный оттенок мокко, нежная пушистая фактура и современный поперечный дизайн для безупречного городского стиля.",
           "available": true,
           "price": "",
@@ -700,7 +700,7 @@
             "/assets/images/IMG_20261017_173919.jpg",
             "/assets/images/IMG_20261017_173920.jpg"
           ],
-          "video": ""
+          "video": "/assets/images/VID_20261018_221145.mp4"
         }
       ]
     },
