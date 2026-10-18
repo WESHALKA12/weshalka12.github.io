@@ -2730,7 +2730,7 @@
       "season": "Зимняя, до −20 °C",
       "price": "9 990 ₽",
       "oldPrice": "",
-      "material": "Искусственный мех, утеплитель синтепон",
+      "material": "",
       "length": "60 см",
       "sizes": [
         "42",
@@ -2738,10 +2738,11 @@
         "46",
         "48"
       ],
-      "description": "Женская экошуба длиной 60 см — стиль и комфорт в холодный сезон\n\nЭффектная женская шуба из искусственного меха с выразительной фактурой. Пушистый материал придаёт образу объём и привлекательность, а укороченная длина 60 см делает модель актуальной для современных повседневных и стильных городских образов.\n\nВнутренний утеплитель из синтепона помогает сохранять тепло и делает экошубу комфортным вариантом для холодного времени года. Заявленный температурный режим — до −20 °C; фактический комфорт зависит от погоды, ветра и одежды под шубой.\n\nПреимущества модели:\n\n* Выразительная фактура искусственного меха — эффектный внешний вид и мягкая текстура.\n* Длина 60 см — удобный укороченный формат для повседневных образов.\n* Утеплитель из синтепона — дополнительный слой для сохранения тепла.\n* Универсальный стиль — экошубу можно сочетать с джинсами, брюками, юбками, платьями и зимней обувью.\n* Разные цвета — модель представлена в оттенках: под лису, бежевый и чёрный.\n\nЖенская экошуба из искусственного меха станет выразительным акцентом зимнего гардероба. Модель подойдёт тем, кто ищет короткую тёплую экошубу, стильную альтернативу натуральному",
+      "description": "Актуальная модель 2026–2027. Шубка под песца в укороченной длине — сегодня это универсально, стильно, удобно. Надев её, вы сразу соберёте свой образ. Воротник английский, можно застегнуть полностью. Мех мягкий, тёплый, комфортный в носке, утеплитель внутри по всей шубе.",
       "details": [
         "Укороченная длина 60 см",
         "Утеплитель по всей шубе, до −20 °C",
+        "Воротник английский",
         "Мягкий тёплый мех под песца",
         "Актуальная модель 2026–2027"
       ],
@@ -2754,31 +2755,24 @@
         {
           "id": "grey",
           "label": "Серый",
-          "name": "FOX GLOW",
-          "title": "Выразительный окрас под натуральную лису — эффектное сочетание оттенков и роскошной пушистой фактуры искусственного меха. Экошуба с реалистичной имитацией лисьего меха для стильных и запоминающихся образов сезона 2026–2027",
+          "name": "СЕРЫЙ ПОД ПЕСЦА",
+          "title": "",
           "available": true,
-          "price": "9990",
+          "price": "",
           "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
+          "sizes": [],
           "length": "",
-          "material": "Искусственный мех, утеплитель синтепон внутри",
+          "material": "",
           "details": [],
           "files": [
-            "/assets/images/IMG_20261016_160944.jpg",
-            "/assets/images/IMG_20261016_160948.jpg",
-            "/assets/images/IMG_20261016_160947.jpg",
-            "/assets/images/IMG_20261016_160946.jpg",
-            "/assets/images/IMG_20261016_160945 (1).jpg",
-            "/assets/images/IMG_20261016_160945.jpg",
-            "/assets/images/IMG_20261016_160944.jpg",
-            "/assets/images/IMG_20261016_160943.jpg"
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/grey/fur-arctic-utepl-grey-01.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/grey/fur-arctic-utepl-grey-02.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/grey/fur-arctic-utepl-grey-03.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/grey/fur-arctic-utepl-grey-04.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/grey/fur-arctic-utepl-grey-05.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/grey/fur-arctic-utepl-grey-06.jpg"
           ],
-          "video": "/assets/images/VID_20261016_161747.mp4"
+          "video": ""
         },
         {
           "id": "beige",
@@ -2801,33 +2795,6 @@
             "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-06.jpg"
           ],
           "video": ""
-        },
-        {
-          "id": "black",
-          "label": "Черный",
-          "name": "BLACK FURS",
-          "title": "Глубокий чёрный цвет и выразительная фактура меха для эффектных и стильных зимних образов.",
-          "available": true,
-          "price": "9990",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "60",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261018_155630.jpg",
-            "/assets/images/IMG_20261018_155629.jpg",
-            "/assets/images/IMG_20261018_155628 (1).jpg",
-            "/assets/images/IMG_20261018_155628.jpg",
-            "/assets/images/IMG_20261018_155627.jpg",
-            "/assets/images/IMG_20261018_155630 (1).jpg"
-          ],
-          "video": "/assets/images/VID_20260919_223157.mp4"
         }
       ],
       "tall": false
@@ -2981,33 +2948,6 @@
             "/assets/images/IMG_20261018_155414.jpg"
           ],
           "video": ""
-        },
-        {
-          "id": "black",
-          "label": "Черный",
-          "name": "BLACK FURS",
-          "title": "Глубокий чёрный цвет и выразительная фактура меха для эффектных и стильных зимних образов.",
-          "available": true,
-          "price": "9990",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261018_155630.jpg",
-            "/assets/images/IMG_20261018_155629.jpg",
-            "/assets/images/IMG_20261018_155628 (1).jpg",
-            "/assets/images/IMG_20261018_155628.jpg",
-            "/assets/images/IMG_20261018_155627.jpg",
-            "/assets/images/IMG_20261018_155630 (1).jpg"
-          ],
-          "video": "/assets/images/VID_20260919_223157.mp4"
         }
       ],
       "tall": false
