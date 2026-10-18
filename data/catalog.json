@@ -490,7 +490,7 @@
       "category": "Экошуба",
       "collection": "Экошубы",
       "silhouette": "Прямой крой",
-      "winter": false,
+      "winter": true,
       "season": "Зимнее",
       "price": "16.990",
       "oldPrice": "",
