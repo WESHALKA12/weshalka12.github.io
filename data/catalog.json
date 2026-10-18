@@ -2820,10 +2820,10 @@
       "silhouette": "Прямой силуэт",
       "winter": true,
       "season": "Зимняя, до −20 °C",
-      "price": "13990",
+      "price": "13.990 ₽",
       "oldPrice": "",
       "material": "шерсть 70% и 30% полиамид. Финский утеплитель Termoffin",
-      "length": "75",
+      "length": "75 см",
       "sizes": [
         "40-42",
         "42-44",
@@ -2880,7 +2880,7 @@
             "/assets/images/IMG_20261017_170001.jpg",
             "/assets/images/IMG_20261017_170000.jpg"
           ],
-          "video": ""
+          "video": "/assets/images/VID_20261018_221147.mp4"
         }
       ],
       "tall": false
