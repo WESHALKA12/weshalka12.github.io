@@ -2438,30 +2438,6 @@
       ],
       "colors": [
         {
-          "id": "brown",
-          "label": "Коричневый",
-          "name": "AURA MAXI — BROWN",
-          "title": "Коричневое пальто-одеяло oversize из премиальной шерсти 70%",
-          "available": true,
-          "price": "16 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "S",
-            "M",
-            "L"
-          ],
-          "length": "130 см",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/brown/oversize-icon-brown-01.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/brown/oversize-icon-brown-02.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/brown/oversize-icon-brown-03.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/brown/oversize-icon-brown-04-detail.jpg"
-          ],
-          "video": "/assets/images/catalog/demi-season/stand-collar/oversize-icon/brown/oversize-icon-brown-video.mp4"
-        },
-        {
           "id": "black",
           "label": "Чёрный",
           "name": "AURA MAXI — BLACK",
@@ -2469,7 +2445,9 @@
           "available": true,
           "price": "16 990 ₽",
           "oldPrice": "",
-          "sizes": [],
+          "sizes": [
+            "L"
+          ],
           "length": "",
           "material": "",
           "details": [],
@@ -2492,7 +2470,9 @@
           "available": true,
           "price": "16 990 ₽",
           "oldPrice": "",
-          "sizes": [],
+          "sizes": [
+            "L"
+          ],
           "length": "",
           "material": "",
           "details": [],
@@ -2516,7 +2496,6 @@
           "price": "",
           "oldPrice": "",
           "sizes": [
-            "S",
             "M",
             "L"
           ],
