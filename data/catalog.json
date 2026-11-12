@@ -3104,30 +3104,6 @@
       ],
       "colors": [
         {
-          "id": "milk",
-          "label": "Молочный",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "7 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42"
-          ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-01.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-02.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-03.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-04-detail.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-05-detail.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-06-back.jpg"
-          ],
-          "video": "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/milk/tweed-blazer-milk-video.mp4"
-        },
-        {
           "id": "grey",
           "label": "Серый",
           "name": "",
@@ -3212,69 +3188,6 @@
             "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-04.jpg",
             "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-05-back.jpg",
             "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-06-back.jpg"
-          ],
-          "video": ""
-        }
-      ],
-      "tall": false
-    },
-    {
-      "hidden": false,
-      "id": "blazer-2026",
-      "name": "ПАЛЬТО-ПИДЖАК 2026–2027",
-      "title": "Пальто-пиджак Весна–Осень 2026–2027",
-      "subtitle": "",
-      "badge": "",
-      "groups": [
-        "blazer"
-      ],
-      "category": "Пальто-пиджак",
-      "collection": "Пальто-пиджаки",
-      "silhouette": "Классический силуэт",
-      "winter": false,
-      "season": "Весна–осень",
-      "price": "",
-      "oldPrice": "",
-      "material": "70% шерсть / 30% полиамид",
-      "length": "75 см",
-      "sizes": [
-        "42",
-        "44",
-        "46",
-        "48"
-      ],
-      "description": "Пальто-пиджак в классическом крое из пальтовой плотной ткани Премиум Ворс — идеальная база для весенних образов. Подойдёт под любой гардероб или обувь. Цвета модели: чёрный, графит (серый); фотографии и цена графитового варианта будут добавлены после подтверждения.",
-      "details": [
-        "Классический крой",
-        "Плотная ткань Премиум Ворс",
-        "Задняя шлица",
-        "Втачной рукав"
-      ],
-      "tags": [
-        "Пальто-пиджак",
-        "Премиум ворс",
-        "Весна–осень"
-      ],
-      "colors": [
-        {
-          "id": "black",
-          "label": "Чёрный",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "8 990 ₽",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/demi-season/coat-jackets/blazer-2026/black/blazer-2026-black-01.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/blazer-2026/black/blazer-2026-black-02.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/blazer-2026/black/blazer-2026-black-03.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/blazer-2026/black/blazer-2026-black-04-detail.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/blazer-2026/black/blazer-2026-black-05.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/blazer-2026/black/blazer-2026-black-06-back.jpg"
           ],
           "video": ""
         }
