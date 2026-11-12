@@ -1237,6 +1237,27 @@
             "/assets/images/IMG_20261017_173920.jpg"
           ],
           "video": "/assets/images/VID_20261018_221145.mp4"
+        },
+        {
+          "id": "brown",
+          "label": "насыщенный коричневый",
+          "name": "",
+          "title": "",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "sizes": [],
+          "length": "",
+          "material": "",
+          "details": [],
+          "files": [
+            "/assets/images/IMG_20261112_142300.jpg",
+            "/assets/images/IMG_20261112_142259.jpg",
+            "/assets/images/IMG_20261112_142258 (1).jpg",
+            "/assets/images/IMG_20261112_142258.jpg",
+            "/assets/images/IMG_20261112_142257.jpg"
+          ],
+          "video": "/assets/images/VID_20261112_210832.mp4"
         }
       ]
     },
