@@ -3524,36 +3524,6 @@
       ],
       "colors": [
         {
-          "id": "brown",
-          "label": "Коричневый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "14 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42-44"
-          ],
-          "length": "",
-          "material": "",
-          "details": [
-            "Прямой крой с плечами, в стиле пиджака",
-            "Плотная кашемировая ткань, не скатывается",
-            "Задняя шлица",
-            "Финский утеплитель Termoffin, до −20 °C"
-          ],
-          "files": [
-            "/assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-01.jpg",
-            "/assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-02.jpg",
-            "/assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-03.jpg",
-            "/assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-04-detail.jpg",
-            "/assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-05-detail.jpg",
-            "/assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-06.jpg",
-            "/assets/images/catalog/winter/straight/winter-straight-20/brown/winter-straight-20-brown-07-back.jpg"
-          ],
-          "video": ""
-        },
-        {
           "id": "black",
           "label": "Чёрный",
           "name": "",
@@ -3562,7 +3532,6 @@
           "price": "14 990 ₽",
           "oldPrice": "",
           "sizes": [
-            "46",
             "48"
           ],
           "length": "",
