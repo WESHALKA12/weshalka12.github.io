@@ -620,14 +620,7 @@
           "length": "",
           "material": "",
           "details": [],
-          "files": [
-            "/assets/images/IMG_20261112_132232.jpg",
-            "/assets/images/IMG_20261112_132232 (1).jpg",
-            "/assets/images/IMG_20261112_132233.jpg",
-            "/assets/images/IMG_20261112_132231.jpg",
-            "/assets/images/IMG_20261112_132230.jpg"
-          ],
-          "video": "/assets/images/VID_20261112_210901.mp4"
+          "files": []
         },
         {
           "id": "milk",
@@ -641,15 +634,7 @@
           "length": "",
           "material": "",
           "details": [],
-          "files": [
-            "/assets/images/IMG_20261112_131303.jpg",
-            "/assets/images/IMG_20261112_131259.jpg",
-            "/assets/images/IMG_20261112_131255 (1).jpg",
-            "/assets/images/IMG_20261112_131255.jpg",
-            "/assets/images/IMG_20261112_131254.jpg",
-            "/assets/images/IMG_20261112_131252.jpg"
-          ],
-          "video": "/assets/images/VID_20261112_210904.mp4"
+          "files": []
         }
       ]
     },
@@ -727,13 +712,13 @@
           "material": "",
           "details": [],
           "files": [
-            "/assets/images/IMG_20261112_133631 (1).jpg",
-            "/assets/images/IMG_20261112_133630.jpg",
-            "/assets/images/IMG_20261112_133631.jpg",
-            "/assets/images/IMG_20261112_133632 (1).jpg",
-            "/assets/images/IMG_20261112_133632.jpg"
-          ],
-          "video": "/assets/images/VID_20261112_214003.mp4"
+            "/assets/images/IMG_20261018_155630.jpg",
+            "/assets/images/IMG_20261018_155629.jpg",
+            "/assets/images/IMG_20261018_155628 (1).jpg",
+            "/assets/images/IMG_20261018_155628.jpg",
+            "/assets/images/IMG_20261018_155627.jpg",
+            "/assets/images/IMG_20261018_155630 (1).jpg"
+          ]
         },
         {
           "id": "brown",
@@ -754,9 +739,7 @@
           "details": [],
           "files": [
             "/assets/images/IMG_20261018_155412.jpg",
-            "/assets/images/IMG_20261112_210923.jpg",
             "/assets/images/IMG_20261018_155415 (1).jpg",
-            "/assets/images/IMG_20261112_210921 (1).jpg",
             "/assets/images/IMG_20261018_155413 (1).jpg",
             "/assets/images/IMG_20261018_155411.jpg"
           ],
@@ -1099,14 +1082,7 @@
           "length": "",
           "material": "",
           "details": [],
-          "files": [
-            "/assets/images/IMG_20261112_211120.jpg",
-            "/assets/images/IMG_20261112_211126 (1).jpg",
-            "/assets/images/IMG_20261112_211126.jpg",
-            "/assets/images/IMG_20261112_211119.jpg",
-            "/assets/images/IMG_20261112_211118.jpg"
-          ],
-          "video": "/assets/images/VID_20261112_213751.mp4"
+          "files": []
         }
       ]
     },
@@ -3358,14 +3334,7 @@
           "length": "",
           "material": "",
           "details": [],
-          "files": [
-            "/assets/images/IMG_20261112_140512 (1).jpg",
-            "/assets/images/IMG_20261112_140513 (1).jpg",
-            "/assets/images/IMG_20261112_140512.jpg",
-            "/assets/images/IMG_20261112_140513.jpg",
-            "/assets/images/IMG_20261112_140514.jpg"
-          ],
-          "video": "/assets/images/VID_20261112_210914.mp4"
+          "files": []
         },
         {
           "id": "brown",
@@ -3379,14 +3348,7 @@
           "length": "",
           "material": "",
           "details": [],
-          "files": [
-            "/assets/images/IMG_20261112_140504.jpg",
-            "/assets/images/IMG_20261112_140507 (1).jpg",
-            "/assets/images/IMG_20261112_140507.jpg",
-            "/assets/images/IMG_20261112_140505.jpg",
-            "/assets/images/IMG_20261112_140506.jpg"
-          ],
-          "video": "/assets/images/VID_20261112_210910.mp4"
+          "files": []
         }
       ],
       "tall": false

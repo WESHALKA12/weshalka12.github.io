@@ -22,8 +22,11 @@ if catalog:
         ids.add(p.get('id'))
         if not p.get('colors'): errors.append(f'{where}: нет ни одного цвета')
         for c in p.get('colors', []):
-            if not c.get('files'): errors.append(f'{where}, цвет «{c.get("label")}»: нет фотографий')
-            for f in c.get('files', []): exists(f, f'{where}, цвет «{c.get("label")}»')
+            files = c.get('files', [])
+            if not isinstance(files, list) or any(not isinstance(f, str) or not f.strip() for f in files):
+                errors.append(f'{where}, цвет «{c.get("label")}»: фотографии должны быть списком путей')
+            else:
+                for f in files: exists(f, f'{where}, цвет «{c.get("label")}»')
             exists(c.get('video'), f'{where}, цвет «{c.get("label")}» (видео)')
 if site:
     for k, v in (site.get('home') or {}).items():

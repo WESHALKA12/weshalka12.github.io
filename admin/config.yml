@@ -1,5 +1,4 @@
-# Админ-панель THE | WESHALKA (Sveltia CMS). Изменения сохраняются коммитом в GitHub,
-# GitHub Pages публикует сайт автоматически примерно через 1–2 минуты.
+# Изменения сохраняются в GitHub. GitHub Pages публикует сайт после сборки.
 backend:
   name: github
   repo: WESHALKA12/weshalka12.github.io
@@ -11,6 +10,7 @@ backend:
     uploadMedia: "Админка: загружен файл {{path}}"
     deleteMedia: "Админка: удалён файл {{path}}"
 
+app_title: THE | WESHALKA — управление сайтом
 site_url: https://theweshalka.ru
 display_url: https://theweshalka.ru
 logo_url: /favicon.svg
@@ -21,7 +21,7 @@ collections:
   - name: catalog
     label: Каталог
     label_singular: Каталог
-    description: Все товары сайта. Порядок в списке = порядок на сайте. Перетаскивайте карточки, чтобы изменить порядок.
+    description: "Откройте «Товары», затем нужную модель и цвет. Добавьте фото и нажмите «Сохранить». После публикации обновите карточку модели на сайте."
     editor: { preview: false }
     files:
       - name: products
@@ -35,8 +35,62 @@ collections:
             widget: list
             collapsed: true
             add_to_top: true
-            summary: "{{fields.name}} — {{fields.title}}"
+            summary: "{{fields.name}}"
             fields:
+              - name: colors
+                label: Цвета и фото
+                label_singular: цвет
+                widget: list
+                collapsed: true
+                min: 1
+                summary: "{{fields.label}}"
+                hint: "Раскройте цвет для загрузки фотографий. Первое фото в списке будет обложкой."
+                fields:
+                  - name: files
+                    label: Фотографии модели
+                    widget: image
+                    multiple: true
+                    required: false
+                    choose_url: false
+                    accept: "image/jpeg,image/png,image/webp,image/heic,image/heif"
+                    hint: "Выберите фото с телефона или компьютера. Они автоматически оптимизируются для быстрой загрузки на сайт. Первое фото — главное."
+                  - name: id
+                    label: Цвет кружка (палитра на сайте)
+                    widget: select
+                    options:
+                      - { label: "Чёрный", value: "black" }
+                      - { label: "Уголь / Тёмно-серый", value: "ugol" }
+                      - { label: "Графит", value: "graphite" }
+                      - { label: "Серый", value: "grey" }
+                      - { label: "Коричневый", value: "brown" }
+                      - { label: "Шоколадный", value: "chocolate" }
+                      - { label: "Мокко", value: "mokko" }
+                      - { label: "Бордовый / Винный", value: "burgundy" }
+                      - { label: "Кэмл / Рыжеватый", value: "camel" }
+                      - { label: "Бежевый", value: "beige" }
+                      - { label: "Нюд", value: "nude" }
+                      - { label: "Кремовый", value: "cream" }
+                      - { label: "Молочный", value: "milk" }
+                      - { label: "Айвори", value: "ivory" }
+                      - { label: "Белый", value: "white" }
+                      - { label: "Жемчужно-белый", value: "pearlwhite" }
+                      - { label: "Пудровый мокко", value: "powdermocha" }
+                      - { label: "chokolate (старый код)", value: "chokolate" }
+                      - { label: "bordeaux (старый код)", value: "bordeaux" }
+                      - { label: "coal (старый код)", value: "coal" }
+                      - { label: "beage (старый код)", value: "beage" }
+                    hint: "Выберите цвет переключателя (кружка) на карточке товара."
+                  - { name: label, label: "Название цвета", widget: string, hint: "Например: «Шоколадный песец», «Серый», «Молочный»" }
+                  - { name: available, label: "В наличии", widget: boolean, default: true, hint: "Включено — можно заказать. Выключено — на сайте отображается «Нет в наличии»." }
+                  - { name: price, label: "Цена этого цвета", widget: string, required: false, hint: "Например: 14 990 ₽. Если оставить пустым — берётся общая цена модели." }
+                  - { name: oldPrice, label: "Старая цена этого цвета (зачёркнутая)", widget: string, required: false }
+                  - { name: length, label: "Длина этого цвета", widget: string, required: false, hint: "Например: 60 см или 125 см (передаётся клиенту в заявку в Telegram)." }
+                  - { name: sizes, label: "Размеры этого цвета", widget: list, required: false, hint: "Например: 42, 44, 46, 48" }
+                  - { name: video, label: "Видео (MP4, до 15 МБ, по желанию)", widget: file, required: false, accept: "video/mp4,video/quicktime", hint: "Короткое видео до 10–15 секунд (до 15 МБ). Воспроизводится прямо в галерее товара." }
+                  - { name: name, label: "Особое название в этом цвете (по желанию)", widget: string, required: false, hint: "Если отличается от общего, например BURGUNDY ICON" }
+                  - { name: title, label: "Подзаголовок для этого цвета", widget: string, required: false }
+                  - { name: material, label: "Состав ткани для этого цвета", widget: string, required: false }
+                  - { name: details, label: "Особенности этого цвета (список)", widget: list, required: false, field: { name: item, label: "Пункт", widget: string } }
               - { name: hidden, label: "Скрыть с сайта", widget: boolean, default: false, required: false, hint: "Включите, чтобы временно убрать товар с сайта, не удаляя его." }
               - { name: id, label: "Адрес страницы (латиницей, без пробелов)", widget: string, pattern: ['^[a-z0-9-]+$', 'Только маленькие латинские буквы, цифры и дефис'], hint: "Например: classic-grey. Не меняйте у существующих товаров — сломаются ссылки." }
               - { name: name, label: "Название (крупно)", widget: string, hint: "Например: CREAM ICON" }
@@ -88,28 +142,6 @@ collections:
               - { name: description, label: "Описание", widget: text, required: false }
               - { name: details, label: "Детали (список)", widget: list, required: false, field: { name: item, label: "Пункт", widget: string } }
               - { name: tags, label: "Теги / ключевые слова", widget: list, required: false }
-              - name: colors
-                label: Цвета
-                label_singular: цвет
-                widget: list
-                collapsed: true
-                min: 1
-                summary: "{{fields.label}}{{fields.name}}"
-                hint: "Одна модель в нескольких цветах = одна карточка с переключателем. Первый цвет показывается по умолчанию."
-                fields:
-                  - { name: id, label: "Код цвета (латиницей)", widget: string, pattern: ['^[a-z0-9-]+$', 'Только латиница, цифры и дефис'], hint: "black, burgundy, brown, chocolate, graphite, grey, nude, beige, cream, milk, white — от кода зависит цвет кружка" }
-                  - { name: label, label: "Название цвета", widget: string, hint: "Например: Бордовый" }
-                  - { name: name, label: "Название модели в этом цвете", widget: string, required: false, hint: "Если отличается от общего, например BURGUNDY ICON" }
-                  - { name: title, label: "Подзаголовок для этого цвета", widget: string, required: false }
-                  - { name: available, label: "В наличии", widget: boolean, default: true }
-                  - { name: price, label: "Цена этого цвета", widget: string, required: false, hint: "Пусто — берётся общая цена" }
-                  - { name: oldPrice, label: "Старая цена этого цвета", widget: string, required: false }
-                  - { name: sizes, label: "Размеры этого цвета", widget: list, required: false, hint: "Пусто — берутся общие размеры" }
-                  - { name: length, label: "Длина этого цвета", widget: string, required: false }
-                  - { name: material, label: "Состав этого цвета", widget: string, required: false }
-                  - { name: details, label: "Детали этого цвета", widget: list, required: false, field: { name: item, label: "Пункт", widget: string } }
-                  - { name: files, label: "Фотографии (первая — главная)", widget: image, multiple: true, min: 1, hint: "Перетаскивайте, чтобы изменить порядок. Первое фото — главное на карточке." }
-                  - { name: video, label: "Видео (MP4, по желанию)", widget: file, required: false, accept: "video/mp4,video/quicktime" }
 
   - name: pages
     label: Страницы и контакты
