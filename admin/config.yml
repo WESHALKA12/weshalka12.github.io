@@ -13,7 +13,8 @@ backend:
 app_title: THE | WESHALKA — управление сайтом
 site_url: https://theweshalka.ru
 display_url: https://theweshalka.ru
-logo_url: /favicon.svg
+logo:
+  src: /favicon.svg
 media_folder: assets/images
 public_folder: /assets/images
 

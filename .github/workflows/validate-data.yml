@@ -1,7 +1,7 @@
 name: Проверка данных сайта
 on:
   push:
-    paths: ['data/**', 'assets/images/**', 'tools/validate_data.py']
+    paths: ['data/**', 'assets/images/**', 'admin/**', 'tools/validate_data.py', 'tools/validate_admin.py']
   workflow_dispatch:
 jobs:
   validate:
@@ -9,3 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/validate_data.py
+      - run: python3 tools/validate_admin.py
