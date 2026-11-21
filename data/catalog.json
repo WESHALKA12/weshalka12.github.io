@@ -696,15 +696,16 @@
         },
         {
           "files": [
-            "/assets/images/IMG_20261018_155412.jpg",
-            "/assets/images/IMG_20261018_155415 (1).jpg",
-            "/assets/images/IMG_20261018_155413 (1).jpg",
-            "/assets/images/IMG_20261018_155411.jpg"
+            "/assets/images/IMG_20261121_090027.jpg",
+            "/assets/images/IMG_20261121_090028 (1).jpg",
+            "/assets/images/IMG_20261121_090028.jpg",
+            "/assets/images/IMG_20261121_090025.jpg",
+            "/assets/images/IMG_20261121_090026.jpg"
           ],
           "id": "brown",
           "label": "Коричневый",
           "available": true,
-          "price": "11.990 ₽",
+          "price": "12.990 ₽",
           "oldPrice": "",
           "length": "",
           "sizes": [
@@ -713,7 +714,7 @@
             "46",
             "48"
           ],
-          "video": "",
+          "video": "/assets/images/VID_20261121_090209.mp4",
           "name": "Экошуба «Шоколадный песец» — роскошная пушистая шуба из экомеха",
           "title": "Пушистая женская экошуба из мягкого искусственного меха в благородном кофейно-коричневом оттенке. Тёплая, комфортная и эффектная модель для стильных зимних образов",
           "material": "",
