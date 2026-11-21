@@ -1,6 +1,50 @@
 {
   "products": [
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261112_114606.jpg",
+            "/assets/images/IMG_20261112_114608 (1).jpg",
+            "/assets/images/IMG_20261112_114608.jpg",
+            "/assets/images/IMG_20261112_114609.jpg",
+            "/assets/images/IMG_20261112_114607.jpg"
+          ],
+          "id": "powdermocha",
+          "label": "Пудровый Мокко- с лёгким розовато-коричневым подтоном",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261112_210857.mp4",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261112_114612.jpg",
+            "/assets/images/IMG_20261112_114611 (1).jpg",
+            "/assets/images/IMG_20261112_114610 (1).jpg",
+            "/assets/images/IMG_20261112_114611.jpg",
+            "/assets/images/IMG_20261112_114610.jpg"
+          ],
+          "id": "pearlwhite",
+          "label": "Pearl White — жемчужно-белый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261112_211113.mp4",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "zhenskaya-zimnyaya-ekoshuba-pod-norku-maksi-130-s",
       "name": "LUXE MAXI — ЭЛЕГАНТНАЯ ЗИМНЯЯ ЭКОШУБА ПОД НОРКУ",
@@ -55,53 +99,53 @@
         "Купить экошубу спб",
         "магазин экошуб Санкт-Петербург",
         "Магазин верхней одежды спб"
-      ],
-      "colors": [
-        {
-          "id": "powdermocha",
-          "label": "Пудровый Мокко- с лёгким розовато-коричневым подтоном",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261112_114606.jpg",
-            "/assets/images/IMG_20261112_114608 (1).jpg",
-            "/assets/images/IMG_20261112_114608.jpg",
-            "/assets/images/IMG_20261112_114609.jpg",
-            "/assets/images/IMG_20261112_114607.jpg"
-          ],
-          "video": "/assets/images/VID_20261112_210857.mp4"
-        },
-        {
-          "id": "pearlwhite",
-          "label": "Pearl White — жемчужно-белый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261112_114612.jpg",
-            "/assets/images/IMG_20261112_114611 (1).jpg",
-            "/assets/images/IMG_20261112_114610 (1).jpg",
-            "/assets/images/IMG_20261112_114611.jpg",
-            "/assets/images/IMG_20261112_114610.jpg"
-          ],
-          "video": "/assets/images/VID_20261112_211113.mp4"
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261112_114000 (1).jpg",
+            "/assets/images/IMG_20261112_114000.jpg",
+            "/assets/images/IMG_20261112_113958.jpg",
+            "/assets/images/IMG_20261112_113959.jpg",
+            "/assets/images/IMG_20261112_113957.jpg"
+          ],
+          "id": "brown",
+          "label": "Коричневый",
+          "available": true,
+          "price": "11.990 ₽",
+          "oldPrice": "",
+          "length": "80 см",
+          "sizes": [],
+          "video": "/assets/images/VID_20261112_195705.mp4",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261112_113632.jpg",
+            "/assets/images/IMG_20261112_113631.jpg",
+            "/assets/images/IMG_20261112_113630 (1).jpg",
+            "/assets/images/IMG_20261112_113630.jpg",
+            "/assets/images/IMG_20261112_113629.jpg"
+          ],
+          "id": "white",
+          "label": "Молочный",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261112_195854.mp4",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "insulated-faux-mink-fur-coa",
       "name": "УТЕПЛЕННАЯ ЭКОШУБА ПОД НОРКУ АВТОЛЕДИ",
@@ -174,53 +218,84 @@
         "свободная экошуба",
         "шуба длиной 60 см",
         "стильная зимняя шуба"
-      ],
-      "colors": [
-        {
-          "id": "brown",
-          "label": "Коричневый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "11.990 ₽",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "80 см",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261112_114000 (1).jpg",
-            "/assets/images/IMG_20261112_114000.jpg",
-            "/assets/images/IMG_20261112_113958.jpg",
-            "/assets/images/IMG_20261112_113959.jpg",
-            "/assets/images/IMG_20261112_113957.jpg"
-          ],
-          "video": "/assets/images/VID_20261112_195705.mp4"
-        },
-        {
-          "id": "white",
-          "label": "Молочный",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261112_113632.jpg",
-            "/assets/images/IMG_20261112_113631.jpg",
-            "/assets/images/IMG_20261112_113630 (1).jpg",
-            "/assets/images/IMG_20261112_113630.jpg",
-            "/assets/images/IMG_20261112_113629.jpg"
-          ],
-          "video": "/assets/images/VID_20261112_195854.mp4"
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261102_170549.jpg",
+            "/assets/images/IMG_20261102_170553 (1).jpg",
+            "/assets/images/IMG_20261102_170554.jpg",
+            "/assets/images/IMG_20261102_170553.jpg",
+            "/assets/images/IMG_20261102_170551 (1).jpg",
+            "/assets/images/IMG_20261102_170552.jpg",
+            "/assets/images/IMG_20261102_170550.jpg",
+            "/assets/images/IMG_20261102_170551.jpg",
+            "/assets/images/IMG_20261102_170548.jpg"
+          ],
+          "id": "white",
+          "label": "Белый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261102_170607.mp4",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261102_170558 (1).jpg",
+            "/assets/images/IMG_20261102_170601.jpg",
+            "/assets/images/IMG_20261102_170559.jpg",
+            "/assets/images/IMG_20261102_170558.jpg",
+            "/assets/images/IMG_20261102_170556 (1).jpg",
+            "/assets/images/IMG_20261102_170557.jpg",
+            "/assets/images/IMG_20261102_170556.jpg"
+          ],
+          "id": "grey",
+          "label": "Серый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261102_170611.mp4",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261121_085510 (1).jpg",
+            "/assets/images/IMG_20261121_085543 (1).jpg",
+            "/assets/images/IMG_20261121_085542.jpg",
+            "/assets/images/IMG_20261121_085541.jpg",
+            "/assets/images/IMG_20261121_085539.jpg"
+          ],
+          "id": "brown",
+          "label": "Коричневый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "42",
+            "44",
+            "46"
+          ],
+          "video": "",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "short-insulated-faux-fox-fur-coat",
       "name": "УКОРОЧЕННАЯ ЭКОШУБА  ПОД ПЕСЦА С УТЕПЛИТЕЛЕМ",
@@ -291,59 +366,34 @@
         "женские экошубы СПб,",
         "магазин искусственных шуб СПб",
         "Экошуба зимняя укороченная"
-      ],
-      "colors": [
-        {
-          "id": "white",
-          "label": "Белый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261102_170549.jpg",
-            "/assets/images/IMG_20261102_170553 (1).jpg",
-            "/assets/images/IMG_20261102_170554.jpg",
-            "/assets/images/IMG_20261102_170553.jpg",
-            "/assets/images/IMG_20261102_170551 (1).jpg",
-            "/assets/images/IMG_20261102_170552.jpg",
-            "/assets/images/IMG_20261102_170550.jpg",
-            "/assets/images/IMG_20261102_170551.jpg",
-            "/assets/images/IMG_20261102_170548.jpg"
-          ],
-          "video": "/assets/images/VID_20261102_170607.mp4"
-        },
-        {
-          "id": "grey",
-          "label": "Серый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261102_170558 (1).jpg",
-            "/assets/images/IMG_20261102_170601.jpg",
-            "/assets/images/IMG_20261102_170559.jpg",
-            "/assets/images/IMG_20261102_170558.jpg",
-            "/assets/images/IMG_20261102_170556 (1).jpg",
-            "/assets/images/IMG_20261102_170557.jpg",
-            "/assets/images/IMG_20261102_170556.jpg"
-          ],
-          "video": "/assets/images/VID_20261102_170611.mp4"
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261030_194107.jpg",
+            "/assets/images/IMG_20261030_194106.jpg",
+            "/assets/images/IMG_20261030_191238.jpg",
+            "/assets/images/IMG_20261030_194104.jpg",
+            "/assets/images/IMG_20261030_194103.jpg",
+            "/assets/images/IMG_20261030_194102.jpg",
+            "/assets/images/IMG_20261030_194108.jpg"
+          ],
+          "id": "ugol",
+          "label": "Уголь",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261030_193539.mp4",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "shuba-ekonorka-125-sm-dlya-nevysokogo-rosta-otlozhnoy-vorotnik",
       "name": "ШУБА ЭКОНОРКА 125 СМ — ЭЛЕГАНТНАЯ ЗИМНЯЯ ШУБА ДЛЯ НЕВЫСОКОГО РОСТА",
@@ -410,34 +460,55 @@
         "купить шубу СПб",
         "шуба женская СПб",
         "шуба Эконорка СПб"
-      ],
-      "colors": [
-        {
-          "id": "ugol",
-          "label": "Уголь",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261030_194107.jpg",
-            "/assets/images/IMG_20261030_194106.jpg",
-            "/assets/images/IMG_20261030_191238.jpg",
-            "/assets/images/IMG_20261030_194104.jpg",
-            "/assets/images/IMG_20261030_194103.jpg",
-            "/assets/images/IMG_20261030_194102.jpg",
-            "/assets/images/IMG_20261030_194108.jpg"
-          ],
-          "video": "/assets/images/VID_20261030_193539.mp4"
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261030_191241.jpg",
+            "/assets/images/IMG_20261030_192232.jpg",
+            "/assets/images/IMG_20261030_191243.jpg",
+            "/assets/images/IMG_20261030_191240.jpg",
+            "/assets/images/IMG_20261030_191238.jpg",
+            "/assets/images/IMG_20261030_191236.jpg",
+            "/assets/images/IMG_20261030_191235.jpg"
+          ],
+          "id": "ugol",
+          "label": "Уголь",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261030_193535.mp4",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261112_140519.jpg",
+            "/assets/images/IMG_20261112_141336.jpg",
+            "/assets/images/IMG_20261112_140520 (1).jpg",
+            "/assets/images/IMG_20261112_140518 (1).jpg",
+            "/assets/images/IMG_20261112_140518.jpg"
+          ],
+          "id": "brown",
+          "label": "коричневый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261112_211352.mp4",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "shuba-ekonorka-120-sm-dlya-nevysokogo-rosta-otlozhnoy-vorotnik",
       "name": "ШУБА ЭКОНОРКА 120 СМ — СТИЛЬНАЯ МОДЕЛЬ ДЛЯ НЕВЫСОКОГО РОСТА",
@@ -495,55 +566,41 @@
         "элегантная зимняя шуба",
         "стильная шуба женская",
         "шуба для миниатюрных девушек"
-      ],
-      "colors": [
-        {
-          "id": "ugol",
-          "label": "Уголь",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261030_191241.jpg",
-            "/assets/images/IMG_20261030_192232.jpg",
-            "/assets/images/IMG_20261030_191243.jpg",
-            "/assets/images/IMG_20261030_191240.jpg",
-            "/assets/images/IMG_20261030_191238.jpg",
-            "/assets/images/IMG_20261030_191236.jpg",
-            "/assets/images/IMG_20261030_191235.jpg"
-          ],
-          "video": "/assets/images/VID_20261030_193535.mp4"
-        },
-        {
-          "id": "brown",
-          "label": "коричневый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261112_140519.jpg",
-            "/assets/images/IMG_20261112_141336.jpg",
-            "/assets/images/IMG_20261112_140520 (1).jpg",
-            "/assets/images/IMG_20261112_140518 (1).jpg",
-            "/assets/images/IMG_20261112_140518.jpg"
-          ],
-          "video": "/assets/images/VID_20261112_211352.mp4"
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [],
+          "id": "grey",
+          "label": "Серый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [],
+          "id": "milk",
+          "label": "Молочный",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "ukorochennoye-zimnee-palto-trench",
       "name": "ЖЕНСКОЕ ЗИМНЕЕ ПАЛЬТО В СТИЛЕ ТРЕНЧА УТЕПЛЕННОЕ",
@@ -606,39 +663,63 @@
         "Купить пальто спб",
         "Зимнее пальто спб",
         "пальто тренч"
-      ],
-      "colors": [
-        {
-          "id": "grey",
-          "label": "Серый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": []
-        },
-        {
-          "id": "milk",
-          "label": "Молочный",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": []
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261018_155630.jpg",
+            "/assets/images/IMG_20261018_155629.jpg",
+            "/assets/images/IMG_20261018_155628 (1).jpg",
+            "/assets/images/IMG_20261018_155628.jpg",
+            "/assets/images/IMG_20261018_155627.jpg",
+            "/assets/images/IMG_20261018_155630 (1).jpg"
+          ],
+          "id": "black",
+          "label": "Черный",
+          "available": true,
+          "price": "9.990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "video": "",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261018_155412.jpg",
+            "/assets/images/IMG_20261018_155415 (1).jpg",
+            "/assets/images/IMG_20261018_155413 (1).jpg",
+            "/assets/images/IMG_20261018_155411.jpg"
+          ],
+          "id": "brown",
+          "label": "Коричневый",
+          "available": true,
+          "price": "11.990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "video": "",
+          "name": "Экошуба «Шоколадный песец» — роскошная пушистая шуба из экомеха",
+          "title": "Пушистая женская экошуба из мягкого искусственного меха в благородном кофейно-коричневом оттенке. Тёплая, комфортная и эффектная модель для стильных зимних образов",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "eko-shuba-pod-pesca-60-sm",
       "name": "ЭКОШУБА ПОД ПЕСЦА 60 СМ — FLUFFY STYL",
@@ -692,62 +773,38 @@
         "купить короткую шубу",
         "магазин верхней одежды спб",
         "Магазин Экошубы спб"
-      ],
-      "colors": [
-        {
-          "id": "black",
-          "label": "Черный",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "9.990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261018_155630.jpg",
-            "/assets/images/IMG_20261018_155629.jpg",
-            "/assets/images/IMG_20261018_155628 (1).jpg",
-            "/assets/images/IMG_20261018_155628.jpg",
-            "/assets/images/IMG_20261018_155627.jpg",
-            "/assets/images/IMG_20261018_155630 (1).jpg"
-          ]
-        },
-        {
-          "id": "brown",
-          "label": "Коричневый",
-          "name": "Экошуба «Шоколадный песец» — роскошная пушистая шуба из экомеха",
-          "title": "Пушистая женская экошуба из мягкого искусственного меха в благородном кофейно-коричневом оттенке. Тёплая, комфортная и эффектная модель для стильных зимних образов",
-          "available": true,
-          "price": "11.990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261018_155412.jpg",
-            "/assets/images/IMG_20261018_155415 (1).jpg",
-            "/assets/images/IMG_20261018_155413 (1).jpg",
-            "/assets/images/IMG_20261018_155411.jpg"
-          ],
-          "video": ""
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261017_164558.jpg",
+            "/assets/images/IMG_20261017_164601.jpg",
+            "/assets/images/IMG_20261017_164559.jpg",
+            "/assets/images/IMG_20261017_164600.jpg",
+            "/assets/images/IMG_20261017_164557.jpg",
+            "/assets/images/IMG_20261017_164554.jpg",
+            "/assets/images/IMG_20261017_164556.jpg"
+          ],
+          "id": "beage",
+          "label": "Бежевый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "40-42",
+            "42-44",
+            "44-46"
+          ],
+          "video": "/assets/images/VID_20261018_221139.mp4",
+          "name": "STRAUSS — Statement Fur",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "eko-shuba-strauss-soft-glam",
       "name": "ЗИМНЯЯ ЭКОШУБА «STRAUSS» SOFT GLAM",
@@ -808,38 +865,34 @@
         "Магазин экошуб спб",
         "Шоурум женских экошуб спб",
         "Купить экошубу спб"
-      ],
-      "colors": [
-        {
-          "id": "beage",
-          "label": "Бежевый",
-          "name": "STRAUSS — Statement Fur",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [
-            "40-42",
-            "42-44",
-            "44-46"
-          ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261017_164558.jpg",
-            "/assets/images/IMG_20261017_164601.jpg",
-            "/assets/images/IMG_20261017_164559.jpg",
-            "/assets/images/IMG_20261017_164600.jpg",
-            "/assets/images/IMG_20261017_164557.jpg",
-            "/assets/images/IMG_20261017_164554.jpg",
-            "/assets/images/IMG_20261017_164556.jpg"
-          ],
-          "video": "/assets/images/VID_20261018_221139.mp4"
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261017_165103 (1).jpg",
+            "/assets/images/IMG_20261017_165102.jpg",
+            "/assets/images/IMG_20261017_165103.jpg",
+            "/assets/images/IMG_20261017_165101.jpg",
+            "/assets/images/IMG_20261017_165100 (1).jpg",
+            "/assets/images/IMG_20261017_165100.jpg",
+            "/assets/images/IMG_20261017_165058.jpg"
+          ],
+          "id": "chocolate",
+          "label": "Горький шоколад",
+          "available": true,
+          "price": "18. 990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261016_161731.mp4",
+          "name": "CHOCOLATE NOIR",
+          "title": "Глубокий оттенок горького шоколада, роскошная фактура искусственного меха под норку и элегантная длина макси 130 см. Утончённый силуэт с поясом, актуальный английский воротник и мягкий утеплитель создают выразительный образ в эстетике современной роскоши сезона 2026–2027.",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "eko-shuba-pod-norku-maksi-s-poyasom",
       "name": "ЭКОШУБА ПОД НОРКУ МАКСИ С ПОЯСОМ «CHOCOLATE NOIR»",
@@ -895,34 +948,37 @@
         "Модная экошуба купить",
         "Купить экошубу теплую зимнюю",
         "Экошуба -25 С длинная"
-      ],
-      "colors": [
-        {
-          "id": "chocolate",
-          "label": "Горький шоколад",
-          "name": "CHOCOLATE NOIR",
-          "title": "Глубокий оттенок горького шоколада, роскошная фактура искусственного меха под норку и элегантная длина макси 130 см. Утончённый силуэт с поясом, актуальный английский воротник и мягкий утеплитель создают выразительный образ в эстетике современной роскоши сезона 2026–2027.",
-          "available": true,
-          "price": "18. 990 ₽",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261017_165103 (1).jpg",
-            "/assets/images/IMG_20261017_165102.jpg",
-            "/assets/images/IMG_20261017_165103.jpg",
-            "/assets/images/IMG_20261017_165101.jpg",
-            "/assets/images/IMG_20261017_165100 (1).jpg",
-            "/assets/images/IMG_20261017_165100.jpg",
-            "/assets/images/IMG_20261017_165058.jpg"
-          ],
-          "video": "/assets/images/VID_20261016_161731.mp4"
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261016_161054.jpg",
+            "/assets/images/IMG_20261016_161054 (1).jpg",
+            "/assets/images/IMG_20261016_161052.jpg",
+            "/assets/images/IMG_20261016_161052 (1).jpg",
+            "/assets/images/IMG_20261016_161056.jpg"
+          ],
+          "id": "brown",
+          "label": "Коричневый",
+          "available": true,
+          "price": "12. 990 ₽",
+          "oldPrice": "",
+          "length": "55",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "video": "/assets/images/VID_20261018_175748.mp4",
+          "name": "Коричневый бомбер для Кэжуал образа",
+          "title": "глубокий коричневый оттенок, мягкий искусственный мех с эффектом натуральной норки и финский утеплитель Termoffin. Стильный укороченный бомбер на молнии в стиле casual — для комфортных и модных повседневных образов сезона 2026–2027.",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "eko-shuba-bomber-pod-norku-na-molni",
       "name": "УТЕПЛЕННАЯ ЭКОШУБА-БОМБЕР ПОД НОРКУ",
@@ -979,37 +1035,29 @@
         "Экошуба до -25 С",
         "Купить модную экошубу",
         "Трендовые модели Экошуб"
-      ],
-      "colors": [
-        {
-          "id": "brown",
-          "label": "Коричневый",
-          "name": "Коричневый бомбер для Кэжуал образа",
-          "title": "глубокий коричневый оттенок, мягкий искусственный мех с эффектом натуральной норки и финский утеплитель Termoffin. Стильный укороченный бомбер на молнии в стиле casual — для комфортных и модных повседневных образов сезона 2026–2027.",
-          "available": true,
-          "price": "12. 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "55",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261016_161054.jpg",
-            "/assets/images/IMG_20261016_161054 (1).jpg",
-            "/assets/images/IMG_20261016_161052.jpg",
-            "/assets/images/IMG_20261016_161052 (1).jpg",
-            "/assets/images/IMG_20261016_161056.jpg"
-          ],
-          "video": "/assets/images/VID_20261018_175748.mp4"
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [],
+          "id": "grey",
+          "label": "Серый",
+          "available": true,
+          "price": "13.990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "46",
+            "48"
+          ],
+          "video": "",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "zhenskaya-zimnyaya-ekoshuba-pod-pesca-s-kapyushonom-60-sm",
       "name": "ЖЕНСКАЯ ЗИМНЯЯ ЭКОШУБА ПОД ПЕСЦА С КАПЮШОНОМ 60 СМ",
@@ -1065,28 +1113,39 @@
         "Экошуба под норку зимняя",
         "Экошубы на зиму магазин",
         "Шуба короткая с капюшоном"
-      ],
-      "colors": [
-        {
-          "id": "grey",
-          "label": "Серый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "13.990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "46",
-            "48"
-          ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": []
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261017_165958.jpg",
+            "/assets/images/IMG_20261017_165957.jpg",
+            "/assets/images/IMG_20261017_165953.jpg",
+            "/assets/images/IMG_20261017_165955.jpg",
+            "/assets/images/IMG_20261017_165956 (1).jpg",
+            "/assets/images/IMG_20261017_165956.jpg"
+          ],
+          "id": "mokko",
+          "label": "Мокко",
+          "available": true,
+          "price": "14. 990 ₽",
+          "oldPrice": "",
+          "length": "80",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48",
+            "50"
+          ],
+          "video": "/assets/images/VID_20261018_221157.mp4",
+          "name": "Экошуба «Мокко Элеганс»",
+          "title": "Изысканный серо-коричневый оттенок, гладкий премиальный мех под норку и элегантный силуэт для утончённых образов.",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "eko-shuba-pod-norku-s-poyasom",
       "name": "ЭКОШУБА ПОД НОРКУ С ПОЯСОМ",
@@ -1137,39 +1196,35 @@
         "Экошуба купить",
         "Экошуба под норку",
         "Купить шубу из эконорки"
-      ],
-      "colors": [
-        {
-          "id": "mokko",
-          "label": "Мокко",
-          "name": "Экошуба «Мокко Элеганс»",
-          "title": "Изысканный серо-коричневый оттенок, гладкий премиальный мех под норку и элегантный силуэт для утончённых образов.",
-          "available": true,
-          "price": "14. 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48",
-            "50"
-          ],
-          "length": "80",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261017_165958.jpg",
-            "/assets/images/IMG_20261017_165957.jpg",
-            "/assets/images/IMG_20261017_165953.jpg",
-            "/assets/images/IMG_20261017_165955.jpg",
-            "/assets/images/IMG_20261017_165956 (1).jpg",
-            "/assets/images/IMG_20261017_165956.jpg"
-          ],
-          "video": "/assets/images/VID_20261018_221157.mp4"
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261016_161057.jpg",
+            "/assets/images/IMG_20261016_161303.jpg",
+            "/assets/images/IMG_20261016_161302.jpg",
+            "/assets/images/IMG_20261016_161301 (1).jpg",
+            "/assets/images/IMG_20261016_161301.jpg",
+            "/assets/images/IMG_20261016_161300.jpg",
+            "/assets/images/IMG_20261016_161259.jpg",
+            "/assets/images/IMG_20261016_161303 (1).jpg"
+          ],
+          "id": "chocolate",
+          "label": "Коричневый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "80",
+          "sizes": [],
+          "video": "",
+          "name": "Экошуба под норку",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "eko-shuba-pod-norku-korichnevay",
       "name": "ЭКОШУБА ПОД НОРКУ — КОРИЧНЕВАЯ, С ПОЯСОМ",
@@ -1216,35 +1271,97 @@
         "Экошуба -25 С",
         "Купить экошубу в спб",
         "Магазин экошуб в спб"
-      ],
-      "colors": [
-        {
-          "id": "chocolate",
-          "label": "Коричневый",
-          "name": "Экошуба под норку",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "80",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261016_161057.jpg",
-            "/assets/images/IMG_20261016_161303.jpg",
-            "/assets/images/IMG_20261016_161302.jpg",
-            "/assets/images/IMG_20261016_161301 (1).jpg",
-            "/assets/images/IMG_20261016_161301.jpg",
-            "/assets/images/IMG_20261016_161300.jpg",
-            "/assets/images/IMG_20261016_161259.jpg",
-            "/assets/images/IMG_20261016_161303 (1).jpg"
-          ],
-          "video": ""
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261017_173902.jpg",
+            "/assets/images/IMG_20261017_173903 (1).jpg",
+            "/assets/images/IMG_20261017_173901.jpg",
+            "/assets/images/IMG_20261017_173903.jpg",
+            "/assets/images/IMG_20261017_173905.jpg",
+            "/assets/images/IMG_20261017_173904.jpg"
+          ],
+          "id": "cream",
+          "label": "Кремовый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261018_221151.mp4",
+          "name": "Кремовая Жемчужина",
+          "title": "Нежный кремовый оттенок, роскошный пушистый мех и выразительная поперечная фактура для элегантных и утончённых образов.",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261017_173916 (1).jpg",
+            "/assets/images/IMG_20261017_173918.jpg",
+            "/assets/images/IMG_20261017_173917.jpg",
+            "/assets/images/IMG_20261017_173915 (1).jpg",
+            "/assets/images/IMG_20261017_173916.jpg",
+            "/assets/images/IMG_20261017_173915.jpg"
+          ],
+          "id": "chokolate",
+          "label": "Коричневый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261018_221136.mp4",
+          "name": "Шоколадный соболь",
+          "title": "Глубокий коричневый оттенок, мягкий объёмный мех и стильный укороченный силуэт для эффектных зимних образов",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261017_173918 (1).jpg",
+            "/assets/images/IMG_20261017_173921.jpg",
+            "/assets/images/IMG_20261017_173920 (1).jpg",
+            "/assets/images/IMG_20261017_173919.jpg",
+            "/assets/images/IMG_20261017_173920.jpg"
+          ],
+          "id": "mokko",
+          "label": "Мокко",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261018_221145.mp4",
+          "name": "Мокко Селект",
+          "title": "Благородный оттенок мокко, нежная пушистая фактура и современный поперечный дизайн для безупречного городского стиля.",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261112_142300.jpg",
+            "/assets/images/IMG_20261112_142259.jpg",
+            "/assets/images/IMG_20261112_142258 (1).jpg",
+            "/assets/images/IMG_20261112_142258.jpg",
+            "/assets/images/IMG_20261112_142257.jpg"
+          ],
+          "id": "brown",
+          "label": "насыщенный коричневый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261112_210832.mp4",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "eko-shuba-pod-pestsa-poperechnay",
       "name": "ЭКОШУБА ПОД ПЕСЦА — ПОПЕРЕЧНАЯ МОДЕЛЬ",
@@ -1292,97 +1409,66 @@
         "Экошубы купить онлайн",
         "молочная экошуба",
         "укороченная поперечная экошуба"
-      ],
-      "colors": [
-        {
-          "id": "cream",
-          "label": "Кремовый",
-          "name": "Кремовая Жемчужина",
-          "title": "Нежный кремовый оттенок, роскошный пушистый мех и выразительная поперечная фактура для элегантных и утончённых образов.",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261017_173902.jpg",
-            "/assets/images/IMG_20261017_173903 (1).jpg",
-            "/assets/images/IMG_20261017_173901.jpg",
-            "/assets/images/IMG_20261017_173903.jpg",
-            "/assets/images/IMG_20261017_173905.jpg",
-            "/assets/images/IMG_20261017_173904.jpg"
-          ],
-          "video": "/assets/images/VID_20261018_221151.mp4"
-        },
-        {
-          "id": "chokolate",
-          "label": "Коричневый",
-          "name": "Шоколадный соболь",
-          "title": "Глубокий коричневый оттенок, мягкий объёмный мех и стильный укороченный силуэт для эффектных зимних образов",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261017_173916 (1).jpg",
-            "/assets/images/IMG_20261017_173918.jpg",
-            "/assets/images/IMG_20261017_173917.jpg",
-            "/assets/images/IMG_20261017_173915 (1).jpg",
-            "/assets/images/IMG_20261017_173916.jpg",
-            "/assets/images/IMG_20261017_173915.jpg"
-          ],
-          "video": "/assets/images/VID_20261018_221136.mp4"
-        },
-        {
-          "id": "mokko",
-          "label": "Мокко",
-          "name": "Мокко Селект",
-          "title": "Благородный оттенок мокко, нежная пушистая фактура и современный поперечный дизайн для безупречного городского стиля.",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261017_173918 (1).jpg",
-            "/assets/images/IMG_20261017_173921.jpg",
-            "/assets/images/IMG_20261017_173920 (1).jpg",
-            "/assets/images/IMG_20261017_173919.jpg",
-            "/assets/images/IMG_20261017_173920.jpg"
-          ],
-          "video": "/assets/images/VID_20261018_221145.mp4"
-        },
-        {
-          "id": "brown",
-          "label": "насыщенный коричневый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261112_142300.jpg",
-            "/assets/images/IMG_20261112_142259.jpg",
-            "/assets/images/IMG_20261112_142258 (1).jpg",
-            "/assets/images/IMG_20261112_142258.jpg",
-            "/assets/images/IMG_20261112_142257.jpg"
-          ],
-          "video": "/assets/images/VID_20261112_210832.mp4"
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261005_182949.jpg",
+            "/assets/images/IMG_20261005_182946.jpg",
+            "/assets/images/IMG_20261016_161021.jpg",
+            "/assets/images/IMG_20261005_182948.jpg",
+            "/assets/images/IMG_20261005_182944.jpg",
+            "/assets/images/IMG_20261005_182945.jpg"
+          ],
+          "id": "ivory",
+          "label": "Айвори",
+          "available": true,
+          "price": "16.990 ₽",
+          "oldPrice": "",
+          "length": "125",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48",
+            "50"
+          ],
+          "video": "/assets/images/VID_20261005_182930.mp4",
+          "name": "Ivory Coat",
+          "title": "Нежный оттенок айвори, благородная шерстяная фактура и мягкий меховой акцент. Элегантное пальто в эстетике тихой роскоши для утончённых образов в сезоне 2026–2027.",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261016_161029 (1).jpg",
+            "/assets/images/IMG_20261016_161029.jpg",
+            "/assets/images/IMG_20261016_161028.jpg",
+            "/assets/images/IMG_20261016_161026.jpg",
+            "/assets/images/IMG_20261005_182952 — копия.jpg",
+            "/assets/images/IMG_20261016_161025.jpg"
+          ],
+          "id": "cream",
+          "label": "Сливочный",
+          "available": true,
+          "price": "16.990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "42",
+            "46",
+            "48",
+            "50"
+          ],
+          "video": "/assets/images/VID_20261005_182922.mp4",
+          "name": "CREAM COAT",
+          "title": "Тёплый сливочный оттенок, выразительная фактура шерсти и уютная меховая текстура. Современная элегантность и мягкая женственность для стильных образов на каждый день.",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "wool-and-fur-coat",
       "name": "ВОРСИСТОЕ ШЕРСТЯНОЕ ПАЛЬТО — 75% ШЕРСТИ",
@@ -1438,66 +1524,63 @@
         "пальто из шерсти 75%",
         "длинное молочное пальто",
         "светлое женское пальто"
-      ],
+      ]
+    },
+    {
       "colors": [
         {
-          "id": "ivory",
-          "label": "Айвори",
-          "name": "Ivory Coat",
-          "title": "Нежный оттенок айвори, благородная шерстяная фактура и мягкий меховой акцент. Элегантное пальто в эстетике тихой роскоши для утончённых образов в сезоне 2026–2027.",
+          "files": [
+            "/assets/images/IMG_20260925_180636 (1).jpg",
+            "/assets/images/IMG_20260925_180637.jpg",
+            "/assets/images/IMG_20260925_180636.jpg",
+            "/assets/images/IMG_20260925_180638.jpg",
+            "/assets/images/IMG_20260925_180639.jpg"
+          ],
+          "id": "brown",
+          "label": "Коричневый",
           "available": true,
-          "price": "16.990 ₽",
+          "price": "16 990 ₽",
           "oldPrice": "",
+          "length": "130 см",
           "sizes": [
             "42",
             "44",
             "46",
-            "48",
-            "50"
+            "48"
           ],
-          "length": "125",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261005_182949.jpg",
-            "/assets/images/IMG_20261005_182946.jpg",
-            "/assets/images/IMG_20261016_161021.jpg",
-            "/assets/images/IMG_20261005_182948.jpg",
-            "/assets/images/IMG_20261005_182944.jpg",
-            "/assets/images/IMG_20261005_182945.jpg"
-          ],
-          "video": "/assets/images/VID_20261005_182930.mp4"
+          "video": "/assets/images/VID_20260929_180803.mp4",
+          "name": "ÉLAN MINK",
+          "title": "Шуба из экомеха под норку",
+          "material": "100% полиэфирное волокно",
+          "details": []
         },
         {
-          "id": "cream",
-          "label": "Сливочный",
-          "name": "CREAM COAT",
-          "title": "Тёплый сливочный оттенок, выразительная фактура шерсти и уютная меховая текстура. Современная элегантность и мягкая женственность для стильных образов на каждый день.",
+          "files": [
+            "/assets/images/IMG_20260925_180641.jpg",
+            "/assets/images/IMG_20260925_180642 (1).jpg",
+            "/assets/images/IMG_20260925_180642.jpg",
+            "/assets/images/IMG_20260925_180644.jpg",
+            "/assets/images/IMG_20260925_180643.jpg"
+          ],
+          "id": "coal",
+          "label": "уголь",
           "available": true,
           "price": "16.990 ₽",
           "oldPrice": "",
+          "length": "130 см",
           "sizes": [
             "42",
+            "44",
             "46",
-            "48",
-            "50"
+            "48"
           ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261016_161029 (1).jpg",
-            "/assets/images/IMG_20261016_161029.jpg",
-            "/assets/images/IMG_20261016_161028.jpg",
-            "/assets/images/IMG_20261016_161026.jpg",
-            "/assets/images/IMG_20261005_182952 — копия.jpg",
-            "/assets/images/IMG_20261016_161025.jpg"
-          ],
-          "video": "/assets/images/VID_20261005_182922.mp4"
+          "video": "/assets/images/VID_20260929_180756.mp4",
+          "name": "ÉLAN MINK",
+          "title": "Шуба из экомеха под норку",
+          "material": "100% полиэфирное волокно",
+          "details": []
         }
-      ]
-    },
-    {
+      ],
       "hidden": false,
       "id": "faux-mink-coat",
       "name": "ЭКОШУБА «ÉLAN MINK» Экомех под норку",
@@ -1539,63 +1622,34 @@
         "магазин экошуб женских",
         "шуба женская экомех",
         "шубы из экомеха норки"
-      ],
-      "colors": [
-        {
-          "id": "brown",
-          "label": "Коричневый",
-          "name": "ÉLAN MINK",
-          "title": "Шуба из экомеха под норку",
-          "available": true,
-          "price": "16 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "130 см",
-          "material": "100% полиэфирное волокно",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20260925_180636 (1).jpg",
-            "/assets/images/IMG_20260925_180637.jpg",
-            "/assets/images/IMG_20260925_180636.jpg",
-            "/assets/images/IMG_20260925_180638.jpg",
-            "/assets/images/IMG_20260925_180639.jpg"
-          ],
-          "video": "/assets/images/VID_20260929_180803.mp4"
-        },
-        {
-          "id": "coal",
-          "label": "уголь",
-          "name": "ÉLAN MINK",
-          "title": "Шуба из экомеха под норку",
-          "available": true,
-          "price": "16.990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "130 см",
-          "material": "100% полиэфирное волокно",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20260925_180641.jpg",
-            "/assets/images/IMG_20260925_180642 (1).jpg",
-            "/assets/images/IMG_20260925_180642.jpg",
-            "/assets/images/IMG_20260925_180644.jpg",
-            "/assets/images/IMG_20260925_180643.jpg"
-          ],
-          "video": "/assets/images/VID_20260929_180756.mp4"
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261027_193450 (1).jpg",
+            "/assets/images/IMG_20261027_193449.jpg",
+            "/assets/images/IMG_20261027_193448.jpg",
+            "/assets/images/IMG_20261027_193447 (1).jpg",
+            "/assets/images/IMG_20261027_193447.jpg",
+            "/assets/images/IMG_20261027_193451.jpg",
+            "/assets/images/IMG_20261027_193445.jpg"
+          ],
+          "id": "graphite",
+          "label": "Темно-серый",
+          "available": true,
+          "price": "14 990 ₽",
+          "oldPrice": "",
+          "length": "125 см",
+          "sizes": [],
+          "video": "",
+          "name": "GRAPHITE ICON",
+          "title": "Темно-серое кашемировое пальто длина 130 см",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "graphite-icon",
       "name": "GRAPHITE ICON",
@@ -1645,34 +1699,89 @@
         "Пальто на осень",
         "Пальто на весну",
         "Пальто Quiet Luxury"
-      ],
-      "colors": [
-        {
-          "id": "graphite",
-          "label": "Темно-серый",
-          "name": "GRAPHITE ICON",
-          "title": "Темно-серое кашемировое пальто длина 130 см",
-          "available": true,
-          "price": "14 990 ₽",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "125 см",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261027_193450 (1).jpg",
-            "/assets/images/IMG_20261027_193449.jpg",
-            "/assets/images/IMG_20261027_193448.jpg",
-            "/assets/images/IMG_20261027_193447 (1).jpg",
-            "/assets/images/IMG_20261027_193447.jpg",
-            "/assets/images/IMG_20261027_193451.jpg",
-            "/assets/images/IMG_20261027_193445.jpg"
-          ],
-          "video": ""
-        }
       ]
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/54942612-82EB-419F-8BFB-7042EDFC4894.WEBP",
+            "/assets/images/01E1C5E8-0715-472C-A915-5273A87F1B9C.WEBP",
+            "/assets/images/E903D626-8A96-401C-B187-90E6BE9E11F2.WEBP",
+            "/assets/images/BDB039D7-A1BF-4A37-AD2E-6DE71FEE40A6.WEBP",
+            "/assets/images/09220EA5-432C-4DC8-94E3-BBAE7D88A3B3.WEBP",
+            "/assets/images/AF8A5439-428E-494C-B1A6-D396EFC08E8C.WEBP"
+          ],
+          "id": "chocolate",
+          "label": "Коричневый",
+          "available": true,
+          "price": "15 990 ₽",
+          "oldPrice": "",
+          "length": "137 см",
+          "sizes": [
+            "42",
+            "46"
+          ],
+          "video": "",
+          "name": "CHOCOLATE ICON",
+          "title": "Коричневое пальто макси длина 137 см",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/DD74F131-3492-48BA-A1EC-7EBE9982894B.WEBP",
+            "/assets/images/FC8FC902-B178-4A23-92AF-4F1E293C6D51.WEBP",
+            "/assets/images/32FBF867-9566-4564-99DE-FDDAE89DE0D8.WEBP",
+            "/assets/images/FF125473-A2EB-49FD-BA6F-0008D55525BD.WEBP",
+            "/assets/images/F9611E4D-800F-4120-B687-E06A5BCF1F80.WEBP",
+            "/assets/images/AF09F5E2-4B79-4C34-BEC5-41727C245646.WEBP",
+            "/assets/images/2518253A-4077-47A0-8EF7-3B8E1084A161.WEBP"
+          ],
+          "id": "black",
+          "label": "Чёрный",
+          "available": true,
+          "price": "15 990 ₽",
+          "oldPrice": "",
+          "length": "137 см",
+          "sizes": [
+            "42"
+          ],
+          "video": "",
+          "name": "BLACK ICON",
+          "title": "Чёрное пальто макси длина 137 см",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/349E71C8-4081-408C-8B6F-BFD8B35074FE.WEBP",
+            "/assets/images/7F124940-3860-4579-ADEF-B14D45CA8576.WEBP",
+            "/assets/images/1C45985A-BB14-475F-A198-79F8A27021F3.WEBP",
+            "/assets/images/4A2B58C1-654E-4E09-BDDD-DF250681FF6D.WEBP",
+            "/assets/images/E1044174-D816-45FF-886A-5AE8F0E7B08A.WEBP",
+            "/assets/images/63DCFCD7-6138-438B-AE5E-524BD855BA60.WEBP",
+            "/assets/images/4C94422C-8920-430E-8F12-0568000B2474.WEBP"
+          ],
+          "id": "bordeaux",
+          "label": "Бордовый",
+          "available": true,
+          "price": "15 990 ₽",
+          "oldPrice": "",
+          "length": "137 см",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "video": "",
+          "name": "BORDEAUX ICON",
+          "title": "Бордовое пальто макси длина 137 см",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "icon-137",
       "name": "ICON 170+",
@@ -1723,89 +1832,35 @@
         "модное женское пальто",
         "Удлиненное женское пальто"
       ],
-      "colors": [
-        {
-          "id": "chocolate",
-          "label": "Коричневый",
-          "name": "CHOCOLATE ICON",
-          "title": "Коричневое пальто макси длина 137 см",
-          "available": true,
-          "price": "15 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "46"
-          ],
-          "length": "137 см",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/54942612-82EB-419F-8BFB-7042EDFC4894.WEBP",
-            "/assets/images/01E1C5E8-0715-472C-A915-5273A87F1B9C.WEBP",
-            "/assets/images/E903D626-8A96-401C-B187-90E6BE9E11F2.WEBP",
-            "/assets/images/BDB039D7-A1BF-4A37-AD2E-6DE71FEE40A6.WEBP",
-            "/assets/images/09220EA5-432C-4DC8-94E3-BBAE7D88A3B3.WEBP",
-            "/assets/images/AF8A5439-428E-494C-B1A6-D396EFC08E8C.WEBP"
-          ],
-          "video": ""
-        },
-        {
-          "id": "black",
-          "label": "Чёрный",
-          "name": "BLACK ICON",
-          "title": "Чёрное пальто макси длина 137 см",
-          "available": true,
-          "price": "15 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42"
-          ],
-          "length": "137 см",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/DD74F131-3492-48BA-A1EC-7EBE9982894B.WEBP",
-            "/assets/images/FC8FC902-B178-4A23-92AF-4F1E293C6D51.WEBP",
-            "/assets/images/32FBF867-9566-4564-99DE-FDDAE89DE0D8.WEBP",
-            "/assets/images/FF125473-A2EB-49FD-BA6F-0008D55525BD.WEBP",
-            "/assets/images/F9611E4D-800F-4120-B687-E06A5BCF1F80.WEBP",
-            "/assets/images/AF09F5E2-4B79-4C34-BEC5-41727C245646.WEBP",
-            "/assets/images/2518253A-4077-47A0-8EF7-3B8E1084A161.WEBP"
-          ],
-          "video": ""
-        },
-        {
-          "id": "bordeaux",
-          "label": "Бордовый",
-          "name": "BORDEAUX ICON",
-          "title": "Бордовое пальто макси длина 137 см",
-          "available": true,
-          "price": "15 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "137 см",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/349E71C8-4081-408C-8B6F-BFD8B35074FE.WEBP",
-            "/assets/images/7F124940-3860-4579-ADEF-B14D45CA8576.WEBP",
-            "/assets/images/1C45985A-BB14-475F-A198-79F8A27021F3.WEBP",
-            "/assets/images/4A2B58C1-654E-4E09-BDDD-DF250681FF6D.WEBP",
-            "/assets/images/E1044174-D816-45FF-886A-5AE8F0E7B08A.WEBP",
-            "/assets/images/63DCFCD7-6138-438B-AE5E-524BD855BA60.WEBP",
-            "/assets/images/4C94422C-8920-430E-8F12-0568000B2474.WEBP"
-          ],
-          "video": ""
-        }
-      ],
       "tall": true
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/D930C1F3-B3D1-4C65-A1A3-747E957D774D.WEBP",
+            "/assets/images/9753BE4C-017C-401A-B703-69C27E61314F.WEBP",
+            "/assets/images/931120DD-30AD-43FA-8D15-E0BFC147D240.WEBP",
+            "/assets/images/8498175B-EEDB-4D00-B311-D89E10446BC0.WEBP",
+            "/assets/images/8C94E261-979D-438A-9500-52D5DA000C60.WEBP",
+            "/assets/images/BFD6FB52-9178-40A1-9215-3AEFF16B9BB0.WEBP",
+            "/assets/images/029A33ED-1783-4015-BE8D-E2393B53E120.WEBP",
+            "/assets/images/CC42A5F1-85BA-41CA-B045-6A524F89613F.WEBP"
+          ],
+          "id": "beige",
+          "label": "Бежевый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/15872371154901.MP4",
+          "name": "BEIGE CLASSIC",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "beige-classic",
       "name": "БЕЖЕВОЕ ПАЛЬТО С ПОЯСОМ УДЛИНЕННОЕ — ШЕРСТЬ 70%  |  HERRINGLOW",
@@ -1854,35 +1909,81 @@
         "пальто осень спб",
         "Демисезонное пальто женское"
       ],
-      "colors": [
-        {
-          "id": "beige",
-          "label": "Бежевый",
-          "name": "BEIGE CLASSIC",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/D930C1F3-B3D1-4C65-A1A3-747E957D774D.WEBP",
-            "/assets/images/9753BE4C-017C-401A-B703-69C27E61314F.WEBP",
-            "/assets/images/931120DD-30AD-43FA-8D15-E0BFC147D240.WEBP",
-            "/assets/images/8498175B-EEDB-4D00-B311-D89E10446BC0.WEBP",
-            "/assets/images/8C94E261-979D-438A-9500-52D5DA000C60.WEBP",
-            "/assets/images/BFD6FB52-9178-40A1-9215-3AEFF16B9BB0.WEBP",
-            "/assets/images/029A33ED-1783-4015-BE8D-E2393B53E120.WEBP",
-            "/assets/images/CC42A5F1-85BA-41CA-B045-6A524F89613F.WEBP"
-          ],
-          "video": "/assets/images/15872371154901.MP4"
-        }
-      ],
       "tall": true
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/B19378E8-D3D8-4C03-93A8-9D90872D70E3.WEBP",
+            "/assets/images/D361FF80-6FBA-48C5-9777-228C1E568FB0.WEBP",
+            "/assets/images/8105FD17-A0D4-4609-B675-4BE2403D50F6.WEBP",
+            "/assets/images/DD88F7A7-76DE-494B-8706-76506999E940.WEBP",
+            "/assets/images/7E86AD33-9183-4CBB-8811-BA015609831E.WEBP",
+            "/assets/images/238F03A0-1352-4684-A9BF-D1231EE7EED4.WEBP",
+            "/assets/images/AC83EF92-B4AB-49E8-8ABA-EAEE5DDF594C.WEBP"
+          ],
+          "id": "beige",
+          "label": "Серо-бежевый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/15862745292757.MP4",
+          "name": "CLASSIC BEIGE",
+          "title": "двубортное пальто из плотной шерсти 70%",
+          "material": "70% шерсти и 30% полиамид",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/0F314BBD-35C8-48ED-A796-49F99AA9DAAF.WEBP",
+            "/assets/images/EA0390D2-542E-4833-A9C0-E64DBBE133F4.WEBP",
+            "/assets/images/6DDC3905-FE5F-4DB6-85B4-7F9718992CDD.WEBP",
+            "/assets/images/EC315C74-450B-4EF1-BAF6-4F783F5810AF.WEBP",
+            "/assets/images/8361BD99-520F-4A6E-8C46-ACF3ABEB19BF.WEBP",
+            "/assets/images/DCC5FEAD-7734-4FF2-9ACC-5CADCFA6EE55.WEBP",
+            "/assets/images/DDAE0672-C38E-42FE-B666-FCF88E393102.WEBP"
+          ],
+          "id": "grey",
+          "label": "Тёмно-серый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/15862833504213.MP4",
+          "name": "CLASSIC GREY",
+          "title": "Двубортное пальто из плотной шерсти 70%",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/5BD0940A-67F6-446A-B192-8455A07A2481.WEBP",
+            "/assets/images/12FC93B8-3132-4763-B0BE-24786561C222.WEBP",
+            "/assets/images/02D7B323-4254-40AA-B5F2-E9042CDBE35E.WEBP",
+            "/assets/images/52F93334-65CB-4CB6-BC2A-F1DAC5F697DB.WEBP",
+            "/assets/images/206D7097-DA69-479F-897F-1094E158C953.WEBP",
+            "/assets/images/E475C4A4-0161-4A19-84BE-73E53DBEFD41.WEBP",
+            "/assets/images/87A2692B-F6C4-42D6-B3E0-56F84C429F0D.WEBP",
+            "/assets/images/B9BD340E-AC63-45DE-B14A-E6A979898685.WEBP"
+          ],
+          "id": "chocolate",
+          "label": "Коричневый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/15829478367189.MP4",
+          "name": "CLASSIC CHOCOLATE",
+          "title": "Двубортное пальто из плотной шерсти 70%",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "classic",
       "name": "THE CLASSIC COAT",
@@ -1918,81 +2019,34 @@
       "tags": [
         "Женское пальто"
       ],
-      "colors": [
-        {
-          "id": "beige",
-          "label": "Серо-бежевый",
-          "name": "CLASSIC BEIGE",
-          "title": "двубортное пальто из плотной шерсти 70%",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "70% шерсти и 30% полиамид",
-          "details": [],
-          "files": [
-            "/assets/images/B19378E8-D3D8-4C03-93A8-9D90872D70E3.WEBP",
-            "/assets/images/D361FF80-6FBA-48C5-9777-228C1E568FB0.WEBP",
-            "/assets/images/8105FD17-A0D4-4609-B675-4BE2403D50F6.WEBP",
-            "/assets/images/DD88F7A7-76DE-494B-8706-76506999E940.WEBP",
-            "/assets/images/7E86AD33-9183-4CBB-8811-BA015609831E.WEBP",
-            "/assets/images/238F03A0-1352-4684-A9BF-D1231EE7EED4.WEBP",
-            "/assets/images/AC83EF92-B4AB-49E8-8ABA-EAEE5DDF594C.WEBP"
-          ],
-          "video": "/assets/images/15862745292757.MP4"
-        },
-        {
-          "id": "grey",
-          "label": "Тёмно-серый",
-          "name": "CLASSIC GREY",
-          "title": "Двубортное пальто из плотной шерсти 70%",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/0F314BBD-35C8-48ED-A796-49F99AA9DAAF.WEBP",
-            "/assets/images/EA0390D2-542E-4833-A9C0-E64DBBE133F4.WEBP",
-            "/assets/images/6DDC3905-FE5F-4DB6-85B4-7F9718992CDD.WEBP",
-            "/assets/images/EC315C74-450B-4EF1-BAF6-4F783F5810AF.WEBP",
-            "/assets/images/8361BD99-520F-4A6E-8C46-ACF3ABEB19BF.WEBP",
-            "/assets/images/DCC5FEAD-7734-4FF2-9ACC-5CADCFA6EE55.WEBP",
-            "/assets/images/DDAE0672-C38E-42FE-B666-FCF88E393102.WEBP"
-          ],
-          "video": "/assets/images/15862833504213.MP4"
-        },
-        {
-          "id": "chocolate",
-          "label": "Коричневый",
-          "name": "CLASSIC CHOCOLATE",
-          "title": "Двубортное пальто из плотной шерсти 70%",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/5BD0940A-67F6-446A-B192-8455A07A2481.WEBP",
-            "/assets/images/12FC93B8-3132-4763-B0BE-24786561C222.WEBP",
-            "/assets/images/02D7B323-4254-40AA-B5F2-E9042CDBE35E.WEBP",
-            "/assets/images/52F93334-65CB-4CB6-BC2A-F1DAC5F697DB.WEBP",
-            "/assets/images/206D7097-DA69-479F-897F-1094E158C953.WEBP",
-            "/assets/images/E475C4A4-0161-4A19-84BE-73E53DBEFD41.WEBP",
-            "/assets/images/87A2692B-F6C4-42D6-B3E0-56F84C429F0D.WEBP",
-            "/assets/images/B9BD340E-AC63-45DE-B14A-E6A979898685.WEBP"
-          ],
-          "video": "/assets/images/15829478367189.MP4"
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/7D474A2E-2CDC-485B-9C5C-FAE1F7815D85.WEBP",
+            "/assets/images/AC3AE2C6-381D-4032-8BFA-BFC6D883CB6A.WEBP",
+            "/assets/images/4F318AA9-C01C-42B8-8C9D-1A870C032C42.WEBP",
+            "/assets/images/CD390022-9B20-4B1C-992F-39395CA041A1.WEBP",
+            "/assets/images/7DD7F825-E78F-4F45-8434-25F07B56A18E.WEBP",
+            "/assets/images/CC99AFDA-3538-4307-8456-344D95947326.WEBP",
+            "/assets/images/5DAD1D98-6D9B-4FA5-800D-CD1167599E5B.WEBP"
+          ],
+          "id": "cream",
+          "label": "Бежево-кремовый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/15638070124501.MP4",
+          "name": "CREAM ICON",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "cream-icon",
       "name": "CREAM ICON",
@@ -2037,34 +2091,108 @@
         "пальто женское осень",
         "пальто женское спб купить"
       ],
-      "colors": [
-        {
-          "id": "cream",
-          "label": "Бежево-кремовый",
-          "name": "CREAM ICON",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/7D474A2E-2CDC-485B-9C5C-FAE1F7815D85.WEBP",
-            "/assets/images/AC3AE2C6-381D-4032-8BFA-BFC6D883CB6A.WEBP",
-            "/assets/images/4F318AA9-C01C-42B8-8C9D-1A870C032C42.WEBP",
-            "/assets/images/CD390022-9B20-4B1C-992F-39395CA041A1.WEBP",
-            "/assets/images/7DD7F825-E78F-4F45-8434-25F07B56A18E.WEBP",
-            "/assets/images/CC99AFDA-3538-4307-8456-344D95947326.WEBP",
-            "/assets/images/5DAD1D98-6D9B-4FA5-800D-CD1167599E5B.WEBP"
-          ],
-          "video": "/assets/images/15638070124501.MP4"
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/C735A2A8-DAD0-4792-B588-163A85CB5407.WEBP",
+            "/assets/images/E47E67B8-E050-4A3A-B7C1-4CAAAAFFAFB8.WEBP",
+            "/assets/images/72DFECBD-66B1-4FC1-9E4D-6FD9041CA076.WEBP",
+            "/assets/images/AED7CE19-A99E-4000-B8C4-0AC35667F07B.WEBP",
+            "/assets/images/8DA455F9-B16B-4CA1-83D4-1855571199C0.WEBP",
+            "/assets/images/5DDCDE64-54AB-4C86-B7A4-483E1F3A8464.WEBP"
+          ],
+          "id": "burgundy",
+          "label": "Бордовый",
+          "available": true,
+          "price": "15 990 ₽",
+          "oldPrice": "",
+          "length": "125 см",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "video": "/assets/images/15870984347605.MP4",
+          "name": "BORDEAUX ICON",
+          "title": "смелый акцент, который невозможно забыть.",
+          "material": "70% шерсти / 30% полиамид",
+          "details": [
+            "Классический прямой силуэт",
+            "Структурированные плечи",
+            "Premium ворс",
+            "Демисезонная модель"
+          ]
+        },
+        {
+          "files": [
+            "/assets/images/D67E01C5-97C4-4E26-8ABE-4F8B5DE70BF9.WEBP",
+            "/assets/images/1C82F7ED-A662-4070-9BED-36D14A46FA6D.WEBP",
+            "/assets/images/831D86D6-8528-4162-A5E7-99C00EE10C8A.WEBP",
+            "/assets/images/4E526484-9CF7-4DDD-8450-EC96E7D7F12D.WEBP",
+            "/assets/images/8A7F21FF-7096-4453-BCA5-77FB31E84569.WEBP",
+            "/assets/images/B90B3E81-3C89-4CE3-A116-9A331C715B02.WEBP"
+          ],
+          "id": "black",
+          "label": "Чёрный",
+          "available": true,
+          "price": "15 990 ₽",
+          "oldPrice": "",
+          "length": "125 см",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "video": "/assets/images/15872241262549.MP4",
+          "name": "SIGNATURE BLACK",
+          "title": "Безупречная классика с дерзким настроением",
+          "material": "70% шерсти / 30% полиамид",
+          "details": [
+            "Двубортная застёжка",
+            "Свободный oversize fit",
+            "Акцентные плечи",
+            "Пояс по желанию",
+            "Демисезонная модель"
+          ]
+        },
+        {
+          "files": [
+            "/assets/images/7908267F-B085-4D99-8F2B-03EB0410648D.WEBP",
+            "/assets/images/C09E28C1-5E1D-4033-B7B9-21B3DF385375.WEBP",
+            "/assets/images/E949A49C-FF99-4130-AA63-D0D10260EB3E.WEBP",
+            "/assets/images/04B5C91A-BB4D-41A2-B64B-E8BA5E37144B.WEBP",
+            "/assets/images/1299B644-FD53-41F9-A024-2810746F6466.WEBP"
+          ],
+          "id": "brown",
+          "label": "Коричневый",
+          "available": true,
+          "price": "15 990 ₽",
+          "oldPrice": "",
+          "length": "125 см",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "video": "",
+          "name": "SIGNATURE BROWN",
+          "title": "Эстетика осени в самом благородном оттенке.",
+          "material": "70% шерсти / 30% полиамид",
+          "details": [
+            "Двубортная застёжка",
+            "Свободный oversize fit",
+            "Акцентные плечи",
+            "Пояс по желанию",
+            "Демисезонная модель"
+          ]
+        }
+      ],
       "hidden": false,
       "id": "bordeaux-icon",
       "name": "BORDEAUX ICON",
@@ -2129,108 +2257,56 @@
         "пальто женское с доставкой СПб",
         "шерстяное пальто СПб"
       ],
-      "colors": [
-        {
-          "id": "burgundy",
-          "label": "Бордовый",
-          "name": "BORDEAUX ICON",
-          "title": "смелый акцент, который невозможно забыть.",
-          "available": true,
-          "price": "15 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "125 см",
-          "material": "70% шерсти / 30% полиамид",
-          "details": [
-            "Классический прямой силуэт",
-            "Структурированные плечи",
-            "Premium ворс",
-            "Демисезонная модель"
-          ],
-          "files": [
-            "/assets/images/C735A2A8-DAD0-4792-B588-163A85CB5407.WEBP",
-            "/assets/images/E47E67B8-E050-4A3A-B7C1-4CAAAAFFAFB8.WEBP",
-            "/assets/images/72DFECBD-66B1-4FC1-9E4D-6FD9041CA076.WEBP",
-            "/assets/images/AED7CE19-A99E-4000-B8C4-0AC35667F07B.WEBP",
-            "/assets/images/8DA455F9-B16B-4CA1-83D4-1855571199C0.WEBP",
-            "/assets/images/5DDCDE64-54AB-4C86-B7A4-483E1F3A8464.WEBP"
-          ],
-          "video": "/assets/images/15870984347605.MP4"
-        },
-        {
-          "id": "black",
-          "label": "Чёрный",
-          "name": "SIGNATURE BLACK",
-          "title": "Безупречная классика с дерзким настроением",
-          "available": true,
-          "price": "15 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "125 см",
-          "material": "70% шерсти / 30% полиамид",
-          "details": [
-            "Двубортная застёжка",
-            "Свободный oversize fit",
-            "Акцентные плечи",
-            "Пояс по желанию",
-            "Демисезонная модель"
-          ],
-          "files": [
-            "/assets/images/D67E01C5-97C4-4E26-8ABE-4F8B5DE70BF9.WEBP",
-            "/assets/images/1C82F7ED-A662-4070-9BED-36D14A46FA6D.WEBP",
-            "/assets/images/831D86D6-8528-4162-A5E7-99C00EE10C8A.WEBP",
-            "/assets/images/4E526484-9CF7-4DDD-8450-EC96E7D7F12D.WEBP",
-            "/assets/images/8A7F21FF-7096-4453-BCA5-77FB31E84569.WEBP",
-            "/assets/images/B90B3E81-3C89-4CE3-A116-9A331C715B02.WEBP"
-          ],
-          "video": "/assets/images/15872241262549.MP4"
-        },
-        {
-          "id": "brown",
-          "label": "Коричневый",
-          "name": "SIGNATURE BROWN",
-          "title": "Эстетика осени в самом благородном оттенке.",
-          "available": true,
-          "price": "15 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "125 см",
-          "material": "70% шерсти / 30% полиамид",
-          "details": [
-            "Двубортная застёжка",
-            "Свободный oversize fit",
-            "Акцентные плечи",
-            "Пояс по желанию",
-            "Демисезонная модель"
-          ],
-          "files": [
-            "/assets/images/7908267F-B085-4D99-8F2B-03EB0410648D.WEBP",
-            "/assets/images/C09E28C1-5E1D-4033-B7B9-21B3DF385375.WEBP",
-            "/assets/images/E949A49C-FF99-4130-AA63-D0D10260EB3E.WEBP",
-            "/assets/images/04B5C91A-BB4D-41A2-B64B-E8BA5E37144B.WEBP",
-            "/assets/images/1299B644-FD53-41F9-A024-2810746F6466.WEBP"
-          ],
-          "video": ""
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/FB62BAEF-948B-4DEB-978A-B4505F909FD3.WEBP",
+            "/assets/images/F1F8DDFE-47F7-4CA3-9C2E-99F2FDB81FD6.WEBP",
+            "/assets/images/A8B37C2E-759B-4B78-B496-13700A1494C7.WEBP",
+            "/assets/images/DB4F4356-E2B7-4427-893E-94BE5120CFD0.WEBP",
+            "/assets/images/EBE15C09-75F4-4A49-A3CC-EC502DE8BE2D.WEBP",
+            "/assets/images/B7DC49CC-C94E-4B17-AA6D-A43A6BD86027.WEBP",
+            "/assets/images/44796EDD-A679-4C30-8C03-1FAC229504AB.WEBP"
+          ],
+          "id": "burgundy",
+          "label": "Бордовый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/15872541089749.MP4",
+          "name": "СИЛУЭТ БЕЗУПРЕЧНОСТИ | BURGUNDY ELEGANCE",
+          "title": "Приталенный силуэт. Глубокий оттенок. Магнетизм в каждом движении.",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/AB3DD9DA-024F-4791-B77B-6772334BBB48.WEBP",
+            "/assets/images/35C69BF1-9554-4C1E-9AA8-EF23EBED625E.WEBP",
+            "/assets/images/159C06CA-C608-40E1-84B9-457D98FCA1DE.WEBP",
+            "/assets/images/72EF1E5D-92B8-4779-9D54-3159368A14B9.WEBP",
+            "/assets/images/AD347E97-F98D-47BA-B8FB-C78F4616938B.WEBP",
+            "/assets/images/31E15F95-528A-45DC-B17D-A94816FFAA66.WEBP"
+          ],
+          "id": "black",
+          "label": "Чёрный",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/15872572874709.MP4",
+          "name": "СИЛУЭТ БЕЗУПРЕЧНОСТИ | BURGUNDY ELEGANCE",
+          "title": "Приталенный силуэт. Глубокий оттенок. Магнетизм в каждом движении.",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "fitted-wool",
       "name": "СИЛУЭТ   БЕЗУПРЕЧНОСТИ.  ХАРАКТЕР  В  ДЕТАЛЯХ",
@@ -2304,56 +2380,57 @@
         "пальто женское весна",
         "пальто из шерсти женское"
       ],
-      "colors": [
-        {
-          "id": "burgundy",
-          "label": "Бордовый",
-          "name": "СИЛУЭТ БЕЗУПРЕЧНОСТИ | BURGUNDY ELEGANCE",
-          "title": "Приталенный силуэт. Глубокий оттенок. Магнетизм в каждом движении.",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/FB62BAEF-948B-4DEB-978A-B4505F909FD3.WEBP",
-            "/assets/images/F1F8DDFE-47F7-4CA3-9C2E-99F2FDB81FD6.WEBP",
-            "/assets/images/A8B37C2E-759B-4B78-B496-13700A1494C7.WEBP",
-            "/assets/images/DB4F4356-E2B7-4427-893E-94BE5120CFD0.WEBP",
-            "/assets/images/EBE15C09-75F4-4A49-A3CC-EC502DE8BE2D.WEBP",
-            "/assets/images/B7DC49CC-C94E-4B17-AA6D-A43A6BD86027.WEBP",
-            "/assets/images/44796EDD-A679-4C30-8C03-1FAC229504AB.WEBP"
-          ],
-          "video": "/assets/images/15872541089749.MP4"
-        },
-        {
-          "id": "black",
-          "label": "Чёрный",
-          "name": "СИЛУЭТ БЕЗУПРЕЧНОСТИ | BURGUNDY ELEGANCE",
-          "title": "Приталенный силуэт. Глубокий оттенок. Магнетизм в каждом движении.",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/AB3DD9DA-024F-4791-B77B-6772334BBB48.WEBP",
-            "/assets/images/35C69BF1-9554-4C1E-9AA8-EF23EBED625E.WEBP",
-            "/assets/images/159C06CA-C608-40E1-84B9-457D98FCA1DE.WEBP",
-            "/assets/images/72EF1E5D-92B8-4779-9D54-3159368A14B9.WEBP",
-            "/assets/images/AD347E97-F98D-47BA-B8FB-C78F4616938B.WEBP",
-            "/assets/images/31E15F95-528A-45DC-B17D-A94816FFAA66.WEBP"
-          ],
-          "video": "/assets/images/15872572874709.MP4"
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261020_144559.jpg",
+            "/assets/images/IMG_20261020_144555.jpg",
+            "/assets/images/IMG_20261020_144555 (1).jpg",
+            "/assets/images/IMG_20261020_144557.jpg",
+            "/assets/images/IMG_20261020_144554.jpg",
+            "/assets/images/IMG_20261020_144558.jpg",
+            "/assets/images/IMG_20261020_144556.jpg"
+          ],
+          "id": "milk",
+          "label": "Молочный",
+          "available": true,
+          "price": "15 990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261020_144604.mp4",
+          "name": "MILK ÉLÉGANCE",
+          "title": "Мягкость оттенка. Роскошь в каждой детали.",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/C5F7B1A6-5CFD-4137-9E9B-DC99F067D6DC.WEBP",
+            "/assets/images/4CCB7A3A-B0DE-4DD6-A19F-FAF5AF447AB3.WEBP",
+            "/assets/images/5C2B84DE-6242-48D8-B7A5-3DE6E37D0F1B.WEBP",
+            "/assets/images/439605C1-555A-48D1-AF8B-D33EB8A506CD.WEBP",
+            "/assets/images/52A3C540-FCA4-4C2C-8891-E9ABD46858E3.WEBP"
+          ],
+          "id": "black",
+          "label": "Чёрный",
+          "available": true,
+          "price": "15 990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "46"
+          ],
+          "video": "/assets/images/15872734552021.MP4",
+          "name": "BLACK ÉDITION",
+          "title": "Сила чёрного. Блеск золота. Совершенство линий.",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "fitted-premium",
       "name": "TIMELESS   ELEGANCE",
@@ -2383,57 +2460,33 @@
         "пальто спб купить",
         "купить приталенное пальто спб"
       ],
-      "colors": [
-        {
-          "id": "milk",
-          "label": "Молочный",
-          "name": "MILK ÉLÉGANCE",
-          "title": "Мягкость оттенка. Роскошь в каждой детали.",
-          "available": true,
-          "price": "15 990 ₽",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261020_144559.jpg",
-            "/assets/images/IMG_20261020_144555.jpg",
-            "/assets/images/IMG_20261020_144555 (1).jpg",
-            "/assets/images/IMG_20261020_144557.jpg",
-            "/assets/images/IMG_20261020_144554.jpg",
-            "/assets/images/IMG_20261020_144558.jpg",
-            "/assets/images/IMG_20261020_144556.jpg"
-          ],
-          "video": "/assets/images/VID_20261020_144604.mp4"
-        },
-        {
-          "id": "black",
-          "label": "Чёрный",
-          "name": "BLACK ÉDITION",
-          "title": "Сила чёрного. Блеск золота. Совершенство линий.",
-          "available": true,
-          "price": "15 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "46"
-          ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/C5F7B1A6-5CFD-4137-9E9B-DC99F067D6DC.WEBP",
-            "/assets/images/4CCB7A3A-B0DE-4DD6-A19F-FAF5AF447AB3.WEBP",
-            "/assets/images/5C2B84DE-6242-48D8-B7A5-3DE6E37D0F1B.WEBP",
-            "/assets/images/439605C1-555A-48D1-AF8B-D33EB8A506CD.WEBP",
-            "/assets/images/52A3C540-FCA4-4C2C-8891-E9ABD46858E3.WEBP"
-          ],
-          "video": "/assets/images/15872734552021.MP4"
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/catalog/demi-season/robe-coats/milky-aura/milk/milky-aura-milk-01.jpg",
+            "/assets/images/catalog/demi-season/robe-coats/milky-aura/milk/milky-aura-milk-02.jpg",
+            "/assets/images/catalog/demi-season/robe-coats/milky-aura/milk/milky-aura-milk-03.jpg",
+            "/assets/images/catalog/demi-season/robe-coats/milky-aura/milk/milky-aura-milk-04.jpg",
+            "/assets/images/catalog/demi-season/robe-coats/milky-aura/milk/milky-aura-milk-05.jpg",
+            "/assets/images/catalog/demi-season/robe-coats/milky-aura/milk/milky-aura-milk-06.jpg"
+          ],
+          "id": "milk",
+          "label": "Молочный",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "",
+          "name": "MILKY AURA",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "milky-aura",
       "name": "MILKY AURA",
@@ -2470,33 +2523,125 @@
         "Пальто-халат",
         "Пальто с поясом"
       ],
-      "colors": [
-        {
-          "id": "milk",
-          "label": "Молочный",
-          "name": "MILKY AURA",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/demi-season/robe-coats/milky-aura/milk/milky-aura-milk-01.jpg",
-            "/assets/images/catalog/demi-season/robe-coats/milky-aura/milk/milky-aura-milk-02.jpg",
-            "/assets/images/catalog/demi-season/robe-coats/milky-aura/milk/milky-aura-milk-03.jpg",
-            "/assets/images/catalog/demi-season/robe-coats/milky-aura/milk/milky-aura-milk-04.jpg",
-            "/assets/images/catalog/demi-season/robe-coats/milky-aura/milk/milky-aura-milk-05.jpg",
-            "/assets/images/catalog/demi-season/robe-coats/milky-aura/milk/milky-aura-milk-06.jpg"
-          ],
-          "video": ""
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20260918_222154.jpg",
+            "/assets/images/IMG_20260918_222157.jpg",
+            "/assets/images/IMG_20260918_222158.jpg",
+            "/assets/images/IMG_20260918_222200.jpg",
+            "/assets/images/IMG_20260918_222201.jpg",
+            "/assets/images/IMG_20260918_222202.jpg",
+            "/assets/images/IMG_20260918_222204.jpg"
+          ],
+          "id": "camel",
+          "label": "Бежевый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20260918_222210.mp4",
+          "name": "BEIGE MOOD",
+          "title": "Тепло оттенка. Эстетика уюта",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20260918_221957.jpg",
+            "/assets/images/IMG_20260918_221958.jpg",
+            "/assets/images/IMG_20260918_221959.jpg",
+            "/assets/images/IMG_20260918_222000.jpg",
+            "/assets/images/IMG_20260918_222001.jpg"
+          ],
+          "id": "black",
+          "label": "Черный",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20260918_222145.mp4",
+          "name": "BLACK ATTITUDE",
+          "title": "Абсолютная классика. Характер без компромиссов",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20260918_222237.jpg",
+            "/assets/images/IMG_20260918_222238.jpg",
+            "/assets/images/IMG_20260918_222239.jpg",
+            "/assets/images/IMG_20260918_222240.jpg",
+            "/assets/images/IMG_20260918_222242.jpg"
+          ],
+          "id": "grey",
+          "label": "Серый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "",
+          "name": "GREY MATTER",
+          "title": "Абсолютная классика. Характер без компромиссов.",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20260918_221945.jpg",
+            "/assets/images/IMG_20260918_221950.jpg",
+            "/assets/images/IMG_20260918_221951.jpg",
+            "/assets/images/IMG_20260918_221953.jpg",
+            "/assets/images/IMG_20260918_221955.jpg",
+            "/assets/images/IMG_20260918_221956.jpg"
+          ],
+          "id": "chocolate",
+          "label": "Коричневый",
+          "available": true,
+          "price": "16 990 ₽",
+          "oldPrice": "",
+          "length": "125 см",
+          "sizes": [],
+          "video": "",
+          "name": "CHOCOLATE MOOD",
+          "title": "Глубина оттенка. Эстетика осени.",
+          "material": "70% шерсти / 30% полиамид",
+          "details": [
+            "Трендовый шоколадный цвет",
+            "Демисезонное пальто на кнопках в стиле халата",
+            "Спущенное плечо",
+            "Плотная ткань из итальянского Премиум Ворса",
+            "Задняя шлица"
+          ]
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20260918_222218.jpg",
+            "/assets/images/IMG_20260918_222220.jpg",
+            "/assets/images/IMG_20260918_222221.jpg",
+            "/assets/images/IMG_20260918_222222.jpg",
+            "/assets/images/IMG_20260918_222223.jpg"
+          ],
+          "id": "graphite",
+          "label": "Темно-серый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20260918_222230.mp4",
+          "name": "GRAPHITE MOOD",
+          "title": "Глубина цвета. Сила минимализма",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "aura",
       "name": "AURA WRAP COAT",
@@ -2554,125 +2699,34 @@
         "Магазин женской верхней одежды",
         "Магазин женских пальто спб"
       ],
-      "colors": [
-        {
-          "id": "camel",
-          "label": "Бежевый",
-          "name": "BEIGE MOOD",
-          "title": "Тепло оттенка. Эстетика уюта",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20260918_222154.jpg",
-            "/assets/images/IMG_20260918_222157.jpg",
-            "/assets/images/IMG_20260918_222158.jpg",
-            "/assets/images/IMG_20260918_222200.jpg",
-            "/assets/images/IMG_20260918_222201.jpg",
-            "/assets/images/IMG_20260918_222202.jpg",
-            "/assets/images/IMG_20260918_222204.jpg"
-          ],
-          "video": "/assets/images/VID_20260918_222210.mp4"
-        },
-        {
-          "id": "black",
-          "label": "Черный",
-          "name": "BLACK ATTITUDE",
-          "title": "Абсолютная классика. Характер без компромиссов",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20260918_221957.jpg",
-            "/assets/images/IMG_20260918_221958.jpg",
-            "/assets/images/IMG_20260918_221959.jpg",
-            "/assets/images/IMG_20260918_222000.jpg",
-            "/assets/images/IMG_20260918_222001.jpg"
-          ],
-          "video": "/assets/images/VID_20260918_222145.mp4"
-        },
-        {
-          "id": "grey",
-          "label": "Серый",
-          "name": "GREY MATTER",
-          "title": "Абсолютная классика. Характер без компромиссов.",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20260918_222237.jpg",
-            "/assets/images/IMG_20260918_222238.jpg",
-            "/assets/images/IMG_20260918_222239.jpg",
-            "/assets/images/IMG_20260918_222240.jpg",
-            "/assets/images/IMG_20260918_222242.jpg"
-          ],
-          "video": ""
-        },
-        {
-          "id": "chocolate",
-          "label": "Коричневый",
-          "name": "CHOCOLATE MOOD",
-          "title": "Глубина оттенка. Эстетика осени.",
-          "available": true,
-          "price": "16 990 ₽",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "125 см",
-          "material": "70% шерсти / 30% полиамид",
-          "details": [
-            "Трендовый шоколадный цвет",
-            "Демисезонное пальто на кнопках в стиле халата",
-            "Спущенное плечо",
-            "Плотная ткань из итальянского Премиум Ворса",
-            "Задняя шлица"
-          ],
-          "files": [
-            "/assets/images/IMG_20260918_221945.jpg",
-            "/assets/images/IMG_20260918_221950.jpg",
-            "/assets/images/IMG_20260918_221951.jpg",
-            "/assets/images/IMG_20260918_221953.jpg",
-            "/assets/images/IMG_20260918_221955.jpg",
-            "/assets/images/IMG_20260918_221956.jpg"
-          ],
-          "video": ""
-        },
-        {
-          "id": "graphite",
-          "label": "Темно-серый",
-          "name": "GRAPHITE MOOD",
-          "title": "Глубина цвета. Сила минимализма",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20260918_222218.jpg",
-            "/assets/images/IMG_20260918_222220.jpg",
-            "/assets/images/IMG_20260918_222221.jpg",
-            "/assets/images/IMG_20260918_222222.jpg",
-            "/assets/images/IMG_20260918_222223.jpg"
-          ],
-          "video": "/assets/images/VID_20260918_222230.mp4"
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20260918_222243.jpg",
+            "/assets/images/IMG_20260918_222244.jpg",
+            "/assets/images/IMG_20260918_222245.jpg",
+            "/assets/images/IMG_20260918_222247.jpg",
+            "/assets/images/IMG_20260918_222248.jpg",
+            "/assets/images/IMG_20260918_222249.jpg",
+            "/assets/images/IMG_20260918_222250.jpg"
+          ],
+          "id": "graphite",
+          "label": "Тёмно-серый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "double-grey",
       "name": "ДЕМИСЕЗОННОЕ ЖЕНСКОЕ ДВУБОРТНОЕ ПАЛЬТО VELMORA",
@@ -2724,34 +2778,85 @@
         "женское пальто классического кроя",
         "удлинённое двубортное пальто"
       ],
-      "colors": [
-        {
-          "id": "graphite",
-          "label": "Тёмно-серый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20260918_222243.jpg",
-            "/assets/images/IMG_20260918_222244.jpg",
-            "/assets/images/IMG_20260918_222245.jpg",
-            "/assets/images/IMG_20260918_222247.jpg",
-            "/assets/images/IMG_20260918_222248.jpg",
-            "/assets/images/IMG_20260918_222249.jpg",
-            "/assets/images/IMG_20260918_222250.jpg"
-          ],
-          "video": ""
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-01.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-02.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-03.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-04.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-05.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-06-detail.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-07.jpg"
+          ],
+          "id": "black",
+          "label": "Чёрный",
+          "available": true,
+          "price": "16 990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "L"
+          ],
+          "video": "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-video.mp4",
+          "name": "AURA MAXI — BLACK",
+          "title": "Чёрное пальто-одеяло oversize из премиальной шерсти 70%",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-01.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-02.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-03.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-04-detail.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-05.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-06.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-07-back.jpg"
+          ],
+          "id": "burgundy",
+          "label": "Бордовый",
+          "available": true,
+          "price": "16 990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "L"
+          ],
+          "video": "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-video.mp4",
+          "name": "AURA MAXI — BURGUNDY",
+          "title": "Бордовое пальто-одеяло oversize из премиальной шерсти 70%",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20260925_181025 (1).jpg",
+            "/assets/images/IMG_20260925_181028.jpg",
+            "/assets/images/IMG_20260925_181027.jpg",
+            "/assets/images/IMG_20260925_181026.jpg",
+            "/assets/images/IMG_20260925_181025.jpg"
+          ],
+          "id": "white",
+          "label": "Холодный белый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "130 СМ",
+          "sizes": [
+            "M",
+            "L"
+          ],
+          "video": "/assets/images/VID_20260928_182804.mp4",
+          "name": "AURA MAXI — WHITE",
+          "title": "Белое пальто-одеяло oversize из премиальной шерсти 70%",
+          "material": "70% шерсти и 30% полимид",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "oversize-icon",
       "name": "AURA MAXI ПАЛЬТО-ОДЕЯЛО OVERSIZE ИЗ ПРЕМИАЛЬНОЙ ШЕРСТИ 70%",
@@ -2820,85 +2925,34 @@
         "длинное женское пальто СПб",
         "магазин женских пальто Санкт-Петербург"
       ],
-      "colors": [
-        {
-          "id": "black",
-          "label": "Чёрный",
-          "name": "AURA MAXI — BLACK",
-          "title": "Чёрное пальто-одеяло oversize из премиальной шерсти 70%",
-          "available": true,
-          "price": "16 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "L"
-          ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-01.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-02.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-03.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-04.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-05.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-06-detail.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-07.jpg"
-          ],
-          "video": "/assets/images/catalog/demi-season/stand-collar/oversize-icon/black/oversize-icon-black-video.mp4"
-        },
-        {
-          "id": "burgundy",
-          "label": "Бордовый",
-          "name": "AURA MAXI — BURGUNDY",
-          "title": "Бордовое пальто-одеяло oversize из премиальной шерсти 70%",
-          "available": true,
-          "price": "16 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "L"
-          ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-01.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-02.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-03.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-04-detail.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-05.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-06.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-07-back.jpg"
-          ],
-          "video": "/assets/images/catalog/demi-season/stand-collar/oversize-icon/burgundy/oversize-icon-burgundy-video.mp4"
-        },
-        {
-          "id": "white",
-          "label": "Холодный белый",
-          "name": "AURA MAXI — WHITE",
-          "title": "Белое пальто-одеяло oversize из премиальной шерсти 70%",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [
-            "M",
-            "L"
-          ],
-          "length": "130 СМ",
-          "material": "70% шерсти и 30% полимид",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20260925_181025 (1).jpg",
-            "/assets/images/IMG_20260925_181028.jpg",
-            "/assets/images/IMG_20260925_181027.jpg",
-            "/assets/images/IMG_20260925_181026.jpg",
-            "/assets/images/IMG_20260925_181025.jpg"
-          ],
-          "video": "/assets/images/VID_20260928_182804.mp4"
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-01.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-02.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-03.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-04.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-05.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-06-back.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-07-detail.jpg"
+          ],
+          "id": "chocolate",
+          "label": "Шоколадный",
+          "available": true,
+          "price": "15 990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-video.mp4",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "aura-chocolate",
       "name": "AURA CHOCOLATE",
@@ -2931,34 +2985,35 @@
         "Новинка",
         "Premium ворс"
       ],
-      "colors": [
-        {
-          "id": "chocolate",
-          "label": "Шоколадный",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "15 990 ₽",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-01.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-02.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-03.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-04.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-05.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-06-back.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-07-detail.jpg"
-          ],
-          "video": "/assets/images/catalog/demi-season/stand-collar/aura-chocolate/chocolate/aura-chocolate-chocolate-video.mp4"
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-01.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-02-detail.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-03.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-04.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-05.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-06.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-07-detail.jpg",
+            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-08-back.jpg"
+          ],
+          "id": "graphite",
+          "label": "Графитовый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "stand-graphite",
       "name": "ЖЕНСКОЕ ПАЛЬТО  SOFTSCULPT СО СТОЙКОЙ — ШЕРСТЬ 70%, ДЛИНА 125 см",
@@ -3019,35 +3074,34 @@
         "купить длинное пальто СПб",
         "магазин женских пальто Санкт-Петербург"
       ],
-      "colors": [
-        {
-          "id": "graphite",
-          "label": "Графитовый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-01.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-02-detail.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-03.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-04.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-05.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-06.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-07-detail.jpg",
-            "/assets/images/catalog/demi-season/stand-collar/stand-graphite/graphite/stand-graphite-graphite-08-back.jpg"
-          ],
-          "video": ""
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-01.jpg",
+            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-02.jpg",
+            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-03.jpg",
+            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-04-detail.jpg",
+            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-05-back.jpg"
+          ],
+          "id": "grey",
+          "label": "Серый",
+          "available": true,
+          "price": "7 990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "44"
+          ],
+          "video": "",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "tweed-blazer",
       "name": "ПАЛЬТО-ПИДЖАК",
@@ -3078,34 +3132,33 @@
         "Твид",
         "Осень–весна"
       ],
-      "colors": [
-        {
-          "id": "grey",
-          "label": "Серый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "7 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "44"
-          ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-01.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-02.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-03.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-04-detail.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/tweed-blazer/grey/tweed-blazer-grey-05-back.jpg"
-          ],
-          "video": ""
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-01.jpg",
+            "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-02.jpg",
+            "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-03.jpg",
+            "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-04.jpg",
+            "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-05-back.jpg",
+            "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-06-back.jpg"
+          ],
+          "id": "burgundy",
+          "label": "Бордовый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "burgundy-blazer",
       "name": "ПАЛЬТО-ПИДЖАК С ПОЯСОМ",
@@ -3144,33 +3197,32 @@
         "75% шерсти",
         "Пояс"
       ],
-      "colors": [
-        {
-          "id": "burgundy",
-          "label": "Бордовый",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-01.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-02.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-03.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-04.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-05-back.jpg",
-            "/assets/images/catalog/demi-season/coat-jackets/burgundy-blazer/burgundy/burgundy-blazer-burgundy-06-back.jpg"
-          ],
-          "video": ""
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261017_142306.jpg",
+            "/assets/images/IMG_20261017_142307.jpg",
+            "/assets/images/IMG_20261017_142305 (1).jpg",
+            "/assets/images/IMG_20261017_142305.jpg",
+            "/assets/images/IMG_20261017_142304.jpg"
+          ],
+          "id": "chocolate",
+          "label": "Шоколадный",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261020_140022.mp4",
+          "name": "",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "wool-robe-chocolate",
       "name": "CHOCOLATE STATEMENT",
@@ -3238,32 +3290,41 @@
         "пальто с поясом женское",
         "шерстяное пальто женское"
       ],
-      "colors": [
-        {
-          "id": "chocolate",
-          "label": "Шоколадный",
-          "name": "",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261017_142306.jpg",
-            "/assets/images/IMG_20261017_142307.jpg",
-            "/assets/images/IMG_20261017_142305 (1).jpg",
-            "/assets/images/IMG_20261017_142305.jpg",
-            "/assets/images/IMG_20261017_142304.jpg"
-          ],
-          "video": "/assets/images/VID_20261020_140022.mp4"
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [],
+          "id": "black",
+          "label": "Черный",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "",
+          "name": "ЧЁРНЫЙ ТВИД В БЕЛУЮ ЁЛОЧКУ",
+          "title": "Благородный чёрный твид с деликатным узором в белую ёлочку — элегантная классика в современном прочтении. Выразительная фактура ткани подчёркивает стиль и статусность модели.",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [],
+          "id": "brown",
+          "label": "Коричневый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "",
+          "name": "КОРИЧНЕВАЯ ПОЛОСКА С БЕЛЫМ АКЦЕНТОМ",
+          "title": "Изысканная коричневая ткань с тонкой белой полоской — трендовое сочетание оттенков для утончённых зимних образов. Стильный принт придаёт модели особый характер и элегантность.",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "zhenskoe-zimnee-palto-s-akcentnymi-plechami",
       "name": "ЖЕНСКОЕ ЗИМНЕЕ ПАЛЬТО С АКЦЕНТНЫМИ ПЛЕЧАМИ",
@@ -3321,39 +3382,40 @@
         "Пальто с акцентными плечами",
         "Зимнее пальто спб купить"
       ],
-      "colors": [
-        {
-          "id": "black",
-          "label": "Черный",
-          "name": "ЧЁРНЫЙ ТВИД В БЕЛУЮ ЁЛОЧКУ",
-          "title": "Благородный чёрный твид с деликатным узором в белую ёлочку — элегантная классика в современном прочтении. Выразительная фактура ткани подчёркивает стиль и статусность модели.",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": []
-        },
-        {
-          "id": "brown",
-          "label": "Коричневый",
-          "name": "КОРИЧНЕВАЯ ПОЛОСКА С БЕЛЫМ АКЦЕНТОМ",
-          "title": "Изысканная коричневая ткань с тонкой белой полоской — трендовое сочетание оттенков для утончённых зимних образов. Стильный принт придаёт модели особый характер и элегантность.",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": []
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-01.jpg",
+            "/assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-02.jpg",
+            "/assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-03.jpg",
+            "/assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-04.jpg",
+            "/assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-05-detail.jpg",
+            "/assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-06.jpg"
+          ],
+          "id": "black",
+          "label": "Чёрный",
+          "available": true,
+          "price": "14 990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "48"
+          ],
+          "video": "",
+          "name": "",
+          "title": "Пальто зимнее с финским утеплителем Termoffin до −20 °C",
+          "material": "",
+          "details": [
+            "Прямой крой со спущенным плечом",
+            "Плотный микроворс",
+            "Задняя шлица",
+            "Финский утеплитель Termoffin, до −20 °C"
+          ]
+        }
+      ],
       "hidden": false,
       "id": "womens-wool-double-breasted-winter-coat",
       "name": "ЖЕНСКОЕ ЗИМНЕЕ ДВУБОРТНОЕ ПАЛЬТО ИЗ ШЕРСТИ 70%",
@@ -3406,40 +3468,35 @@
         "пальто с примеркой СПб",
         "офлайн-магазин пальто Санкт-Петербург"
       ],
-      "colors": [
-        {
-          "id": "black",
-          "label": "Чёрный",
-          "name": "",
-          "title": "Пальто зимнее с финским утеплителем Termoffin до −20 °C",
-          "available": true,
-          "price": "14 990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "48"
-          ],
-          "length": "",
-          "material": "",
-          "details": [
-            "Прямой крой со спущенным плечом",
-            "Плотный микроворс",
-            "Задняя шлица",
-            "Финский утеплитель Termoffin, до −20 °C"
-          ],
-          "files": [
-            "/assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-01.jpg",
-            "/assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-02.jpg",
-            "/assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-03.jpg",
-            "/assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-04.jpg",
-            "/assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-05-detail.jpg",
-            "/assets/images/catalog/winter/straight/winter-straight-20/black/winter-straight-20-black-06.jpg"
-          ],
-          "video": ""
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261017_170005.jpg",
+            "/assets/images/IMG_20261017_170004.jpg",
+            "/assets/images/IMG_20261017_170003 (1).jpg",
+            "/assets/images/IMG_20261017_170002.jpg",
+            "/assets/images/IMG_20261017_170003.jpg",
+            "/assets/images/IMG_20261017_170001 (1).jpg",
+            "/assets/images/IMG_20261017_170001.jpg",
+            "/assets/images/IMG_20261017_170000.jpg"
+          ],
+          "id": "black",
+          "label": "Чёрный",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "75",
+          "sizes": [],
+          "video": "/assets/images/VID_20261018_221147.mp4",
+          "name": "Black Ostrich",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "fur-ostrich-black",
       "name": "BLACK STRAUS",
@@ -3491,35 +3548,55 @@
         "Шуба из искусственного меха",
         "модная женская шуба"
       ],
-      "colors": [
-        {
-          "id": "black",
-          "label": "Чёрный",
-          "name": "Black Ostrich",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "75",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261017_170005.jpg",
-            "/assets/images/IMG_20261017_170004.jpg",
-            "/assets/images/IMG_20261017_170003 (1).jpg",
-            "/assets/images/IMG_20261017_170002.jpg",
-            "/assets/images/IMG_20261017_170003.jpg",
-            "/assets/images/IMG_20261017_170001 (1).jpg",
-            "/assets/images/IMG_20261017_170001.jpg",
-            "/assets/images/IMG_20261017_170000.jpg"
-          ],
-          "video": "/assets/images/VID_20261018_221147.mp4"
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261016_160944.jpg",
+            "/assets/images/IMG_20261016_160943.jpg",
+            "/assets/images/IMG_20261016_160948.jpg",
+            "/assets/images/IMG_20261016_160946.jpg",
+            "/assets/images/IMG_20261016_160945 (1).jpg",
+            "/assets/images/IMG_20261016_160945.jpg"
+          ],
+          "id": "grey",
+          "label": "Серый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/VID_20261016_161747.mp4",
+          "name": "FOX GLOW",
+          "title": "Выразительный окрас под натуральную лису — эффектное сочетание оттенков и роскошной пушистой фактуры искусственного меха. Экошуба с реалистичной имитацией лисьего меха для стильных и запоминающихся образов сезона 2026–2027.",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-01.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-02.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-03.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-04.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-05.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-06.jpg"
+          ],
+          "id": "beige",
+          "label": "Бежевый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "",
+          "name": "БЕЖЕВЫЙ ПОД ПЕСЦА",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "fur-arctic-utepl",
       "name": "НЕЖНАЯ • МЯГКАЯ • ПУШИСТАЯ УТЕПЛЁННАЯ ЗИМНЯЯ МОДЕЛЬ",
@@ -3572,55 +3649,122 @@
         "магазин верхней одежды спб",
         "зимняя экошуба"
       ],
-      "colors": [
-        {
-          "id": "grey",
-          "label": "Серый",
-          "name": "FOX GLOW",
-          "title": "Выразительный окрас под натуральную лису — эффектное сочетание оттенков и роскошной пушистой фактуры искусственного меха. Экошуба с реалистичной имитацией лисьего меха для стильных и запоминающихся образов сезона 2026–2027.",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261016_160944.jpg",
-            "/assets/images/IMG_20261016_160943.jpg",
-            "/assets/images/IMG_20261016_160948.jpg",
-            "/assets/images/IMG_20261016_160946.jpg",
-            "/assets/images/IMG_20261016_160945 (1).jpg",
-            "/assets/images/IMG_20261016_160945.jpg"
-          ],
-          "video": "/assets/images/VID_20261016_161747.mp4"
-        },
-        {
-          "id": "beige",
-          "label": "Бежевый",
-          "name": "БЕЖЕВЫЙ ПОД ПЕСЦА",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-01.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-02.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-03.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-04.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-05.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-utepl/beige/fur-arctic-utepl-beige-06.jpg"
-          ],
-          "video": ""
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/IMG_20261017_165120.jpg",
+            "/assets/images/IMG_20261017_165116.jpg",
+            "/assets/images/IMG_20261017_165117 (1).jpg",
+            "/assets/images/IMG_20261017_165117.jpg",
+            "/assets/images/IMG_20261017_165118 (1).jpg",
+            "/assets/images/IMG_20261017_165121.jpg",
+            "/assets/images/IMG_20261017_165119.jpg",
+            "/assets/images/IMG_20261017_165118.jpg",
+            "/assets/images/IMG_20261017_165122.jpg"
+          ],
+          "id": "grey",
+          "label": "Серый",
+          "available": true,
+          "price": "10.990 ₽",
+          "oldPrice": "",
+          "length": "60",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "video": "/assets/images/VID_20261016_161718.mp4",
+          "name": "ПЕРЛ ФОКС — PEARL FOX",
+          "title": "Благородный серый оттенок с роскошной фактурой меха.",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261017_165114 (1).jpg",
+            "/assets/images/IMG_20261017_165115.jpg",
+            "/assets/images/IMG_20261017_165114.jpg",
+            "/assets/images/IMG_20261017_165113 (1).jpg",
+            "/assets/images/IMG_20261017_165113.jpg"
+          ],
+          "id": "nude",
+          "label": "Нюдовый персиковый",
+          "available": true,
+          "price": "10.990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "video": "/assets/images/VID_20261016_161712.mp4",
+          "name": "ПЕРСИКОВЫЙ ШЕЛК",
+          "title": "Мягкий персиковый оттенок, добавляющий образу нежности и женственности.",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261018_153813.jpg",
+            "/assets/images/IMG_20261018_153812.jpg",
+            "/assets/images/IMG_20261018_153811.jpg",
+            "/assets/images/IMG_20261018_153810.jpg",
+            "/assets/images/IMG_20261018_153810 (1).jpg",
+            "/assets/images/IMG_20261018_153809.jpg"
+          ],
+          "id": "white",
+          "label": "Белый",
+          "available": true,
+          "price": "10.990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "video": "",
+          "name": "Снежный кашемир",
+          "title": "Чистый белый оттенок и роскошная пушистая фактура для элегантных зимних образов",
+          "material": "",
+          "details": []
+        },
+        {
+          "files": [
+            "/assets/images/IMG_20261018_155412.jpg",
+            "/assets/images/IMG_20261018_155413 (1).jpg",
+            "/assets/images/IMG_20261018_155411.jpg",
+            "/assets/images/IMG_20261018_155413.jpg",
+            "/assets/images/IMG_20261018_155415.jpg",
+            "/assets/images/IMG_20261018_155415 (1).jpg",
+            "/assets/images/IMG_20261018_155414.jpg"
+          ],
+          "id": "chocolate",
+          "label": "Коричневый",
+          "available": true,
+          "price": "10.990 ₽",
+          "oldPrice": "",
+          "length": "60",
+          "sizes": [
+            "42",
+            "44",
+            "46",
+            "48"
+          ],
+          "video": "",
+          "name": "CHOCOLATE FURS",
+          "title": "Глубокий коричневый оттенок и роскошная пушистая фактура для тёплых, , базовых зимних образов",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "fur-arctic-white-26",
       "name": "Коллекция «Faux Fox Luxe» — экошубы под песца",
@@ -3658,122 +3802,34 @@
         "до −25 °C",
         "Утеплитель"
       ],
-      "colors": [
-        {
-          "id": "grey",
-          "label": "Серый",
-          "name": "ПЕРЛ ФОКС — PEARL FOX",
-          "title": "Благородный серый оттенок с роскошной фактурой меха.",
-          "available": true,
-          "price": "10.990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "60",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261017_165120.jpg",
-            "/assets/images/IMG_20261017_165116.jpg",
-            "/assets/images/IMG_20261017_165117 (1).jpg",
-            "/assets/images/IMG_20261017_165117.jpg",
-            "/assets/images/IMG_20261017_165118 (1).jpg",
-            "/assets/images/IMG_20261017_165121.jpg",
-            "/assets/images/IMG_20261017_165119.jpg",
-            "/assets/images/IMG_20261017_165118.jpg",
-            "/assets/images/IMG_20261017_165122.jpg"
-          ],
-          "video": "/assets/images/VID_20261016_161718.mp4"
-        },
-        {
-          "id": "nude",
-          "label": "Нюдовый персиковый",
-          "name": "ПЕРСИКОВЫЙ ШЕЛК",
-          "title": "Мягкий персиковый оттенок, добавляющий образу нежности и женственности.",
-          "available": true,
-          "price": "10.990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261017_165114 (1).jpg",
-            "/assets/images/IMG_20261017_165115.jpg",
-            "/assets/images/IMG_20261017_165114.jpg",
-            "/assets/images/IMG_20261017_165113 (1).jpg",
-            "/assets/images/IMG_20261017_165113.jpg"
-          ],
-          "video": "/assets/images/VID_20261016_161712.mp4"
-        },
-        {
-          "id": "white",
-          "label": "Белый",
-          "name": "Снежный кашемир",
-          "title": "Чистый белый оттенок и роскошная пушистая фактура для элегантных зимних образов",
-          "available": true,
-          "price": "10.990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261018_153813.jpg",
-            "/assets/images/IMG_20261018_153812.jpg",
-            "/assets/images/IMG_20261018_153811.jpg",
-            "/assets/images/IMG_20261018_153810.jpg",
-            "/assets/images/IMG_20261018_153810 (1).jpg",
-            "/assets/images/IMG_20261018_153809.jpg"
-          ],
-          "video": ""
-        },
-        {
-          "id": "chocolate",
-          "label": "Коричневый",
-          "name": "CHOCOLATE FURS",
-          "title": "Глубокий коричневый оттенок и роскошная пушистая фактура для тёплых, , базовых зимних образов",
-          "available": true,
-          "price": "10.990 ₽",
-          "oldPrice": "",
-          "sizes": [
-            "42",
-            "44",
-            "46",
-            "48"
-          ],
-          "length": "60",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/IMG_20261018_155412.jpg",
-            "/assets/images/IMG_20261018_155413 (1).jpg",
-            "/assets/images/IMG_20261018_155411.jpg",
-            "/assets/images/IMG_20261018_155413.jpg",
-            "/assets/images/IMG_20261018_155415.jpg",
-            "/assets/images/IMG_20261018_155415 (1).jpg",
-            "/assets/images/IMG_20261018_155414.jpg"
-          ],
-          "video": ""
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-01.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-02.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-03.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-04.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-05.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-06.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-07.jpg"
+          ],
+          "id": "beige",
+          "label": "Бежевый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "",
+          "name": "БЕЖЕВЫЙ ПОД ПЕСЦА",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "fur-arctic-lux-beige",
       "name": "ШИКАРНАЯ ЭКОШУБА ПОД ПЕСЦА",
@@ -3811,34 +3867,33 @@
         "до −20 °C",
         "Утеплитель"
       ],
-      "colors": [
-        {
-          "id": "beige",
-          "label": "Бежевый",
-          "name": "БЕЖЕВЫЙ ПОД ПЕСЦА",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-01.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-02.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-03.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-04.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-05.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-06.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-lux-beige/beige/fur-arctic-lux-beige-beige-07.jpg"
-          ],
-          "video": ""
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-01.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-02.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-03.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-04.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-05.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-06.jpg"
+          ],
+          "id": "grey",
+          "label": "Серый",
+          "available": true,
+          "price": "",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "",
+          "name": "ОЛД МАНИ СЕРЫЙ",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "fur-old-money",
       "name": "ЭКОШУБА ОЛД МАНИ",
@@ -3874,33 +3929,32 @@
         "до −15 °C",
         "Old Money"
       ],
-      "colors": [
-        {
-          "id": "grey",
-          "label": "Серый",
-          "name": "ОЛД МАНИ СЕРЫЙ",
-          "title": "",
-          "available": true,
-          "price": "",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-01.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-02.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-03.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-04.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-05.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-old-money/grey/fur-old-money-grey-06.jpg"
-          ],
-          "video": ""
-        }
-      ],
       "tall": false
     },
     {
+      "colors": [
+        {
+          "files": [
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-01.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-02.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-03.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-04.jpg",
+            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-05.jpg"
+          ],
+          "id": "brown",
+          "label": "Коричневый",
+          "available": true,
+          "price": "5 990 ₽",
+          "oldPrice": "",
+          "length": "",
+          "sizes": [],
+          "video": "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-video.mp4",
+          "name": "КОРИЧНЕВЫЙ ПОД ПЕСЦА",
+          "title": "",
+          "material": "",
+          "details": []
+        }
+      ],
       "hidden": false,
       "id": "fur-arctic-short",
       "name": "ЭКОШУБКА ПОД ПЕСЦА",
@@ -3935,29 +3989,6 @@
       "tags": [
         "Зима",
         "Укороченная"
-      ],
-      "colors": [
-        {
-          "id": "brown",
-          "label": "Коричневый",
-          "name": "КОРИЧНЕВЫЙ ПОД ПЕСЦА",
-          "title": "",
-          "available": true,
-          "price": "5 990 ₽",
-          "oldPrice": "",
-          "sizes": [],
-          "length": "",
-          "material": "",
-          "details": [],
-          "files": [
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-01.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-02.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-03.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-04.jpg",
-            "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-05.jpg"
-          ],
-          "video": "/assets/images/catalog/winter/fur-coats/fur-arctic-short/brown/fur-arctic-short-brown-video.mp4"
-        }
       ],
       "tall": false
     }
